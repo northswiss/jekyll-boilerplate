@@ -1,0 +1,70 @@
+/*
+SIZES AND MEDIA QUERIES
+*/
+
+$golden-rule:           1.61803399;
+
+$radius:                4px;
+
+$small:                 480px;
+$medium:                768px;
+$large:                 960px;
+$larger:                1024px;
+
+/*
+COLORS
+*/
+
+// Some base colors to get us started
+
+$black:                 #000;
+$white:                 #fff;
+
+$gray-lightest:         lighten($black, 96%);
+$gray-lighter:          lighten($black, 82%);
+$gray-light:            lighten($black, 66%);
+$gray:                  lighten($black, 50%);
+$gray-dark:             lighten($black, 34%);
+$gray-darker:           lighten($black, 20%);
+$gray-darkest:          lighten($black, 2%);
+
+$color-brand:           #B11623;
+// Colors with purpose
+$color-link:            complement($color-brand);
+$color-visited:         invert($color-link);
+$color-hover:           lighten($color-link, 5%);
+$color-active:          darken($color-link, 5%);
+
+$color-state-error:     #faa;
+$color-state-success:   #faa;
+
+$color-highlight: #f4ff6f;
+
+/*
+FONTS & TYPOGRAPHY
+*/
+
+$font-nrml-size:        1em;
+$font-small:            $font-nrml-size/$golden-rule;
+$font-smaller:          $font-small/$golden-rule;
+$font-smallest:         $font-smaller/$golden-rule;
+$font-large:            $font-nrml-size*$golden-rule;
+$font-larger:           $font-large*$golden-rule;
+$font-largest:          $font-larger*$golden-rule;
+
+
+/*
+SPACING
+*/
+$spacing:               1em;
+$spacing-tight:         $spacing/$golden-rule;
+$spacing-tighter:       $spacing-tight/$golden-rule;
+$spacing-tightest:      $spacing-tighter/$golden-rule;
+$spacing-loose:         $spacing*$golden-rule;
+$spacing-looser:        $spacing-loose*$golden-rule;
+$spacing-loosest:       $spacing-looser*$golden-rule;
+
+$line-height:           $font-nrml-size*$golden-rule;
+
+// 1260px as ems
+$max-width:             78.75em;

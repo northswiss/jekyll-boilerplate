@@ -1,0 +1,488 @@
+/*
+Any element which does not have properties set will not be output by SASS
+*/
+
+/*
+GROUP NORMALISATION
+*/
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+ canvas,
+ progress,
+ video {
+   display: inline-block; /* 1 */
+   vertical-align: baseline; /* 2 */
+}
+[hidden],
+template {
+  display: none;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
+
+/*
+INDIVIDUAL SELECTORS
+*/
+
+*:focus {
+  outline: 0; // Remove default browser focus style. You should implement a new focus style for accessibility though!
+}
+a{
+  background-color: transparent;
+  color: $color-link;
+
+  &:visited{
+    color: $color-visited;
+  }
+  &:hover{
+    color: $color-hover;
+    outline: 0;
+  }
+  &:active{
+    color: $color-active;
+    outline: 0;
+  }
+}
+abbr {
+
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+address {
+
+}
+article {
+
+}
+aside {
+
+}
+audio {
+
+}
+b {
+  font-weight: bold;
+}
+button{
+  overflow: visible;
+
+  &::-moz-focus-inner{
+    border: 0;
+    padding: 0;
+  }
+}
+body{
+  margin: 0;
+}
+cite {
+
+}
+canvas {
+
+}
+caption{
+
+}
+code {
+
+}
+blockquote {
+
+}
+body, input, p {
+  font-size: 1em;
+  font-weight: 300;
+  font-family: 'Arial', 'Roboto', 'Helvetica', 'Helvetica Neue', sans-serif;
+  line-height: 1.4em;
+}
+caption {
+
+}
+center {
+
+}
+del{
+
+}
+details {
+
+}
+dfn {
+  font-style: $color-highlight;
+}
+div {
+
+}
+dl {
+
+}
+dt {
+
+}
+dd {
+
+}
+em {
+
+}
+fieldset {
+  border: 1px solid $gray-light;
+  margin: 0 $spacing-tightest;
+  padding: $spacing-tight;
+}
+figcaption {
+
+}
+figure {
+
+}
+footer {
+
+}
+form{
+
+}
+h1 {
+  font-size: $font-largest;
+  line-height: $font-largest/($golden-rule*2);
+  margin-bottom: spacing;
+}
+
+h2 {
+  font-size: $font-larger;
+  margin-bottom: spacing-tight;
+}
+
+h3 {
+  font-size: $font-large;
+  margin-bottom: spacing-tighter;
+}
+
+h4 {
+  font-size: $font-nrml-size;
+  margin-bottom: spacing-tightest;
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+// Make sure our H's aren't too big on those lil' devices
+@include media-max($medium){
+  h1{
+    font-size: $font-larger;
+  }
+  h2{
+    font-size: $font-large;
+  }
+  h3{
+    font-size: $font-nrml-size;
+  }
+}
+header {
+
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+html {
+  color: $gray-darkest;
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  line-height: $line-height;
+  margin: 0;
+}
+i {
+
+}
+img {
+  border: 0;
+  height: auto;
+  max-width: 100%;
+}
+ins {
+
+}
+input {
+  background: $white;
+  border: 1px solid $gray;
+  color: $gray;
+  line-height: normal;
+
+  // INPUT STATES
+  &:required{
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    -o-box-shadow:none;
+    box-shadow:none;
+  }
+  &::-moz-focus-inner{
+    border: 0;
+    padding: 0;
+  }
+  &::-webkit-input-placeholder,
+  &:-moz-placeholder,
+  &::-moz-placeholder,
+  &:-ms-input-placeholder{
+    color: $gray-lighter;
+  }
+
+  // INPUT TYPES
+  &[type="checkbox"] {
+    box-sizing: border-box;
+    padding: 0;
+
+    & + label {
+      width: auto;
+      display: inline-block;
+      cursor: hand !important;
+      text-transform: none;
+
+      &:before {
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        content: "\2003";
+      }
+    }
+    &:checked + label {
+
+      &:before {
+        content: "\2714";
+      }
+    }
+    &:first-child + label {
+      margin-left: 0;
+    }
+    &:last-child + label {
+      margin-right: 0;
+    }
+  }
+  &[type="text"],
+  &[type="password"] {
+
+    &:hover,
+    &:focus {
+
+    }
+  }
+  &[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+
+    & + label {
+      width: auto;
+      display: inline-block;
+      cursor: hand !important;
+      border: 0;
+      text-transform: none;
+
+      &:before {
+        display: inline-block;
+        width: 1me;
+        height: 1em;
+        content: "\2003";
+      }
+    }
+    &:checked + label {
+
+      &:before {
+        content: "\2714";
+      }
+    }
+  }
+  &[type="number"]::-webkit-inner-spin-button,
+  &[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  &[type="search"] {
+    -webkit-appearance: textfield;
+    box-sizing: content-box;
+
+    &::-webkit-search-cancel-button,
+    &::-webkit-search-decoration{
+      -webkit-appearance: none;
+    }
+  }
+  &[type="submit"] {
+
+    &:active{
+      position:relative;
+      top:1px;
+    }
+  }
+}
+kbd {
+
+}
+label {
+  display: block;
+  font-size: $font-smaller;
+  margin: spacing 0 spacing-tight;
+  text-transform: uppercase;
+}
+legend {
+  border: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+mark {
+
+}
+main {
+  margin: 0 auto;
+  max-width: $max-width;
+}
+menu {
+
+}
+nav {
+}
+ol {
+
+}
+option{
+
+}
+optgroup {
+  font-weight: bold;
+}
+p {
+
+}
+pre {
+  overflow: auto;
+}
+q {
+
+}
+samp {
+
+}
+section {
+
+}
+::selection {
+  background: $color-highlight;
+  text-shadow: none;
+}
+select {
+
+}
+small {
+  font-size: .8em;
+}
+span {
+
+}
+strong {
+  font-weight: bold;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+summary {
+  &::-webkit-details-marker {
+    display: none;
+  }
+
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+tbody {
+
+}
+td {
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+}
+tfoot {
+
+}
+thead {
+
+}
+th {
+  padding: 0;
+}
+time {
+
+}
+tr {
+
+}
+tt {
+
+}
+ul {
+
+}
+var {
+
+}
+video {
+}

@@ -1,0 +1,48 @@
+.site-header{
+  padding: $spacing 0;
+}
+
+.site-nav{
+  background: $white;
+  border: 1px solid $gray-lighter;
+  border-radius: $radius;
+  position: absolute;
+  top: 0;
+  right: $spacing;
+  text-align: right;
+
+  a{
+    display: block;
+    padding: $spacing-tight;
+  }
+
+  ul{
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &:hover{
+    @include box-shadow();
+
+    ul{
+      display: block;
+    }
+  }
+}
+
+
+@include media-min($medium){
+  .site-nav {
+
+    .menu{ // Don't need menu button on larger devices
+      display: none;
+    }
+    ul{
+      display: block;
+      li{
+        display: inline-block;
+      }
+    }
+  }
+}
