@@ -36,6 +36,7 @@ $color-visited:         invert($color-link);
 $color-hover:           lighten($color-link, 5%);
 $color-active:          darken($color-link, 5%);
 
+$color-state-warning:   #F5F4D7;
 $color-state-error:     #faa;
 $color-state-success:   #faa;
 

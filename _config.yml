@@ -13,6 +13,8 @@ exclude: [node_modules, gulpfile.js]
 
 # Build settings
 markdown: kramdown
+jquery_version: 1.11.3
+modernizr:  true
 
 # Site defaults
 defaults:
@@ -29,3 +31,12 @@ defaults:
       type: "pages" # previously `page` in Jekyll 2.2.
     values:
       layout: "page" # overrides previous default layout
+
+# Compress HTML settings via http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: []
+  profile: false
+  ignore:
+    envs: [local]

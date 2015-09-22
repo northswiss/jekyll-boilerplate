@@ -1,0 +1,23 @@
+---
+layout: null
+---
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+	Name:         Chris Roy
+	Contact:      http://about.me/chrisroy
+	Twitter:      @northswiss
+	From:         Edinburgh
+	Also works @: Skyscanner
+
+# TECHNOLOGY COLOPHON
+
+Extended from HTML5 Boilerplate (https://github.com/h5bp/html5-boilerplate)
+
+Built on top of Jekyll (http://jekyllrb.com)
+
+Compressed by Anatol Broder's template https://github.com/penibelst/jekyll-compress-html
+
+LAST UPDATE:
+{{site.time}}

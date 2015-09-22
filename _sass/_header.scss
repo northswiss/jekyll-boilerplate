@@ -25,12 +25,16 @@
     @include box-shadow();
     z-index: 10;
 
+    .menu{
+      color: $gray-lighter;
+      cursor: default;
+    }
+
     ul{
       display: block;
     }
   }
   .current a{
-    border-bottom: 1px dotted $color-visited;
     color: $color-visited;
   }
 }
