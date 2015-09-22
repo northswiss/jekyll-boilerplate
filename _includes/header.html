@@ -7,19 +7,20 @@
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
     <nav class="site-nav">
+      <!-- To add pages to the main nav, add nav: main to the YAML Front Matter -->
       <a href="#" class="menu">Menu</a>
       <ul>
         {% for page in site.pages %}
+          {% if page.nav == "main" %}
           {% assign current = page.title | downcase %}
+            {% if page.title %}
 
-          {% if page.title %}
-
-              <li {% if location == current %} class="current" {% endif %}>
-                <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-              </li>
+                <li {% if location == current %} class="current" {% endif %}>
+                  <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                </li>
             {% endif %}
-
-          {% endfor %}
+          {% endif %}
+        {% endfor %}
         </ul>
     </nav>
 

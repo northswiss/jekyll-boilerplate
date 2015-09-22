@@ -1,6 +1,7 @@
 ---
 title: Set-up
 permalink: /set-up/
+nav: main
 ---
 
 This boilerplate was made to stand on the shoulders of two giants. The first being the standard [Jekyll framework](http://jekyllrb.com/), and the second being the [HTML5 Boilerplate template](https://html5boilerplate.com).
