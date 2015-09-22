@@ -1,0 +1,30 @@
+{
+  "name": "Northswiss-Jekyll-Boilerplate",
+  "version": "0.0.1",
+  "description": "A simple starter kit for Jekyll sites, with some nice little treats...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/northswiss/jekyll-boilerplate.git"
+  },
+  "keywords": [
+    "Jekyll",
+    "Northswiss",
+    "Boilerplate"
+  ],
+  "author": "Chris Roy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/northswiss/jekyll-boilerplate/issues"
+  },
+  "homepage": "https://github.com/northswiss/jekyll-boilerplate",
+  "devDependencies": {
+    "browser-sync": "^2.9.4",
+    "gulp": "^3.9.0",
+    "gulp-shell": "^0.4.3",
+    "lodash": "^3.10.1"
+  }
+}

@@ -2,6 +2,31 @@
 
 // C
 
+//L
+.large{
+  font-size: $font-large;
+}
+.larger{
+  font-size: $font-larger;
+}
+.largest{
+  font-size: $font-largest;
+}
+
+
+
+//S
+.small{
+  font-size: $font-small;
+}
+.smaller{
+  font-size: $font-smaller;
+}
+.smallest{
+  font-size: $font-smallest;
+}
+
+
 // W
 .wrapper{
   max-width: $max-width;

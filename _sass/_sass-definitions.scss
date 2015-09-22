@@ -29,6 +29,7 @@ $gray-darker:           lighten($black, 20%);
 $gray-darkest:          lighten($black, 2%);
 
 $color-brand:           #B11623;
+
 // Colors with purpose
 $color-link:            complement($color-brand);
 $color-visited:         invert($color-link);
@@ -45,12 +46,12 @@ FONTS & TYPOGRAPHY
 */
 
 $font-nrml-size:        1em;
-$font-small:            $font-nrml-size/$golden-rule;
-$font-smaller:          $font-small/$golden-rule;
-$font-smallest:         $font-smaller/$golden-rule;
-$font-large:            $font-nrml-size*$golden-rule;
-$font-larger:           $font-large*$golden-rule;
-$font-largest:          $font-larger*$golden-rule;
+$font-small:            $font-nrml-size/1.2; // Golden rule is too much here
+$font-smaller:          $font-small/1.2;
+$font-smallest:         $font-smaller/1.2;
+$font-large:            $font-nrml-size*1.3;
+$font-larger:           $font-large*1.3;
+$font-largest:          $font-larger*1.3;
 
 
 /*

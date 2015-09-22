@@ -57,6 +57,16 @@ input[type="submit"] {
   -webkit-appearance: button; /* 2 */
   cursor: pointer; /* 3 */
 }
+body, input, p {
+  color: $gray-darkest;
+  font-size: 1em;
+  font-weight: 300;
+  font-family: 'Open Sans', 'Roboto', 'Helvetica', 'Helvetica Neue', sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  line-height: $line-height;
+  margin: 0;
+}
 
 /*
 INDIVIDUAL SELECTORS
@@ -65,12 +75,17 @@ INDIVIDUAL SELECTORS
 *:focus {
   outline: 0; // Remove default browser focus style. You should implement a new focus style for accessibility though!
 }
+
+// A
+//--------------------------------
 a{
   background-color: transparent;
   color: $color-link;
+  text-decoration: none;
 
   &:visited{
-    color: $color-visited;
+    color: $color-link;
+    //color: $color-visited;
   }
   &:hover{
     color: $color-hover;
@@ -99,8 +114,17 @@ aside {
 audio {
 
 }
+
+// B
+//--------------------------------
 b {
   font-weight: bold;
+}
+blockquote {
+
+}
+body{
+
 }
 button{
   overflow: visible;
@@ -110,29 +134,11 @@ button{
     padding: 0;
   }
 }
-body{
-  margin: 0;
-}
-cite {
 
-}
+// C
+//--------------------------------
 canvas {
 
-}
-caption{
-
-}
-code {
-
-}
-blockquote {
-
-}
-body, input, p {
-  font-size: 1em;
-  font-weight: 300;
-  font-family: 'Arial', 'Roboto', 'Helvetica', 'Helvetica Neue', sans-serif;
-  line-height: 1.4em;
 }
 caption {
 
@@ -140,6 +146,15 @@ caption {
 center {
 
 }
+cite {
+
+}
+code {
+
+}
+
+// D
+//--------------------------------
 del{
 
 }
@@ -161,9 +176,15 @@ dt {
 dd {
 
 }
+
+// E
+//--------------------------------
 em {
 
 }
+
+// F
+//--------------------------------
 fieldset {
   border: 1px solid $gray-light;
   margin: 0 $spacing-tightest;
@@ -181,25 +202,32 @@ footer {
 form{
 
 }
+
+// H
+//--------------------------------
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  line-height: $line-height;
+  margin-bottom: $spacing;
+}
 h1 {
   font-size: $font-largest;
-  line-height: $font-largest/($golden-rule*2);
-  margin-bottom: spacing;
 }
 
 h2 {
   font-size: $font-larger;
-  margin-bottom: spacing-tight;
 }
 
 h3 {
   font-size: $font-large;
-  margin-bottom: spacing-tighter;
 }
 
 h4 {
   font-size: $font-nrml-size;
-  margin-bottom: spacing-tightest;
 }
 
 h5 {
@@ -229,13 +257,11 @@ hr {
   height: 0;
 }
 html {
-  color: $gray-darkest;
-  font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  line-height: $line-height;
-  margin: 0;
+
 }
+
+// I
+//--------------------------------
 i {
 
 }
@@ -252,6 +278,8 @@ input {
   border: 1px solid $gray;
   color: $gray;
   line-height: normal;
+  margin-bottom: $spacing-tight;
+  padding: $spacing-tight;
 
   // INPUT STATES
   &:required{
@@ -272,35 +300,14 @@ input {
   }
 
   // INPUT TYPES
-  &[type="checkbox"] {
+  &[type="checkbox"],
+  &[type="radio"] {
     box-sizing: border-box;
-    padding: 0;
-
-    & + label {
-      width: auto;
-      display: inline-block;
-      cursor: hand !important;
-      text-transform: none;
-
-      &:before {
-        display: inline-block;
-        width: 1em;
-        height: 1em;
-        content: "\2003";
-      }
-    }
-    &:checked + label {
-
-      &:before {
-        content: "\2714";
-      }
-    }
-    &:first-child + label {
-      margin-left: 0;
-    }
-    &:last-child + label {
-      margin-right: 0;
-    }
+    margin-right: $spacing;
+  }
+  &[type="number"]::-webkit-inner-spin-button,
+  &[type="number"]::-webkit-outer-spin-button {
+    height: auto;
   }
   &[type="text"],
   &[type="password"] {
@@ -309,35 +316,6 @@ input {
     &:focus {
 
     }
-  }
-  &[type="radio"] {
-    box-sizing: border-box;
-    padding: 0;
-
-    & + label {
-      width: auto;
-      display: inline-block;
-      cursor: hand !important;
-      border: 0;
-      text-transform: none;
-
-      &:before {
-        display: inline-block;
-        width: 1me;
-        height: 1em;
-        content: "\2003";
-      }
-    }
-    &:checked + label {
-
-      &:before {
-        content: "\2714";
-      }
-    }
-  }
-  &[type="number"]::-webkit-inner-spin-button,
-  &[type="number"]::-webkit-outer-spin-button {
-    height: auto;
   }
   &[type="search"] {
     -webkit-appearance: textfield;
@@ -356,9 +334,15 @@ input {
     }
   }
 }
+
+// K
+//--------------------------------
 kbd {
 
 }
+
+// L
+//--------------------------------
 label {
   display: block;
   font-size: $font-smaller;
@@ -372,6 +356,9 @@ legend {
 li {
   list-style: none;
 }
+
+// M
+//--------------------------------
 mark {
 
 }
@@ -382,8 +369,15 @@ main {
 menu {
 
 }
+
+// N
+//--------------------------------
 nav {
+
 }
+
+// O
+//--------------------------------
 ol {
 
 }
@@ -393,15 +387,24 @@ option{
 optgroup {
   font-weight: bold;
 }
+
+// P
+//--------------------------------
 p {
 
 }
 pre {
   overflow: auto;
 }
+
+// Q
+//--------------------------------
 q {
 
 }
+
+// S
+//--------------------------------
 samp {
 
 }
@@ -447,6 +450,9 @@ summary {
 svg:not(:root) {
   overflow: hidden;
 }
+
+// T
+//--------------------------------
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -478,9 +484,15 @@ tr {
 tt {
 
 }
+
+// U
+//--------------------------------
 ul {
 
 }
+
+// V
+//--------------------------------
 var {
 
 }

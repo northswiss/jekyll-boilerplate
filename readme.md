@@ -1,5 +1,10 @@
 # Northswiss Jekyll Boilerplate
 
+## Get started
+Run ```sudo npm install```
+
+Run ```gulp```
+
 ## Naming conventions
 Below is a brief outline of how naming has been used in this project.
 
