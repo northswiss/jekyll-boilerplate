@@ -10,6 +10,9 @@
 // C
 
 //L
+.current a{ // current nav items
+  color: $color-visited;
+}
 .large{
   font-size: $font-large;
 }
