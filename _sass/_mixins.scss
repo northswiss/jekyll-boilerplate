@@ -14,9 +14,31 @@
   }
 }
 
+@mixin btn($btn_bg: $color-link, $outline: true, $ghost: false){
+  background: $btn_bg;
+  border-radius: $radius;
+  display: block;
+  margin: 0 auto;
+  min-width: 200px;
+  width: 200px;
+  padding: $spacing;
+
+  @if $outline{
+    border: 1px solid $white;
+  }
+
+  @if $ghost{
+    background: $white;
+    background: transparentize($white, .8);
+  }
+
+  &:hover{
+    cursor: pointer;
+  }
+}
 
 // C
-%clearfix {
+@mixin clearfix {
 
   &:after {
     content: "";
@@ -26,19 +48,7 @@
 }
 
 
-// V
-%vertical-rhythm {
-  margin-bottom: $spacing / 2;
-}
 
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
 @mixin media-min($size) {
   @media screen and (min-width: $size) {
     @content;

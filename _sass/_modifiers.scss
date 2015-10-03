@@ -1,15 +1,63 @@
 
+// A
+@mixin animate ($property: all, $time: .3s, $curve:ease-out){
+  -webkit-transition: $property $time $curve;
+  -moz-transition: $property $time $curve;
+  -ms-transition: $property $time $curve;
+  -o-transition: $property $time $curve;
+  transition: $property $time $curve;
+}
+
 // B
+
+@mixin border-radius($position, $radius: $default_radius) {
+  border-#{$position}-radius: $radius;
+  -webkit-border-#{$position}-radius: $radius;
+}
+@mixin box-shadow($top: 0px, $left: 0px, $blur:.5em, $spread: .2em, $color: transparentize($gray-darker, .8), $inset: false) {
+  @if $inset {
+    -webkit-box-shadow:inset $top $left $blur $spread $color;
+    -moz-box-shadow:inset $top $left $blur $spread $color;
+    box-shadow:inset $top $left $blur $spread $color;
+  } @else {
+    -webkit-box-shadow: $top $left $blur $spread $color;
+    -moz-box-shadow: $top $left $blur $spread $color;
+    box-shadow: $top $left $blur $spread $color;
+  }
+}
+
 .browserupgrade {
   margin: $spacing 0;
   background: $color-state-warning;
   color: $gray-dark;
   padding: $spacing;
 }
+.btn{
+  @include btn(transparent, false, false);
+}
 
 // C
 
-//L
+
+// D
+
+@mixin debug($color : red){
+  background: yellow !important;
+  border: 1px solid $color;
+}
+
+// G
+
+@mixin gradient-linear ($from: $white, $to: $black, $direction: top) {
+  background: $from;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from($from), to($to));
+  background: -webkit-linear-gradient($direction, $from, $to);
+  background: -moz-linear-gradient($direction, $from, $to);
+  background: -ms-linear-gradient($direction, $from, $to);
+  background: -o-linear-gradient($direction, $from, $to);
+}
+
+// L
 .current a{ // current nav items
   color: $color-visited;
 }
@@ -25,7 +73,10 @@
 
 
 
-//S
+// S
+.serif{
+  font-family: serif;
+}
 .small{
   font-size: $font-small;
 }
@@ -35,6 +86,9 @@
 .smallest{
   font-size: $font-smallest;
 }
+.simple li{
+  list-style: none;
+}
 
 
 // W
@@ -43,4 +97,17 @@
   margin: 0 auto;
   padding: 0 $spacing;
   position: relative;
+}
+
+@include media-min($medium){
+
+  // H
+  .hbox{
+    display: table;
+    width: 100%;
+
+    & > *{
+      display: table-cell;
+    }
+  }
 }

@@ -1,0 +1,20 @@
+/*
+All Z-indexes should be managed here
+*/
+
+@mixin z-index($z, $position: relative){
+  position: $position;
+  z-index: $z;
+}
+
+// -1 - Background stuff
+
+// 0 - LOWEST
+
+// 1
+
+// 2
+
+// 3
+
+// 4 - HIGHEST
