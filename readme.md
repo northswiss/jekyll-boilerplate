@@ -1,4 +1,4 @@
-# Northswiss Jekyll Boilerplate
+# TravelPerk Marketing website
 
 ## Getting started
 From the terminal run ```sudo npm install```
