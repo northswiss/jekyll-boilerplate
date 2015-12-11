@@ -26,6 +26,22 @@
   }
 }
 
+.block {
+  border: 1px dashed $gray;
+  padding: 2em;
+  position: relative;
+
+  header{
+    background: $gray-lightest;
+    color: $gray-light;
+    font-style: italic;
+    padding: 4px 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
 .browserupgrade {
   margin: $spacing 0;
   background: $color-state-warning;

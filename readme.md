@@ -3,6 +3,8 @@
 ## Getting started
 From the terminal run ```sudo npm install```
 
+Then ```sudo gem install jekyll```
+
 Then run ```gulp```
 
 ### Pages
