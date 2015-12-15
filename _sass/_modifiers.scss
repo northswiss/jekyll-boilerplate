@@ -28,7 +28,7 @@
 
 .block {
   border: 1px dashed $gray;
-  padding: 2em;
+  padding: 2.5em 2em 2em;
   position: relative;
 
   header{
@@ -60,6 +60,12 @@
 @mixin debug($color : red){
   background: yellow !important;
   border: 1px solid $color;
+}
+
+// F
+.flex{
+  display: flex;
+  justify-content:space-between;
 }
 
 // G
