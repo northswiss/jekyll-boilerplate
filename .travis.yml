@@ -12,6 +12,18 @@ script: ./script/cibuild
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+  - AMAZON_KEY_ID=AKIAJCY5XV6H75INNBQQ
+  - secure: "WL178+Ost/WvLlBGXxbsMUcE11zAoUKQOZ5/QQ8soJqf16X/5jD8JE1P3KASOd4XNpVWMH74ehdUzEuxDCjq1cQtlw7OOlg2ciJmlNtpyjaPkI7eIFju+kqu2UmSE8KDuWHoLLRec2gHpzvZb+c1oBipQfIg9Jkx/P7CQA0JVNY="
+
+# Build notifications
+notifications:
+  slack:
+    secure: c9OUSyphJN9DcAucgAob9GHcJcGfsnGPy87eTe7czMUg3Wrv9X7avz4LFTGflatUFQFKo1jMQEvijfaFc7cNbUDuoLRoN9755L1QBdYCwz5InQgogk0IMG4qx2I+QofsVlli2J6ZRCR1nC6M5fGEmx1LvmtN3e3HSVNBVmTBsHA=
+  email:
+    recipients:
+      - jan@travelperk.com
+      - avi@travelperk.com
+      - sergio@travelperk.com
 
 # Deploy to S3
 deploy:
