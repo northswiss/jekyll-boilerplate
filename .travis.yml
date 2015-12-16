@@ -13,6 +13,7 @@ env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
   - AMAZON_KEY_ID=AKIAJCY5XV6H75INNBQQ
+  # Amazon secure key ($AMAZON_SECURE_KEY)
   - secure: "WL178+Ost/WvLlBGXxbsMUcE11zAoUKQOZ5/QQ8soJqf16X/5jD8JE1P3KASOd4XNpVWMH74ehdUzEuxDCjq1cQtlw7OOlg2ciJmlNtpyjaPkI7eIFju+kqu2UmSE8KDuWHoLLRec2gHpzvZb+c1oBipQfIg9Jkx/P7CQA0JVNY="
 
 # Build notifications
