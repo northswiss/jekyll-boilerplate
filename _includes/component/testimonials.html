@@ -1,0 +1,14 @@
+<div class="testimonials">
+    <h3>Testimonials</h3>
+    <ul>
+        {% for customer in site.data.testimonials %}
+        <li>
+            <blockquote>
+                {{ customer.quote }}
+            </blockquote>
+            <h3>{{ customer.name }}</h3>
+            <img src="imgs/customers/{{ customer.logo }}" alt="{{ customer.name }} logo">
+        </li>
+        {% endfor %}
+    </ul>
+</div>

@@ -4,12 +4,14 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a class="site-title" href="{{ site.baseurl }}/">
+      <img src="/imgs/brand/travelperk-logo.svg" alt="{{ site.title }}">
+    </a>
 
     <nav class="site-nav">
       <!-- To add pages to the main nav, add nav: main to the YAML Front Matter -->
       <!--<a href="#" class="menu">Menu</a>-->
-      {% include nav.html %}
+      {% include core/nav-main.html %}
     </nav>
 
   </div>

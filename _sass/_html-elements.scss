@@ -61,7 +61,7 @@ body, input, p {
   color: $gray-darkest;
   font-size: 1em;
   font-weight: 300;
-  font-family: 'Open Sans', 'Roboto', 'Helvetica', 'Helvetica Neue', sans-serif;
+  font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   line-height: $line-height;
@@ -412,7 +412,7 @@ section {
 
 }
 ::selection {
-  background: $color-highlight;
+  background: $cOrange;
   text-shadow: none;
 }
 select {
