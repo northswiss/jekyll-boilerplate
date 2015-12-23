@@ -1,44 +1,32 @@
 language: ruby
 rvm:
 - 2.1
-
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
-  - AMAZON_KEY_ID=AKIAJCY5XV6H75INNBQQ
-  # Amazon secure key ($AMAZON_SECURE_KEY)
-  - secure: "WL178+Ost/WvLlBGXxbsMUcE11zAoUKQOZ5/QQ8soJqf16X/5jD8JE1P3KASOd4XNpVWMH74ehdUzEuxDCjq1cQtlw7OOlg2ciJmlNtpyjaPkI7eIFju+kqu2UmSE8KDuWHoLLRec2gHpzvZb+c1oBipQfIg9Jkx/P7CQA0JVNY="
-
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - AMAZON_KEY_ID=AKIAIJNLYNZB24MQLMKQ
 before_script:
- - chmod +x ./script/cibuild # or do this locally and commit
-
-# Assume bundler is being used, therefore
-# the `install` step will run `bundle install` by default.
+- chmod +x ./script/cibuild
 script: ./script/cibuild
-
-# Build notifications
 notifications:
   slack:
     secure: c9OUSyphJN9DcAucgAob9GHcJcGfsnGPy87eTe7czMUg3Wrv9X7avz4LFTGflatUFQFKo1jMQEvijfaFc7cNbUDuoLRoN9755L1QBdYCwz5InQgogk0IMG4qx2I+QofsVlli2J6ZRCR1nC6M5fGEmx1LvmtN3e3HSVNBVmTBsHA=
   email:
     recipients:
-      - jan@travelperk.com
-      - avi@travelperk.com
-      - sergio@travelperk.com
-
-# Deploy to S3
+    - jan@travelperk.com
+    - avi@travelperk.com
+    - sergio@travelperk.com
 deploy:
-  - provider: s3
-    access_key_id: $AMAZON_KEY_ID
-    secret_access_key: $AMAZON_SECURE_KEY
-    bucket: "www.travelperk.com"
-    endpoint: "www.travelperk.com.s3-website-eu-west-1.amazonaws.com"
-    region: "eu-west-1"
-    acl: public_read
-    skip_cleanup: true
-    local_dir: _site
-    # upload_dir: __next_version__
-    on:
-      repo: travelperk/marketing_website
-      branch: master
-      # condition: $NODE_ENV = production
+  provider: s3
+  access_key_id: $AMAZON_KEY_ID
+  bucket: www.travelperk.com
+  endpoint: www.travelperk.com.s3-website-eu-west-1.amazonaws.com
+  region: eu-west-1
+  acl: public_read
+  skip_cleanup: true
+  local_dir: _site
+  on:
+    repo: travelperk/marketing_website
+    branch: master
+  secret_access_key:
+    secure: HNnmgCJRFFRWXLRTodKE15ClAFDd9nal7AXs09XzzLLVvpFH7snIiZuQGTDHTTGye7ZEfqHjgXbrxjdBpnUY09zbKPG8w4xoEyBFIH3XTNuwV8tK3FMC0iq4SG6MaxLtARZOZCXr4JkhhMgoxG2Iw1N28RM/vAaua0oZgzBebHMCmDS/+JzLysN0nq7ckgac7qbgl2ypLPiUngM7bM1KNDD8GRGx7vKI/xX3V65akDSfmBAT2WkHguTM+OzVQccfDOMc9gB886n8JIpOPSbk6xTMMJiT0uOxm8XlBqqOM807dMdiO5iDIVG2luXMl41PbYx1HTWwLLxcql6hAMrZr1U+PEGJgfUdmJLtVGdSym4CwHjET03CKOKmGP05hsvmlDxWK3VCfKbnj+Zg7dyW0CZpzSlK2/VjVMx64luECuvheH9I7LKrCH/IKr32GhFmG7GdDrRFQA5qBqasaM7z10ztrnbKFsYEKR07/ykKjmfk2rYGr6kp22gGJrpR+EOKZFTs/FuL3n3hKSLgasDvAnKUPMaTXvulO2oIgK/2Z+gnvgEbGzn8EmeDkxTsY6LKuLeOIvJv3I5n75wz3r05DjS/NiU9pRnTtmo0kUyo/ZbmqaZWu3c5A7RUdSmMvIzx4icwV8TnXFY+Mz8bllpz7qToxQTMH+40OTISGMJZjmA=
