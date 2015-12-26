@@ -6,10 +6,10 @@ $golden-rule:           1.61803399;
 
 $radius:                4px;
 
-$small:                 480px;
-$medium:                768px;
-$large:                 960px;
-$larger:                1024px;
+$screenSmall:                 480px;
+$screenMedium:                768px;
+$screenLarge:                 960px;
+$screenLarger:                1024px;
 
 /*
 COLORS
@@ -28,7 +28,7 @@ $gray-dark:             lighten($black, 34%);
 $gray-darker:           lighten($black, 20%);
 $gray-darkest:          lighten($black, 2%);
 
-$color-brand:           #B11623;
+$color-brand:           $cBlue;
 
 // Colors with purpose
 $color-link:            complement($color-brand);
@@ -46,14 +46,16 @@ $color-highlight: #f4ff6f;
 FONTS & TYPOGRAPHY
 */
 
-$font-nrml-size:        1em;
-$font-small:            $font-nrml-size/1.2; // Golden rule is too much here
-$font-smaller:          $font-small/1.2;
-$font-smallest:         $font-smaller/1.2;
-$font-large:            $font-nrml-size*1.3;
-$font-larger:           $font-large*1.3;
-$font-largest:          $font-larger*1.3;
-
+$fsDisplay4:            112px;
+$fsDisplay3:            56px;
+$fsDisplay2:            45px;
+$fsDisplay1:            34px;
+$fsHeadline:            36px;
+$fsTitle:               20px;
+$fsSubtitle:            18px;
+$fsBody:                16px;
+$fsCaption:             14px;
+$fsSmall:               12px;
 
 /*
 SPACING
@@ -66,7 +68,7 @@ $spacing-loose:         $spacing*$golden-rule;
 $spacing-looser:        $spacing-loose*$golden-rule;
 $spacing-loosest:       $spacing-looser*$golden-rule;
 
-$line-height:           $font-nrml-size*$golden-rule;
+$line-height:           2.4em;
 
 // 1260px as ems
 $max-width:             78.75em;

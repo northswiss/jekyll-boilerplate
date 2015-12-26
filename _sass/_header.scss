@@ -1,7 +1,6 @@
-.site-header{
-  padding: $spacing 0;
+.banner {
+  padding: $spacing;
 }
-
 .site-nav{
   background: $white;
   border: 1px solid $gray-lighter;
@@ -37,7 +36,7 @@
 }
 
 
-@include media-min($medium){
+@include media-min($screenMedium){
   .site-nav {
 
     .menu{ // Don't need menu button on larger devices

@@ -59,13 +59,16 @@ input[type="submit"] {
 }
 body, input, p {
   color: $gray-darkest;
-  font-size: 1em;
   font-weight: 300;
   font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   line-height: $line-height;
   margin: 0;
+}
+body,
+html {
+  height: 100%;
 }
 
 /*
@@ -124,9 +127,15 @@ blockquote {
 
 }
 body{
-
+  font-size: .625em; // 10px equivalent
+}
+@include media-min($screenMedium) {
+  body{
+    font-size: 1em;
+  }
 }
 button{
+  @include btn();
   overflow: visible;
 
   &::-moz-focus-inner{
@@ -211,23 +220,25 @@ h3,
 h4,
 h5,
 h6{
-  line-height: $line-height;
+  line-height: $line-height*.7;
   margin-bottom: $spacing;
 }
 h1 {
-  font-size: $font-largest;
+  @include remSize($fsDisplay1);
 }
 
 h2 {
-  font-size: $font-larger;
+  @include remSize($fsSubtitle)
 }
 
 h3 {
-  font-size: $font-large;
+  @include remSize($fsBody);
+  font-weight: 400;
 }
 
 h4 {
-  font-size: $font-nrml-size;
+  @include remSize($fsBody);
+  font-weight: 500;
 }
 
 h5 {
@@ -237,16 +248,23 @@ h5 {
 h6 {
 
 }
-// Make sure our H's aren't too big on those lil' devices
-@include media-max($medium){
-  h1{
-    font-size: $font-larger;
+@include media-min($screenMedium) {
+  h1 {
+    @include remSize($fsDisplay2);
   }
-  h2{
-    font-size: $font-large;
+
+  h2 {
+    @include remSize($fsHeadline)
   }
-  h3{
-    font-size: $font-nrml-size;
+
+  h3 {
+    @include remSize($fsSubtitle);
+    font-weight: 400;
+  }
+
+  h4 {
+    @include remSize($fsBody);
+    font-weight: 500;
   }
 }
 header {
@@ -345,7 +363,7 @@ kbd {
 //--------------------------------
 label {
   display: block;
-  font-size: $font-smaller;
+  @include remSize($fsCaption);
   margin: spacing 0 spacing-tight;
   text-transform: uppercase;
 }
@@ -362,9 +380,10 @@ li {
 mark {
 
 }
-main {
+main,
+.main {
+  @include remSize($fsBody);
   margin: 0 auto;
-  max-width: $max-width;
 }
 menu {
 
@@ -391,7 +410,7 @@ optgroup {
 // P
 //--------------------------------
 p {
-
+  @include remSize($fsBody);
 }
 pre {
   overflow: auto;

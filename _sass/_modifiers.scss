@@ -1,31 +1,4 @@
 
-// A
-@mixin animate ($property: all, $time: .3s, $curve:ease-out){
-  -webkit-transition: $property $time $curve;
-  -moz-transition: $property $time $curve;
-  -ms-transition: $property $time $curve;
-  -o-transition: $property $time $curve;
-  transition: $property $time $curve;
-}
-
-// B
-
-@mixin border-radius($position, $radius: $default_radius) {
-  border-#{$position}-radius: $radius;
-  -webkit-border-#{$position}-radius: $radius;
-}
-@mixin box-shadow($top: 0px, $left: 0px, $blur:.5em, $spread: .2em, $color: transparentize($gray-darker, .8), $inset: false) {
-  @if $inset {
-    -webkit-box-shadow:inset $top $left $blur $spread $color;
-    -moz-box-shadow:inset $top $left $blur $spread $color;
-    box-shadow:inset $top $left $blur $spread $color;
-  } @else {
-    -webkit-box-shadow: $top $left $blur $spread $color;
-    -moz-box-shadow: $top $left $blur $spread $color;
-    box-shadow: $top $left $blur $spread $color;
-  }
-}
-
 .block {
   border: 1px dashed $gray;
   padding: 2.5em 2em 2em;
@@ -84,13 +57,13 @@
   color: $color-visited;
 }
 .large{
-  font-size: $font-large;
+  @include remSize($fsSubtitle);
 }
 .larger{
-  font-size: $font-larger;
+  @include remSize($fsHeadline);
 }
 .largest{
-  font-size: $font-largest;
+  @include remSize($fsDisplay1);
 }
 
 
@@ -100,13 +73,13 @@
   font-family: serif;
 }
 .small{
-  font-size: $font-small;
+  @include remSize(12px);
 }
 .smaller{
-  font-size: $font-smaller;
+  @include remSize(11px);
 }
 .smallest{
-  font-size: $font-smallest;
+  @include remSize(10px);
 }
 .simple li{
   list-style: none;
@@ -121,7 +94,7 @@
   position: relative;
 }
 
-@include media-min($medium){
+@include media-min($screenMedium){
 
   // H
   .hbox{

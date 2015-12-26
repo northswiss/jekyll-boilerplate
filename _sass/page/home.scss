@@ -1,0 +1,38 @@
+
+// Animations
+
+@include keyframes(fade-in) {
+  0% {
+    opacity: 0;
+    top: 1em;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
+
+.url_ .site-header{
+  background: $cBlue;
+  height: 100%;
+
+  h1,
+  h2 {
+    text-align: center;
+    position: relative;
+  }
+  h1{
+    @include animation('fade-in 1s');
+  }
+  h2{
+    @include animation('fade-in 2s');
+  }
+
+  button {
+    @include btn(transparent, true, true);
+  }
+}
+
+.the-problem {
+  background: $cGray400;
+}

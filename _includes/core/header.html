@@ -2,10 +2,10 @@
 {% capture location %}{{ page.url | split:'/' }}{% endcapture %}
 <header class="site-header">
 
-  <div class="wrapper">
+  <div class="banner">
 
     <a class="site-title" href="{{ site.baseurl }}/">
-      <img src="/imgs/brand/travelperk-logo.svg" alt="{{ site.title }}">
+      <img src="/imgs/brand/travelperk-logo-white.svg" alt="{{ site.title }}">
     </a>
 
     <nav class="site-nav">
@@ -13,7 +13,15 @@
       <!--<a href="#" class="menu">Menu</a>-->
       {% include core/nav-main.html %}
     </nav>
-
   </div>
+
+  <div class="wrapper">
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.subtitle %}
+    <h2 class="subtitle">{{ page.subtitle }}</h2>
+    {% endif %}
+  </div>
+
+  <button id="more">Find out more...</button>
 
 </header>
