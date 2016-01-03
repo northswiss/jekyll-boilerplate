@@ -1,38 +1,53 @@
-
-// Animations
-
-@include keyframes(fade-in) {
+// ANIMATIONS
+@include keyframes(reveal-left) {
   0% {
-    opacity: 0;
-    top: 1em;
+    -webkit-clip-path: polygon(0 0, 0 100%, 0 100%, 0 0);
+    clip-path: polygon(0 0, 0 100%, 0 100%, 0 0);
   }
   100% {
-    opacity: 1;
-    top: 0;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
   }
 }
 
-.url_ .site-header{
-  background: $cBlue;
-  height: 100%;
+.home {
+   section {
+     padding: $spacing-loosest 0;
+   }
+}
+// GRAPH
+.budget {
+  background: $cGray900;
+  position: relative;
 
-  h1,
-  h2 {
-    text-align: center;
-    position: relative;
-  }
-  h1{
-    @include animation('fade-in 1s');
-  }
-  h2{
-    @include animation('fade-in 2s');
+  h2,
+  ul {
+    color: $white;
   }
 
-  button {
-    @include btn(transparent, true, true);
+  ul {
+    padding-right: $spacing-loose;
+  }
+}
+.budget-graph {
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.clip-css {
+  @include animation('reveal-left 2s');
+}
+
+@include media-min($screenLarge){
+  .home h1{
+    @include remSize(64px);
   }
 }
 
-.the-problem {
-  background: $cGray400;
+.graph{
+  @include animation('gradient-fill 2s');
+  height: auto;
+  position: absolute;
+  width: 100%;
 }

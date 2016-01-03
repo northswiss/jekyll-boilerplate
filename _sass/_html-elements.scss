@@ -59,6 +59,7 @@ input[type="submit"] {
 }
 body, input, p {
   color: $gray-darkest;
+  color: transparentize($gray-darkest, .25);
   font-weight: 300;
   font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
   -ms-text-size-adjust: 100%;
@@ -71,6 +72,14 @@ html {
   height: 100%;
 }
 
+blockquote,
+body,
+input,
+ol,
+p,
+ul {
+  @include remSize(14px);
+}
 /*
 INDIVIDUAL SELECTORS
 */
@@ -124,7 +133,18 @@ b {
   font-weight: bold;
 }
 blockquote {
+  margin: 0;
+  padding: $spacing-looser $spacing $spacing-looser $spacing-loosest;
+  position: relative;
 
+  &:before {
+    @include remSize(124px);
+    font-family: "Georgia", "Baskerville", serif;
+    content: "“";
+    position: absolute;
+    top: 64px;
+    left: 0;
+  }
 }
 body{
   font-size: .625em; // 10px equivalent
@@ -221,14 +241,17 @@ h4,
 h5,
 h6{
   line-height: $line-height*.7;
+  margin-top: 0;
   margin-bottom: $spacing;
 }
 h1 {
   @include remSize($fsDisplay1);
+  font-weight: 300;
 }
 
 h2 {
-  @include remSize($fsSubtitle)
+  @include remSize($fsSubtitle);
+  font-weight: 300;
 }
 
 h3 {

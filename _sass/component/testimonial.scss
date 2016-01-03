@@ -1,0 +1,24 @@
+.testimonials {
+  h3 {
+    margin-left: $spacing-loosest;
+  }
+}
+.testimonial-logo {
+  display: block;
+  margin: auto;
+}
+
+@include media-min($screenMedium) {
+  .testimonial-logo {
+    float: left;
+  }
+  .testimonials {
+    img{
+      position: absolute;
+      left: $spacing;
+    }
+    li{
+      margin-left: 200px;
+    }
+  }
+}

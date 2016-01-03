@@ -1,13 +1,13 @@
 <div class="testimonials">
-    <h3>Testimonials</h3>
-    <ul>
+    <h2>We love what we've built. Our clients do too!</h2>
+    <ul class="collapse">
         {% for customer in site.data.testimonials %}
         <li>
+            <img class="testimonial-logo" src="imgs/customers/{{ customer.logo }}" alt="{{ customer.name }} logo">
             <blockquote>
                 {{ customer.quote }}
             </blockquote>
             <h3>{{ customer.name }}</h3>
-            <img src="imgs/customers/{{ customer.logo }}" alt="{{ customer.name }} logo">
         </li>
         {% endfor %}
     </ul>

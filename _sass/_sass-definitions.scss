@@ -60,13 +60,13 @@ $fsSmall:               12px;
 /*
 SPACING
 */
-$spacing:               1em;
-$spacing-tight:         $spacing/$golden-rule;
-$spacing-tighter:       $spacing-tight/$golden-rule;
-$spacing-tightest:      $spacing-tighter/$golden-rule;
-$spacing-loose:         $spacing*$golden-rule;
-$spacing-looser:        $spacing-loose*$golden-rule;
-$spacing-loosest:       $spacing-looser*$golden-rule;
+$spacing:               24px;
+$spacing-tight:         16px;
+$spacing-tighter:       8px;
+$spacing-tightest:      4px;
+$spacing-loose:         32px;
+$spacing-looser:        48px;
+$spacing-loosest:       64px;
 
 $line-height:           2.4em;
 

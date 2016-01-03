@@ -14,7 +14,6 @@
     left: 0;
   }
 }
-
 .browserupgrade {
   margin: $spacing 0;
   background: $color-state-warning;
@@ -26,7 +25,20 @@
 }
 
 // C
+.card{
+  @include box-shadow();
+  background: $white;
+  padding: $spacing;
+}
+.collapse{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
+.color{
+  background: $cYellow;
+}
 
 // D
 
@@ -38,7 +50,15 @@
 // F
 .flex{
   display: flex;
+  flex-wrap: wrap;
   justify-content:space-between;
+
+  &.fixed >* {
+    flex: 1 350px;
+  }
+  &.padded >* {
+    padding: $spacing;
+  }
 }
 
 // G
@@ -85,6 +105,10 @@
   list-style: none;
 }
 
+// V
+.vertical-middle {
+  align-items: center;
+}
 
 // W
 .wrapper{
@@ -95,6 +119,11 @@
 }
 
 @include media-min($screenMedium){
+
+  // F
+  .fill-screen{
+    height: 100%;
+  }
 
   // H
   .hbox{
