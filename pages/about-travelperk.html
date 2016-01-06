@@ -1,0 +1,22 @@
+---
+permalink: /about-travelperk/
+title: Our Story
+subtitle: Why we built the product, and the team behind it!
+nav: footer
+nav-title: About TravelPerk
+---
+
+<section class="story">
+  <h2>The TravelPerk Story</h2>
+  <p>How it started etc...Progress so far</p>
+</section>
+
+<section class="team">
+  <h2>The TravelPerk team</h2>
+  {% for person in site.data.team %}
+    <a href="linkedin">
+      <h3>Name</h3>
+      <img src="imgs/team/ron-levin.jpg" alt="Ron-Levin"/>
+    </a>
+  {% endfor %}
+</section>

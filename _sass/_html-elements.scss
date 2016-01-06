@@ -80,6 +80,18 @@ p,
 ul {
   @include remSize(14px);
 }
+
+@include media-min($screenMedium) {
+  blockquote,
+  body,
+  input,
+  ol,
+  p,
+  ul {
+    @include remSize(18px);
+  }
+}
+
 /*
 INDIVIDUAL SELECTORS
 */
@@ -133,17 +145,33 @@ b {
   font-weight: bold;
 }
 blockquote {
+  @include remSize(18px);
   margin: 0;
-  padding: $spacing-looser $spacing $spacing-looser $spacing-loosest;
   position: relative;
 
   &:before {
     @include remSize(124px);
-    font-family: "Georgia", "Baskerville", serif;
+    color: transparentize($cDark, .8);
     content: "“";
+    font-family: "Georgia", "Baskerville", serif;
     position: absolute;
-    top: 64px;
-    left: 0;
+    top: 16px;
+  }
+}
+@include media-min($screenMedium) {
+  blockquote {
+    @include remSize(28px);
+    padding: $spacing-looser $spacing $spacing-looser $spacing-loosest;
+
+    &:before {
+      @include remSize(124px);
+      color: transparentize($cDark, 0);
+      content: "“";
+      font-family: "Georgia", "Baskerville", serif;
+      position: absolute;
+      top: 80px;
+      left: 0;
+    }
   }
 }
 body{
@@ -242,7 +270,7 @@ h5,
 h6{
   line-height: $line-height*.7;
   margin-top: 0;
-  margin-bottom: $spacing;
+  margin-bottom: $spacing-loose;
 }
 h1 {
   @include remSize($fsDisplay1);
@@ -433,7 +461,7 @@ optgroup {
 // P
 //--------------------------------
 p {
-  @include remSize($fsBody);
+
 }
 pre {
   overflow: auto;
@@ -530,7 +558,7 @@ tt {
 // U
 //--------------------------------
 ul {
-
+  padding-left: $spacing-tight;
 }
 
 // V

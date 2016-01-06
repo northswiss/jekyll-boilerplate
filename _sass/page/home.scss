@@ -38,16 +38,57 @@
 .clip-css {
   @include animation('reveal-left 2s');
 }
-
-@include media-min($screenLarge){
-  .home h1{
-    @include remSize(64px);
-  }
-}
-
 .graph{
   @include animation('gradient-fill 2s');
   height: auto;
   position: absolute;
   width: 100%;
 }
+
+// Customer types
+
+.customer-types{
+  .flex{
+    min-height: 400px;
+    align-items: center;
+  }
+  span{
+    margin-bottom: auto;
+  }
+  img{
+    margin: $spacing-loosest auto $spacing-loose;
+    max-width: 200px;
+  }
+}
+
+@include media-min($screenMedium) {
+  .customer-types {
+    .flex {
+      align-content: space-around;
+      flex: 1 600px;
+      min-height: 600px;
+    }
+    img {
+      margin: auto;
+    }
+    span {
+      margin: auto auto auto $spacing-loose;
+      max-width: 700px;
+    }
+  }
+}
+
+@include media-min($screenLarge){
+  .home {
+
+    h1 {
+      @include remSize(64px);
+      margin-top: $spacing-loosest;
+    }
+
+    header button{
+      margin: $spacing-loosest auto;
+    }
+  }
+}
+

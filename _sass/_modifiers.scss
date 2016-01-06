@@ -1,7 +1,8 @@
 
+// TODO : Just for DEV. Remove for PROD
 .block {
   border: 1px dashed $gray;
-  padding: 2.5em 2em 2em;
+  padding: $spacing-loosest $spacing $spacing !important;
   position: relative;
 
   header{
@@ -57,7 +58,7 @@
     flex: 1 350px;
   }
   &.padded >* {
-    padding: $spacing;
+    padding: $spacing 0;
   }
 }
 
@@ -123,6 +124,12 @@
   // F
   .fill-screen{
     height: 100%;
+  }
+  .flex {
+
+    &.padded >* {
+      padding: 0 $spacing;
+    }
   }
 
   // H

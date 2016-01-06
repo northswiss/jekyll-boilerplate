@@ -1,0 +1,20 @@
+/* Footer */
+
+.site-footer {
+  background: $cDark;
+  padding: $spacing-loosest 0;
+
+  h3{
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .description {
+    border-top: 1px dashed $white;
+    margin-top: $spacing-loosest;
+    padding: $spacing 0;
+  }
+
+  * {
+    color: $white !important;
+  }
+}
