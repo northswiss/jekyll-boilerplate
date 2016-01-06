@@ -3,4 +3,4 @@
   logo: get-your-guide.svg
 - name: Second Client
   quote: Quote from second client...
-  logo: logo.svg
+  logo:
