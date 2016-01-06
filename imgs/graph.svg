@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1280px" height="502px" viewBox="0 0 1280 502" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>graph</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="35.026706%" id="linearGradient-1">
+            <stop stop-color="#1396E4" offset="0%"></stop>
+            <stop stop-color="#3E7BD2" offset="23.3717315%"></stop>
+            <stop stop-color="#526FC9" offset="64.973294%"></stop>
+            <stop stop-color="#E4138A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="graph" sketch:type="MSArtboardGroup">
+            <path d="M1,283.186879 C62.2358804,308.467894 95.4053156,387.797975 177.053156,365.132237 C258.700997,342.4665 298.674419,284.930397 336.096346,205.600316 C373.518272,126.270235 423.697674,66.9906145 497.69103,81.8105198 C571.684385,96.630425 640.574751,-14.954743 726.475083,4.22395714 C812.375415,23.4026573 870.209302,51.2989478 924.641196,171.60171 C979.07309,291.904473 956.109635,349.440571 1042.00997,357.286405 C1127.9103,365.13224 1167.88372,257.905862 1281,257.905864 L1281,502 L2.56408671,502 C2.56408671,502 2.70099668,364.260478 1,283.186879 Z" id="Path-3" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup"></path>
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(1.000000, 242.000000)" fill="#F7F7F7">
+                <rect id="Rectangle-5" sketch:type="MSShapeGroup" x="1272.30286" y="0" width="6.78857914" height="20.0695057"></rect>
+                <rect id="Rectangle-5" sketch:type="MSShapeGroup" x="1141.30286" y="0" width="6.78857914" height="20.0695057"></rect>
+                <rect id="Rectangle-5" sketch:type="MSShapeGroup" x="1027.30286" y="0" width="6.78857914" height="20.0695057"></rect>
+                <rect id="Rectangle-5" sketch:type="MSShapeGroup" x="913.302855" y="0" width="6.78857914" height="20.0695057"></rect>
+                <rect id="Rectangle-5" sketch:type="MSShapeGroup" x="799.302855" y="0" width="6.78857914" height="20.0695057"></rect>
+                <rect id="Rectangle-5" sketch:type="MSShapeGroup" x="685.302855" y="0" width="6.78857914" height="20.0695057"></rect>
+                <rect id="Rectangle-5" sketch:type="MSShapeGroup" x="571.302855" y="0" width="6.78857914" height="20.0695057"></rect>
+                <rect id="Rectangle-5" sketch:type="MSShapeGroup" x="457.302855" y="0" width="6.78857914" height="20.0695057"></rect>
+                <rect id="Rectangle-5" sketch:type="MSShapeGroup" x="343.302855" y="0" width="6.78857914" height="20.0695057"></rect>
+                <rect id="Rectangle-5" sketch:type="MSShapeGroup" x="229.302855" y="0" width="6.78857914" height="20.0695057"></rect>
+                <rect id="Rectangle-5" sketch:type="MSShapeGroup" x="115.302855" y="0" width="6.78857914" height="20.0695057"></rect>
+                <rect id="Rectangle-5" sketch:type="MSShapeGroup" x="-9.9475983e-13" y="0" width="6.78857914" height="20.0695057"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

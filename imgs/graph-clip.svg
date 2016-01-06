@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="753px" height="259px" viewBox="0 0 753 259" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>graph-clip</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="graph-clip" sketch:type="MSArtboardGroup" fill="#D8D8D8">
+            <path d="M1,138.030078 C1,138.030078 51.1249599,170.253616 76,170.253616 C116.339993,170.253616 162.628251,31.4432046 213.5,29.753612 C233.298256,29.0960567 262.76724,50.4794113 289.5,42.7536162 C319.246384,34.1568807 346.715953,-3.4331382 377,0.253615284 C431.283945,6.86209532 459.330462,179.90401 510,196.753615 C560.713984,213.618001 601.796937,149.131473 640,138.030074 C705.851877,118.894227 753,138.030078 753,138.030078 L753,259.030078 L1,259.030078 L1,138.030078 Z" id="Rectangle-17" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
