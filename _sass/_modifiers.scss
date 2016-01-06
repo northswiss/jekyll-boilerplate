@@ -86,6 +86,9 @@
 .largest{
   @include remSize($fsDisplay1);
 }
+.light-text{
+  color: $white;
+}
 
 
 

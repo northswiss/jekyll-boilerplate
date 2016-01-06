@@ -1,0 +1,59 @@
+- name:         Ron Levin
+  role:         CEO
+  image:        ron-levin.png
+  linkedin:     https://www.linkedin.com/profile/view?id=ADEAAAAAlPABPzqPCzkfeUz2OdzJjy_bSDBjF9E
+  email:        ron@travelperk.com
+- name:         Avi Meir
+  role:         CTO
+  image:        avi-meir.png
+  linkedin:     https://es.linkedin.com/in/avimeir
+  email:        avi@travelperk.com
+- name:         Javier Suarez
+  role:         CPO
+  image:        javier-suarez.png
+  linkedin:     https://es.linkedin.com/in/javier-suarez-4b800362
+  email:        javier@travelperk.com
+- name:         Adam Hayward
+  role:         Senior Software Engineer
+  image:        adam-hayward.png
+  linkedin:     https://es.linkedin.com/in/adamhayward
+- name:         Jan Myler
+  role:         Senior Software Engineer
+  image:        jan-myler.png
+  linkedin:     https://es.linkedin.com/in/janmyler
+- name:         Sergio Toro
+  role:         Software Engineer
+  image:        sergio-toro.png
+  linkedin:
+- name:         Łukas Prasol
+  role:         Senior Software Engineer
+  image:        lukas-prasol.png
+  linkedin:     https://es.linkedin.com/in/łukasz-prasoł-7b649b2a
+- name:         Moritz Sattler
+  role:         Junio Software Engineer
+  image:        moritz-sattler.png
+  linkedin:     https://es.linkedin.com/in/moritzsattler/en
+- name:         Juliana Mendez
+  role:         Marketing & Business Development Manager
+  image:        juliana-mendez.png
+  linkedin:     https://es.linkedin.com/in/julianamendez/en
+- name:         Frasco Romano
+  role:         Visual Designer
+  image:        frasco-romano.png
+  linkedin:     https://es.linkedin.com/in/romanofrancisco/en
+- name:         Chris Roy
+  role:         Lead User Experience Designer
+  image:        chris-roy.png
+  linkedin:     https://uk.linkedin.com/in/chris-roy-3691b621
+- name:         Silvia Guitian
+  role:         Office Manager
+  image:        silvia-guitian.png
+  linkedin:     https://es.linkedin.com/in/silvia-guitian-quevedo-44994a6
+- name:         Andrew Bate
+  role:         Advisor Founder and CEO, SafelyStay
+  image:        andrew-bate.png
+  linkedin:     https://www.linkedin.com/in/aebate
+- name:         Johannes Reck
+  role:         Advisor Co-Founder & CEO, GetYourGuide
+  image:        johannes-reck.png
+  linkedin:     https://de.linkedin.com/in/johannesreck

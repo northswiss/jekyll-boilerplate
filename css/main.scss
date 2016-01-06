@@ -17,7 +17,10 @@
   "_z-index";
 
 // PAGES
-@import "page/home";
+@import
+  "page/home",
+  "page/about";
 
 // COMPONENTS
-@import "component/testimonial";
+@import
+  "component/testimonial";

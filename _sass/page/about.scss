@@ -1,0 +1,24 @@
+/* About.scss */
+
+.about {
+
+  .flex {
+    align-items: baseline;
+    justify-content: space-around;
+  }
+}
+
+.team-member {
+  color: $cDark;
+  text-align: center;
+
+  h3,
+  h4 {
+    margin: 0;
+  }
+
+  h4 {
+    color: $cGray600;
+    font-weight: 300;
+  }
+}
