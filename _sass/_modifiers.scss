@@ -22,7 +22,7 @@
   padding: $spacing;
 }
 .btn{
-  @include btn(transparent, false, false);
+  @include btn(transparent, null, false, false);
 }
 
 // C
@@ -38,7 +38,7 @@
 }
 
 .color{
-  background: $cYellow;
+  @include cBackground();
 }
 
 // D
@@ -109,6 +109,16 @@
   list-style: none;
 }
 
+[data-state="slide-one"] {
+  margin-left: 0;
+}
+[data-state="slide-two"] {
+  margin-left: -100%;
+}
+[data-state="slide-three"] {
+  margin-left: -200%;
+}
+
 // V
 .vertical-middle {
   align-items: center;
@@ -132,6 +142,9 @@
 
     &.padded >* {
       padding: 0 $spacing;
+    }
+    &.reverse {
+      flex-direction: row-reverse;
     }
   }
 

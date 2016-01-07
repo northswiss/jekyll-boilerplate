@@ -18,3 +18,5 @@ All Z-indexes should be managed here
 // 3
 
 // 4 - HIGHEST
+
+.fixed .banner { @include z-index(4, fixed) }

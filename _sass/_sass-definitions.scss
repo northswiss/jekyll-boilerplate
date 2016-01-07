@@ -31,7 +31,7 @@ $gray-darkest:          lighten($black, 2%);
 $color-brand:           $cBlue;
 
 // Colors with purpose
-$color-link:            complement($color-brand);
+$color-link:            $color-brand;
 $color-visited:         invert($color-link);
 $color-hover:           lighten($color-link, 5%);
 $color-active:          darken($color-link, 5%);

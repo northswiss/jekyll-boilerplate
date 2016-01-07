@@ -28,6 +28,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  padding-top:$spacing-loosest;
 
   h1,
   h2 {
@@ -44,18 +45,32 @@
 
   button {
     @include animation('fade-in-from-bottom 3s');
-    @include btn(transparent, true, true);
     margin-bottom: $spacing-loose;
     position: relative;
+
+    &.signup {
+      @include btn(transparent, true, true);
+    }
   }
 }
 .banner {
-  padding: $spacing;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
+.fixed {
+  .banner {
+    background: transparentize($cBlue, .4);
+  }
+}
+
+.logo {
+  display: inline-block;
+  margin: $spacing-tight $spacing;
+}
+
 .site-nav{
-  background: $white;
-  border: 1px solid $gray-lighter;
-  border-radius: $radius;
+  line-height: 48px;
   position: absolute;
   top: 0;
   right: $spacing;

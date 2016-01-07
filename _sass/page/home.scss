@@ -11,13 +11,18 @@
 }
 
 .home {
-   section {
+
+  .site-header {
+    background-image: url("/imgs/background.jpg");
+    background-position: center center;
+    background-size: cover;
+  }
+   .wrapper.fill-screen {
      padding: $spacing-loosest 0;
    }
 }
 // GRAPH
 .budget {
-  background: $cGray900;
   position: relative;
 
   ul {
@@ -44,31 +49,57 @@
 
 .customer-types{
   .flex{
-    min-height: 400px;
     align-items: center;
   }
   span{
-    margin-bottom: auto;
+    //margin-bottom: auto;
   }
   img{
     margin: $spacing-loosest auto $spacing-loose;
     max-width: 200px;
   }
+
+  .slides-wrapper {
+    @include clearfix();
+    width: 300%;
+  }
+  .slide {
+    display: inline-block;
+    float: left;
+    width: 33.3%;
+  }
+  .feature {
+    flex: 1 400px;
+    min-height: 600px;
+
+    img{
+      height: 480px;
+      max-width:100%;
+    }
+  }
 }
+
+
+// BREAK POINTS
 
 @include media-min($screenMedium) {
   .customer-types {
     .flex {
-      align-content: space-around;
-      flex: 1 600px;
-      min-height: 600px;
+      //align-content: space-around;
+      //min-height: 600px;
+      span{
+        flex: 1;
+      }
+      .content {
+        padding: $spacing-tight;
+      }
     }
     img {
       margin: auto;
     }
     span {
-      margin: auto auto auto $spacing-loose;
-      max-width: 700px;
+      //margin: auto auto auto $spacing-loose;
+      //max-width: 700px;
     }
   }
 }

@@ -1,10 +1,10 @@
 <!-- Capture and store URL -->
 {% capture location %}{{ page.url | split:'/' }}{% endcapture %}
-<header class="site-header fill-screen">
+<header id="header" class="site-header fill-screen">
 
-  <div class="banner">
+  <div id="banner" class="banner">
 
-    <a class="site-title" href="{{ site.baseurl }}/">
+    <a class="logo" href="{{ site.baseurl }}/">
       <img src="/imgs/brand/travelperk-logo-white.svg" alt="{{ site.title }}">
     </a>
 
@@ -22,6 +22,9 @@
     {% endif %}
   </div>
 
-  <button id="more">Find out more...</button>
+  <button id="signup" class="btn signup">Sign up</button>
+  {% if page.id == "home" %}
+    <button id="more">Find out more...</button>
+  {% endif %}
 
 </header>

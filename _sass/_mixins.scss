@@ -55,18 +55,20 @@
   }
 }
 
-@mixin btn($btn_bg: $color-link, $outline: true, $ghost: false){
-  background: $btn_bg;
+@mixin btn($btn_bg: $color-link, $btn_border: $color-link, $outline: true, $ghost: false){
+  //background: $btn_bg;
+  border: 1px solid $btn_border;
   border-radius: $radius;
   color: $white;
-  display: block;
+  display: inline-block;
   font-size: 1.2em;
-  margin: 0 auto;
-  min-width: 200px;
+  line-height: 1em;
+  margin: $spacing auto;
+  min-width: 140px;
   padding: $spacing-tight;
 
   @if $outline{
-    border: 1px solid $white;
+    border: 1px solid $btn_bg;
   }
 
   @if $ghost{
@@ -87,6 +89,9 @@
     display: table;
     clear: both;
   }
+}
+@mixin cBackground($color1: lighten($cGray400, 80%), $color2: lighten($cGray400, 5%), $deg: 45deg) {
+  background-image: linear-gradient($deg, $color1 0%, $color2 100%);
 }
 
 // F
