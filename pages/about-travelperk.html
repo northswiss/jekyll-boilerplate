@@ -16,7 +16,7 @@ id: about
   <h2>The TravelPerk team</h2>
   <div class="flex padded">
     {% for person in site.data.team %}
-      <a class="team-member" href="linkedin">
+      <a class="team-member" href="{{ person.linkedin }}">
         <img src="/imgs/team/{{ person.image }}" alt="{{ person.name }}"/>
         <h3>{{ person.name }}</h3>
         <h4>{{ person.role }}</h4>
@@ -24,12 +24,6 @@ id: about
     {% endfor %}
   </div>
 </section>
-
-
-
-
-
-
 
 TravelPerk’s custom algorithm creates bespoke budgets for every individual business trip that an employee takes, be it for flights, hotels or rental cars. The algorithm takes into consideration the company’s specific travel policies and parameters, e.g. “only 3 or 4-star hotels within 5 km of the destination” and creates a budget for that employee’s specific destination and dates and times of travel. This algorithm computes budgets each time based on real-time market pricing data. Once a budget is set, the employee then has the opportunity to “beat the budget.” If s/he chooses a lower-priced travel option than the budget that is created, then s/he is rewarded with 50% of the savings!
 
