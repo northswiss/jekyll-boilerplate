@@ -55,8 +55,8 @@
   }
 }
 
-@mixin btn($btn_bg: $color-link, $btn_border: $color-link, $outline: true, $ghost: false){
-  //background: $btn_bg;
+@mixin btn($btn_bg: $cBlue, $btn_border: $color-link, $outline: true, $ghost: false){
+  background: $btn_bg;
   border: 1px solid $btn_border;
   border-radius: $radius;
   color: $white;
@@ -92,6 +92,13 @@
 }
 @mixin cBackground($color1: lighten($cGray400, 80%), $color2: lighten($cGray400, 5%), $deg: 45deg) {
   background-image: linear-gradient($deg, $color1 0%, $color2 100%);
+}
+
+// D
+
+@mixin debug($color : red){
+  background: yellow !important;
+  border: 1px solid $color;
 }
 
 // F

@@ -42,10 +42,8 @@
 }
 
 // D
-
-@mixin debug($color : red){
-  background: yellow !important;
-  border: 1px solid $color;
+.debug {
+  @include debug();
 }
 
 // F
@@ -60,6 +58,9 @@
   &.padded >* {
     padding: $spacing 0;
   }
+  &.space-around {
+    justify-content: space-around;
+  }
 }
 
 // G
@@ -71,6 +72,17 @@
   background: -moz-linear-gradient($direction, $from, $to);
   background: -ms-linear-gradient($direction, $from, $to);
   background: -o-linear-gradient($direction, $from, $to);
+}
+
+// I
+
+.icon-close {
+  @include remSize(36px);
+  background: transparent;
+  border: transparent;
+  text-align: right;
+  padding-right: $spacing;
+  width: 100%;
 }
 
 // L

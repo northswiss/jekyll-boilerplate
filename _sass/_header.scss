@@ -3,11 +3,12 @@
 @include keyframes(fade-in) {
   0% {
     opacity: 0;
-    top: 1em;
+  }
+  50% {
+    opacity: 0.4;
   }
   100% {
     opacity: 1;
-    top: 0;
   }
 }
 
@@ -22,12 +23,28 @@
   }
 }
 
+@include keyframes(fade-in-from-bottom-delayed) {
+  0% {
+    opacity: 0;
+    top: 2em;
+  }
+  50% {
+    opacity: 0;
+    top: 2em;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
+
 .site-header {
   background-image: linear-gradient(0deg, #2BC7F3 0%, #1396E4 100%);
   border-bottom: 6px solid $color-brand;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  min-height:200px;
   padding-top:$spacing-loosest;
 
   h1,
@@ -37,14 +54,15 @@
     position: relative;
   }
   h1{
-    @include animation('fade-in 1s');
+    @include animation('fade-in-from-bottom 1.5s');
   }
   h2{
-    @include animation('fade-in 2s');
+    @include animation('fade-in-from-bottom-delayed 2s');
+    color: darken($cBlue, 20%);
   }
 
-  button {
-    @include animation('fade-in-from-bottom 3s');
+  .more {
+    @include animation('fade-in 2s');
     margin-bottom: $spacing-loose;
     position: relative;
 
@@ -60,7 +78,7 @@
 }
 .fixed {
   .banner {
-    background: transparentize($cBlue, .4);
+    background: transparentize($cBlue, .1);
   }
 }
 
@@ -77,8 +95,15 @@
   text-align: right;
 
   a{
+    color: $white;
     display: block;
+    line-height: 1em;
+    margin-top: $spacing-tight;
     padding: $spacing-tight;
+
+    &.sign-up {
+      border: 1px solid $white;
+    }
   }
 
   ul{
@@ -87,7 +112,6 @@
     padding: 0;
   }
   &:hover{
-    @include box-shadow();
     z-index: 10;
 
     .menu{

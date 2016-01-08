@@ -190,6 +190,12 @@ button{
     border: 0;
     padding: 0;
   }
+
+
+  &[type="submit"] {
+    display: block;
+    margin: $spacing auto;
+  }
 }
 
 // C
@@ -257,7 +263,7 @@ footer {
 
 }
 form{
-
+  margin: $spacing-loose auto;
 }
 
 // H
@@ -275,6 +281,7 @@ h6{
 h1 {
   @include remSize($fsDisplay1);
   font-weight: 300;
+  margin-bottom: 0;
 }
 
 h2 {
@@ -349,6 +356,7 @@ input {
   color: $gray;
   line-height: normal;
   margin-bottom: $spacing-tight;
+  min-width: 296px;
   padding: $spacing-tight;
 
   // INPUT STATES
@@ -414,8 +422,9 @@ kbd {
 // L
 //--------------------------------
 label {
-  display: block;
   @include remSize($fsCaption);
+  color: $cGray700;
+  display: block;
   margin: spacing 0 spacing-tight;
   text-transform: uppercase;
 }

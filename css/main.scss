@@ -23,4 +23,14 @@
 
 // COMPONENTS
 @import
-  "component/testimonial";
+  "component/testimonial",
+  "component/overlay",
+  "component/request-demo";
+
+
+// GLOBAL STUFF - Keep it light
+.main{
+  section {
+    padding: $spacing-loosest 0;
+  }
+}

@@ -3,7 +3,7 @@
   {% for p in pages %}
   {% if p.nav == "main" %}
   <li {% if p.url == page.url %}class="current"{% endif %}>
-    <a href="{{ p.url }}">
+    <a href="{{ p.url }}" class="{{ p.nav-class }}">
       {% if p.nav-title %}
         {{ p.nav-title }}
       {% else %}

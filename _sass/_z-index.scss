@@ -20,3 +20,4 @@ All Z-indexes should be managed here
 // 4 - HIGHEST
 
 .fixed .banner { @include z-index(4, fixed) }
+.overlay { @include z-index(4, fixed) }

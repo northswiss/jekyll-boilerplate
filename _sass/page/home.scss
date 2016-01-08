@@ -1,15 +1,3 @@
-// ANIMATIONS
-@include keyframes(reveal-left) {
-  0% {
-    -webkit-clip-path: polygon(0 0, 0 100%, 0 100%, 0 0);
-    clip-path: polygon(0 0, 0 100%, 0 100%, 0 0);
-  }
-  100% {
-    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
-    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
-  }
-}
-
 .home {
 
   .site-header {
@@ -17,42 +5,46 @@
     background-position: center center;
     background-size: cover;
   }
-   .wrapper.fill-screen {
-     padding: $spacing-loosest 0;
-   }
-}
-// GRAPH
-.budget {
-  position: relative;
+  .wrapper.fill-screen {
+    padding: $spacing-loosest 0;
+  }
+  .more {
+    text-align: center;
 
-  ul {
-    padding-right: $spacing-loose;
+    span{
+      color: $white;
+      margin: $spacing;
+    }
   }
 }
-.budget-graph {
-  height: auto;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-.clip-css {
-  @include animation('reveal-left 2s');
-}
-.graph{
-  @include animation('gradient-fill 2s');
-  height: auto;
-  position: absolute;
+
+
+// DYNAMIC BUDGET
+.dynamic-budget {
   width: 100%;
 }
 
-// Customer types
+
+// CUSTOMER TYPES
 
 .customer-types{
+  overflow-x: hidden;
+
+  nav {
+    button {
+      @include remSize(64px);
+      background: transparent;
+      border: 0;
+      color: $cDark;
+
+      &.active {
+        color: $cBlue;
+      }
+    }
+  }
   .flex{
     align-items: center;
-  }
-  span{
-    //margin-bottom: auto;
+    justify-content: space-around;
   }
   img{
     margin: $spacing-loosest auto $spacing-loose;
@@ -61,6 +53,7 @@
 
   .slides-wrapper {
     @include clearfix();
+    background: #eeeeee;
     width: 300%;
   }
   .slide {
@@ -109,7 +102,7 @@
 
     h1 {
       @include remSize(64px);
-      margin-top: $spacing-loosest;
+      margin-top: $spacing-loosest*2.8;
     }
 
     header button{

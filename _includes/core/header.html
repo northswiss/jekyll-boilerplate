@@ -1,6 +1,6 @@
 <!-- Capture and store URL -->
 {% capture location %}{{ page.url | split:'/' }}{% endcapture %}
-<header id="header" class="site-header fill-screen">
+<header id="header" class="site-header {% if page.id == "home" %}fill-screen{% endif%}">
 
   <div id="banner" class="banner">
 
@@ -22,9 +22,13 @@
     {% endif %}
   </div>
 
-  <button id="signup" class="btn signup">Sign up</button>
-  {% if page.id == "home" %}
-    <button id="more">Find out more...</button>
-  {% endif %}
+{% if page.id == "home" %}
+  <div class="more">
+      <button id="more">Find out more...</button>
+      <span>or</span>
+
+    <button id="signup" class="btn signup">Request a demo</button>
+  </div>
+{% endif %}
 
 </header>
