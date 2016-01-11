@@ -58,7 +58,7 @@
   }
   h2{
     @include animation('fade-in-from-bottom-delayed 2s');
-    color: darken($cBlue, 20%);
+    color: darken($cBlue, 10%);
   }
 
   .more {
