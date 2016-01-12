@@ -30,8 +30,14 @@
 
 
 // DYNAMIC BUDGET
+.budget-img-wrapper {
+  background: $cDark;
+  padding: $spacing-loosest $spacing;
+}
 .dynamic-budget {
-  width: 100%;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 
@@ -96,28 +102,7 @@
 // BREAK POINTS
 
 @include media-min($screenMedium) {
-  .customer-types {
-    .flex {
-      //align-content: space-around;
-      //min-height: 600px;
-      span{
-        flex: 1;
-      }
-      .content {
-        padding: $spacing-loosest;
-      }
-    }
-    img {
-      margin: auto;
-    }
-    span {
-      //margin: auto auto auto $spacing-loose;
-      //max-width: 700px;
-    }
-  }
-}
 
-@include media-min($screenLarge){
   .home {
 
     h1 {
@@ -127,6 +112,31 @@
 
     header button{
       margin: $spacing-loosest auto;
+    }
+  }
+
+  .customer-types {
+    .flex {
+
+      .content {
+        padding: $spacing-loosest;
+      }
+    }
+    img {
+      margin: auto;
+    }
+  }
+}
+
+@include media-min($screenLarge){
+
+  .customer-types {
+    .flex {
+      //align-content: space-around;
+      //min-height: 600px;
+      span {
+        flex: 1;
+      }
     }
   }
 }

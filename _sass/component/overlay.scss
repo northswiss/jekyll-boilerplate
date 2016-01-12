@@ -1,6 +1,5 @@
 .overlay {
   background: transparentize($black, 0.1);
-  color: $white;
   display: none;
   height: 100%;
   top: 0;
@@ -8,6 +7,7 @@
   width: 100%;
 
   h2 {
+    color: $white;
     margin-top: 0;
   }
 
