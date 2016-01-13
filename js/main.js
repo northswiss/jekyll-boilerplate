@@ -12,15 +12,15 @@ var body =                  $("body"),
 
 $("#more").click(function() {
   $('html, body').animate({
-    scrollTop: $("#customer_types").offset().top-93
+    scrollTop: $("#customer_types").offset().top-92
   }, 1000);
 });
 
 $(window).scroll(function () {
   if( $(this).scrollTop() > site_header.offset().top) {
-    site_header.addClass("fixed");
+    site_header.addClass("fixed-header");
   } else {
-    site_header.removeClass("fixed");
+    site_header.removeClass("fixed-header");
   }
 });
 

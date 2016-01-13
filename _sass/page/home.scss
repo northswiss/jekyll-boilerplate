@@ -5,7 +5,7 @@
   }
 
   .site-header {
-    background-image: url("/imgs/pattern.png");
+    //background-image: url("/imgs/hero-background.jpg");
     //background-position: center center;
     //background-size: cover;
   }
@@ -16,7 +16,7 @@
     text-align: center;
 
       span{
-        color: $white;
+        //color: $white;
         display: block;
         margin: -16px;
       }
@@ -24,8 +24,6 @@
 
   .intro {
     @include remSize(16px);
-    color: $white;
-    color: transparentize($white, .2);
     line-height: 1.6em;
     margin: 0 auto;
     max-width: 960px;
@@ -33,6 +31,9 @@
   }
 }
 
+.btn.demo-request {
+  color: $cDark;
+}
 
 // DYNAMIC BUDGET
 .budget-img-wrapper {
@@ -61,6 +62,7 @@
   }
 }
 .customer-types{
+  background: #eeeeee;
   overflow-x: hidden;
 
   nav {
@@ -95,13 +97,12 @@
     justify-content: space-around;
   }
   img{
-    margin: $spacing-loosest auto $spacing-loose;
+    margin: $spacing-loosest*2 0 0;
     max-width: 200px;
   }
 
   .slides-wrapper {
     @include clearfix();
-    background: #eeeeee;
     width: 300%;
   }
   .slide {
@@ -110,11 +111,9 @@
     width: 33.3%;
   }
   .feature {
-    flex: 1 400px;
-    min-height: 600px;
+    margin: $spacing-loosest 0 $spacing;
 
     img{
-      //height: 480px;
       max-width:100%;
     }
   }
@@ -122,6 +121,11 @@
 
 .product-shot {
   @include box-shadow();
+}
+
+// PUBLICITY
+.publicity {
+  text-align: center;
 }
 
 
@@ -147,6 +151,9 @@
       .content {
         padding: $spacing-loosest;
       }
+      span{
+        //width: 200px;
+      }
     }
     img {
       margin: auto;
@@ -158,15 +165,6 @@
 
   .intro {
     @include remSize(22px);
-  }
-
-  .customer-types {
-
-    .flex {
-      span {
-        flex: 1;
-      }
-    }
   }
   .home {
 

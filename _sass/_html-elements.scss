@@ -116,7 +116,7 @@ a{
     outline: 0;
   }
   &:active{
-    color: $color-active;
+    color: $color-link;
     outline: 0;
   }
 }
@@ -343,6 +343,7 @@ i {
 
 }
 img {
+  @include animate();
   border: 0;
   height: auto;
   max-width: 100%;
