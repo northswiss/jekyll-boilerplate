@@ -1,3 +1,26 @@
 .request-demo {
-  background: $cBlue;
+  background: url("/imgs/pattern.png");
+
+  .flex {
+
+    &> span {
+      flex: 1 200px;
+    }
+  }
+}
+
+@include media-min($screenMedium) {
+  .request-demo {
+
+    input {
+      margin: auto;
+      width: 80%;
+    }
+
+    .card {
+      margin: $spacing auto;
+      max-width: 75%;
+    }
+
+  }
 }

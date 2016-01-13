@@ -4,7 +4,7 @@
 
   <div id="banner" class="banner">
 
-    <a class="logo" href="{{ site.baseurl }}/">
+    <a id="site-logo" class="logo" href="{{ site.baseurl }}/">
       <img src="/imgs/brand/travelperk-logo-white.svg" alt="{{ site.title }}">
     </a>
 
@@ -20,18 +20,19 @@
     {% if page.subtitle %}
     <h2 class="subtitle">{{ page.subtitle }}</h2>
     {% endif %}
-  </div>
 
-{% if page.id == "home" %}
-  <p class="intro">With DynamicBudgets&trade; and the ability to <strong>save over 30%</strong> on your travel booking, you will wonder how you managed this long without a tool like TravelPerk.</p>
+    {% if page.id == "home" %}
+    <p class="intro">With DynamicBudgets&trade; and the ability to <strong>save over 30%</strong> on your travel booking, you will wonder how you managed this long without a tool like TravelPerk.</p>
 
-  <div class="more">
+    <div class="more">
       <button id="more">Find out more...</button>
       <span>or</span>
 
-    <button id="signup" class="btn signup">Request a demo</button>
-  </div>
+      <button id="btn-request" class="btn signup">Request a demo</button>
+    </div>
 
-{% endif %}
+    {% endif %}
+
+  </div>
 
 </header>

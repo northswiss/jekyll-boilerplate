@@ -1,9 +1,13 @@
 .home {
 
+  h1{
+    margin-top: $spacing-loose;
+  }
+
   .site-header {
-    background-image: url("/imgs/background.jpg");
-    background-position: center center;
-    background-size: cover;
+    background-image: url("/imgs/pattern.png");
+    //background-position: center center;
+    //background-size: cover;
   }
   .wrapper.fill-screen {
     padding: $spacing-loosest 0;
@@ -11,14 +15,15 @@
   .more {
     text-align: center;
 
-    span{
-      color: $white;
-      margin: $spacing;
+      span{
+        color: $white;
+        display: block;
+        margin: -16px;
+      }
     }
-  }
 
   .intro {
-    @include remSize(22px);
+    @include remSize(16px);
     color: $white;
     color: transparentize($white, .2);
     line-height: 1.6em;
@@ -43,6 +48,18 @@
 
 // CUSTOMER TYPES
 
+.customer-type-nav {
+
+  ul {
+    flex-wrap: nowrap;
+    padding: $spacing-tight;
+  }
+
+  button {
+    margin: 0;
+    padding: $spacing-tight;
+  }
+}
 .customer-types{
   overflow-x: hidden;
 
@@ -50,13 +67,22 @@
     text-align: center;
 
     button {
-      @include remSize(64px);
       background: transparent;
       border: 0;
-      color: $cDark;
+      color: $color-link;
+
+      span{
+        @include remSize(48px);
+        color: $cDark;
+        display: block;
+        margin-top:$spacing;
+      }
 
       &.active {
-        color: $cBlue;
+
+        span{
+          color: $cBlue;
+        }
       }
     }
 
@@ -107,7 +133,7 @@
 
     h1 {
       @include remSize(64px);
-      margin-top: $spacing-loosest*2.8;
+      margin-top: $spacing-loosest*2;
     }
 
     header button{
@@ -130,12 +156,25 @@
 
 @include media-min($screenLarge){
 
+  .intro {
+    @include remSize(22px);
+  }
+
   .customer-types {
+
     .flex {
-      //align-content: space-around;
-      //min-height: 600px;
       span {
         flex: 1;
+      }
+    }
+  }
+  .home {
+
+    .more {
+
+      span {
+        display: inline;
+        margin: $spacing;
       }
     }
   }

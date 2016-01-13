@@ -1,13 +1,14 @@
-var body = $("body"),
+var body =                  $("body"),
     site_header =           $("#header"),
     btn_booker =            $("#btn_booker"),
     btn_traveler =          $("#btn_traveler"),
     btn_manager =           $("#btn_manager"),
-    btn_signup =            $("#signup"),
+    btn_demo_request =      $("#btn-request"),
+    btn_demo_submit =       $("#request-demo-submit"),
     btn_close =             $("#close"),
+    btn_more =              $("#more"),
     slide_wrapper =         $("#slide_wrapper"),
-    overlay =               $("#overlay"),
-    popup_signup =          $("#popup_signup");
+    overlay =               $("#overlay");
 
 $("#more").click(function() {
   $('html, body').animate({
@@ -47,7 +48,7 @@ btn_manager.click(function () {
 
 // OVERLAY
 
-btn_signup.on( 'click', function () {
+btn_demo_request.on( 'click', function () {
     showPopup();
   }
 );
@@ -59,7 +60,17 @@ function showPopup ( whichPopup ) {
 }
 
 function closePopUp(e) {
-  console.log("closePopup called");
   e.preventDefault();
   overlay.fadeOut("fast");
 }
+
+
+// GA TRACKING
+var tracking_array = [ btn_booker, btn_traveler, btn_manager, btn_more, btn_demo_request, btn_demo_submit ];
+
+$.each( tracking_array, function ( i, val ) {
+  val.click(function () {
+    ga('send', 'event', 'Category', 'Action', btn_more.html());
+    console.log(val.text());
+  });
+});

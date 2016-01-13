@@ -279,7 +279,7 @@ h6{
   margin-bottom: $spacing-loose;
 }
 h1 {
-  @include remSize($fsDisplay1);
+  @include remSize($fsTitle);
   font-weight: 300;
   margin-bottom: 0;
 }
@@ -356,8 +356,8 @@ input {
   color: $gray;
   line-height: normal;
   margin-bottom: $spacing-tight;
-  min-width: 296px;
   padding: $spacing-tight;
+  width: 100%;
 
   // INPUT STATES
   &:required{
@@ -388,7 +388,10 @@ input {
     height: auto;
   }
   &[type="text"],
+  &[type="name"],
+  &[type="email"],
   &[type="password"] {
+    max-width: 90%;
 
     &:hover,
     &:focus {
