@@ -78,8 +78,13 @@
     }
   }
 }
-
+.logo-white {
+  display: none;
+}
 .home {
+  .logo-white {
+    display: block;
+  }
   .logo-color {
     display: none;
   }
@@ -105,7 +110,15 @@
     @include animation('slide-down-from-top .5s');
     background: $white;
     background: transparentize($white, .1);
-    border-color: $cBlue;
+    border: 1px solid $cBlue;
+
+    a,
+    button {
+      color: $color-link;
+    }
+    button {
+      border-color: $cBlue;
+    }
   }
   .logo {
     margin: 14px $spacing-tight 8px;
