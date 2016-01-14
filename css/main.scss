@@ -25,11 +25,14 @@
 @import
   "component/testimonial",
   "component/overlay",
-  "component/request-demo";
+  "component/request-demo",
+  "component/sign-up";
 
 
 // GLOBAL STUFF - Keep it light
 .main{
+  background: $white;
+
   section {
     padding: $spacing-loosest 0;
   }

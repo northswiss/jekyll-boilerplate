@@ -1,10 +1,20 @@
 .home {
 
+  .hero {
+    background-image: url("/imgs/hero-background.jpg");
+    background-position: center center;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+  }
+
   h1{
     margin-top: $spacing-loose;
   }
 
   .site-header {
+    background: transparent;
     //background-image: url("/imgs/hero-background.jpg");
     //background-position: center center;
     //background-size: cover;
@@ -37,7 +47,7 @@
 
 // DYNAMIC BUDGET
 .budget-img-wrapper {
-  background: $cDark;
+  @include gradient-linear();
   padding: $spacing-loosest $spacing;
 }
 .dynamic-budget {
@@ -96,8 +106,11 @@
     align-items: center;
     justify-content: space-around;
   }
+  .content {
+    padding: $spacing-tight;
+  }
   img{
-    margin: $spacing-loosest*2 0 0;
+    //margin: $spacing-loosest*2 0 0;
     max-width: 200px;
   }
 
@@ -111,7 +124,6 @@
     width: 33.3%;
   }
   .feature {
-    margin: $spacing-loosest 0 $spacing;
 
     img{
       max-width:100%;
@@ -137,24 +149,16 @@
 
     h1 {
       @include remSize(64px);
-      margin-top: $spacing-loosest*2;
+      margin-top: $spacing-loosest*2.8;
     }
 
-    header button{
+    .more button{
       margin: $spacing-loosest auto;
     }
   }
 
   .customer-types {
-    .flex {
 
-      .content {
-        padding: $spacing-loosest;
-      }
-      span{
-        //width: 200px;
-      }
-    }
     img {
       margin: auto;
     }
@@ -174,6 +178,15 @@
         display: inline;
         margin: $spacing;
       }
+    }
+  }
+  .customer-types {
+    .feature {
+      margin: $spacing-loosest 0 $spacing;
+    }
+
+    .content {
+      padding: $spacing-loosest;
     }
   }
 }

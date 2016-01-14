@@ -1,18 +1,24 @@
 var body =                  $("body"),
-    site_header =           $("#header"),
-    btn_booker =            $("#btn_booker"),
-    btn_traveler =          $("#btn_traveler"),
-    btn_manager =           $("#btn_manager"),
-    btn_demo_request =      $("#btn-request"),
-    btn_demo_submit =       $("#request-demo-submit"),
-    btn_close =             $("#close"),
-    btn_more =              $("#more"),
-    slide_wrapper =         $("#slide_wrapper"),
-    overlay =               $("#overlay");
+  site_header =           $("#header"),
+// Buttons
+  btn_booker =            $("#btn_booker"),
+  btn_traveler =          $("#btn_traveler"),
+  btn_manager =           $("#btn_manager"),
+  btn_demo_request =      $("#btn-request"),
+  btn_demo_submit =       $("#request-demo-submit"),
+  btn_sign_up =           $("#btn-sign-up"),
+  btn_close =             $("#close"),
+  btn_more =              $("#more"),
+  slide_wrapper =         $("#slide_wrapper"),
+//Overlay stuff
+  sign_up =               $("#sign-up-overlay"),
+  request_demo =          $("#request-demo-overlay"),
+  overlay_content =       $(".overlay-content"),
+  overlay =               $("#overlay");
 
-$("#more").click(function() {
+btn_more.click(function() {
   $('html, body').animate({
-    scrollTop: $("#customer_types").offset().top-92
+    scrollTop: $("#customer_types").offset().top-72
   }, 1000);
 });
 
@@ -48,18 +54,26 @@ btn_manager.click(function () {
 
 // OVERLAY
 
+btn_sign_up.on( 'click', function () {
+    showPopup( sign_up );
+});
+
 btn_demo_request.on( 'click', function () {
-    showPopup();
-  }
-);
+  showPopup( request_demo );
+});
 
 btn_close.click(closePopUp);
 
 function showPopup ( whichPopup ) {
+  body.addClass("no-scroll");
+  overlay_content.addClass("hide");
   overlay.fadeIn("fast");
+  whichPopup.removeClass("hide");
 }
 
 function closePopUp(e) {
+  body.removeClass("no-scroll");
+  overlay_content.addClass("hide");
   e.preventDefault();
   overlay.fadeOut("fast");
 }
@@ -71,6 +85,5 @@ var tracking_array = [ btn_booker, btn_traveler, btn_manager, btn_more, btn_demo
 $.each( tracking_array, function ( i, val ) {
   val.click(function () {
     ga('send', 'event', 'Category', 'Action', btn_more.html());
-    console.log(val.text());
   });
 });

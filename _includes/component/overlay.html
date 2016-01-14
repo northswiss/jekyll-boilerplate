@@ -1,4 +1,9 @@
 <div id="overlay" class="overlay">
   <button id="close" class="icon-close"></button>
-  {% include component/request-demo.html %}
+  <div id="request-demo-overlay" class="overlay-content hide">
+    {% include component/request-demo.html %}
+  </div>
+  <div id="sign-up-overlay" class="overlay-content hide">
+    {% include component/sign-up-form.html %}
+  </div>
 </div>

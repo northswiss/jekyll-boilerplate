@@ -49,16 +49,7 @@
 // F
 .flex{
   @include clearfix();
-  //@include flexbox();
-  //display: flexbox;
-  //display: flex;
-  //flex-wrap: wrap;
-  //justify-content:space-between;
 
-  & > * {
-    box-sizing: border-box;
-    float: left;
-  }
   &.fixed >* {
     flex: 1 350px;
   }
@@ -68,30 +59,49 @@
   &.space-around {
     justify-content: space-around;
   }
+}
 
-  &.two {
+@include media-min($screenMedium) {
+  .flex {
 
     & > * {
-      width: 50%;
+      box-sizing: border-box;
+      float: left;
     }
-  }
-  &.three {
 
-    & > * {
-      width: 33.333%;
+    &.reverse > * {
+      float: right;
+    }
+    &.two {
+
+      & > * {
+        width: 50%;
+      }
+    }
+    &.three {
+
+      & > * {
+        width: 33.333%;
+      }
     }
   }
 }
 
 // G
 
-@mixin gradient-linear ($from: $white, $to: $black, $direction: top) {
+@mixin gradient-linear ($from: #11AECB, $to: #1782C3, $direction: top) {
   background: $from;
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from($from), to($to));
   background: -webkit-linear-gradient($direction, $from, $to);
   background: -moz-linear-gradient($direction, $from, $to);
   background: -ms-linear-gradient($direction, $from, $to);
   background: -o-linear-gradient($direction, $from, $to);
+}
+
+// H
+
+.hide {
+  display: none;
 }
 
 // I
@@ -106,6 +116,7 @@
   position: absolute;
   top: 0;
   right: 0;
+  width: 100%;
 }
 
 // L
@@ -122,11 +133,17 @@
   color: $white;
 }
 
-
+// N
+.no-scroll {
+  overflow: hidden;
+}
 
 // S
 .serif{
   font-family: serif;
+}
+.show {
+  display: block !important;
 }
 .small{
   @include remSize(12px);

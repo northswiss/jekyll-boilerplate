@@ -29,7 +29,30 @@
 }
 
 // A
-@mixin animate ($property: all, $time: .3s, $curve:ease-out){
+
+@mixin animate ($speed: normal){
+  @if ( $speed == normal ) {
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+  } @else if( $speed == fast ) {
+    -webkit-transition: all .1s ease-out;
+    -moz-transition: all .1s ease-out;
+    -ms-transition: all .1s ease-out;
+    -o-transition: all .1s ease-out;
+    transition: all .1s ease-out;
+  } @else if( $speed == slow ) {
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -ms-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+  }
+}
+
+@mixin animate-custom ($property: all, $time: .3s, $curve:ease-out){
   -webkit-transition: $property $time $curve;
   -moz-transition: $property $time $curve;
   -ms-transition: $property $time $curve;
@@ -64,7 +87,6 @@
   font-size: 1.2em;
   line-height: 1em;
   margin: $spacing auto;
-  min-width: 140px;
   padding: $spacing-tight;
 
   @if $outline{

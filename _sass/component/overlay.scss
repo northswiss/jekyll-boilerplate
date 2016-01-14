@@ -21,6 +21,10 @@
   }
 }
 
+.sign-up-overlay {
+  //display: none;
+}
+
 @include media-min($screenMedium) {
   .overlay {
 
