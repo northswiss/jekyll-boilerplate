@@ -2,9 +2,10 @@
 SIZES AND MEDIA QUERIES
 */
 
-$golden-rule:           1.61803399;
+$golden-rule:                 1.61803399;
 
-$radius:                4px;
+$default_radius:              4px;
+$radius:                      $default_radius;
 
 $screenSmall:                 480px;
 $screenMedium:                768px;

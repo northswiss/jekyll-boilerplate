@@ -62,9 +62,13 @@
 
 // B
 
-@mixin border-radius($position, $radius: $default_radius) {
+@mixin border-radius-custom($position, $radius: $default_radius) {
   border-#{$position}-radius: $radius;
   -webkit-border-#{$position}-radius: $radius;
+}
+@mixin border-radius($radius: $default_radius) {
+  border-radius: $radius;
+  -webkit-border-radius: $radius;
 }
 @mixin box-shadow($top: 0px, $left: 0px, $blur:.5em, $spread: .2em, $color: transparentize($cGray900, .8), $inset: false) {
   @if $inset {

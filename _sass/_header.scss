@@ -37,6 +37,14 @@
     top: 0;
   }
 }
+@include keyframes(slide-down-from-top) {
+  0% {
+    top: -68px;
+  }
+  100% {
+    top: 0;
+  }
+}
 
 .site-header {
   background-image: url("/imgs/pattern.png");
@@ -70,18 +78,31 @@
     }
   }
 }
-.home .banner {
-  background: $white;
-  background: transparentize($white, .4);
-  border-bottom: 1px solid $white;
+
+.home {
+  .logo-color {
+    display: none;
+  }
+  .banner {
+    a {
+      color: $white;
+    }
+  }
 }
 .banner {
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%;
 }
 .fixed-header {
+  .logo-color {
+    display: block;
+  }
+  .logo-white {
+    display: none;
+  }
   .banner {
+    @include animation('slide-down-from-top .5s');
     background: $white;
     background: transparentize($white, .1);
     border-color: $cBlue;
@@ -131,6 +152,10 @@
   }
 
   button {
+    @include border-radius(0);
+    background: transparent;
+    border: 0;
+    border-left: 1px solid $white;
     font-size: 1em;
     margin: 0;
   }
