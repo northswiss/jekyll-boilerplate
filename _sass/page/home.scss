@@ -47,8 +47,13 @@
 
 // DYNAMIC BUDGET
 .budget-img-wrapper {
-  @include gradient-linear();
+  background: #272C39;
   padding: $spacing-loosest $spacing;
+
+  h3{
+    color: $white;
+    text-align: center;
+  }
 }
 .dynamic-budget {
   display: block;
