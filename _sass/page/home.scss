@@ -108,7 +108,7 @@
 
       span{
         @include remSize(48px);
-        color: $cDark;
+        color: $c-dark;
         display: block;
         margin-top:$spacing;
       }
@@ -116,7 +116,7 @@
       &.active {
 
         span{
-          color: $cBlue;
+          color: $c-blue;
         }
       }
     }
@@ -195,7 +195,7 @@
 
   .intro {
     @include remSize(32px);
-    border-bottom: 1px solid $cGray400;
+    border-bottom: 1px solid $c-gray400;
     margin-bottom:$spacing-loosest;
     padding: $spacing-loosest 0;
   }

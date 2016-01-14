@@ -48,7 +48,7 @@
 
 .site-header {
   background-image: url("/imgs/pattern.png");
-  border-bottom: 6px solid $cDark;
+  //border-bottom: 4px solid $c-gray400;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -65,7 +65,7 @@
   }
   h2{
     @include animation('fade-in-from-bottom-delayed 2s');
-    color: darken($cBlue, 10%);
+    color: darken($c-blue, 10%);
   }
 
   .more {
@@ -110,14 +110,14 @@
     @include animation('slide-down-from-top .5s');
     background: $white;
     background: transparentize($white, .1);
-    border: 1px solid $cDark;
+    border: 1px solid $c-gray400;
 
     a,
     button {
       color: $color-link;
     }
     button {
-      border-color: $cBlue;
+      border-color: $c-blue;
     }
   }
   .logo {
@@ -170,6 +170,7 @@
     border: 0;
     border-left: 1px solid $white;
     font-size: 1em;
+    font-weight: 500;
     margin: 0;
   }
 
@@ -192,7 +193,7 @@
   }
 }
 .current a{ // current nav items
-  color: $cBlue;
+  color: $c-blue;
 }
 
 @include media-min($screenMedium){

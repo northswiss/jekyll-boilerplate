@@ -151,7 +151,7 @@ blockquote {
 
   &:before {
     @include remSize(124px);
-    color: transparentize($cDark, .8);
+    color: transparentize($c-dark, .8);
     content: "“";
     font-family: "Georgia", "Baskerville", serif;
     position: absolute;
@@ -165,7 +165,7 @@ blockquote {
 
     &:before {
       @include remSize(124px);
-      color: transparentize($cDark, 0);
+      color: transparentize($c-dark, 0);
       content: "“";
       font-family: "Georgia", "Baskerville", serif;
       position: absolute;
@@ -427,7 +427,7 @@ kbd {
 //--------------------------------
 label {
   @include remSize($fsCaption);
-  color: $cGray700;
+  color: $c-gray700;
   display: block;
   margin: spacing 0 spacing-tight;
   text-transform: uppercase;
@@ -496,7 +496,7 @@ section {
 
 }
 ::selection {
-  background: $cOrange;
+  background: $c-orange-50;
   text-shadow: none;
 }
 select {

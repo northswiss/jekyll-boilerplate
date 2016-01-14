@@ -18,7 +18,7 @@ var body =                  $("body"),
 
 btn_more.click(function() {
   $('html, body').animate({
-    scrollTop: $("#customer_types").offset().top-72
+    scrollTop: $("#customer_types").offset().top-68
   }, 1000);
 });
 
