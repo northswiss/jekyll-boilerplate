@@ -10,7 +10,13 @@
   }
 
   h1{
+    @include remSize($fsSubtitle);
+    color: $white;
     margin-top: $spacing-loose;
+  }
+  h1,
+  h2 {
+    font-weight: 100;
   }
 
   .site-header {
@@ -18,31 +24,43 @@
     //background-image: url("/imgs/hero-background.jpg");
     //background-position: center center;
     //background-size: cover;
+
+    h2 {
+      color: $white;
+      color: transparentize($white, .2);
+      margin-bottom: 0;
+    }
   }
   .wrapper.fill-screen {
     padding: $spacing-loosest 0;
   }
   .more {
     text-align: center;
+  }
+  .find-out-more {
+    background: transparent;
+    border: none;
+    display: block;
 
-      span{
-        //color: $white;
-        display: block;
-        margin: -16px;
-      }
+    span {
+      display: block;
     }
 
-  .intro {
-    @include remSize(16px);
-    line-height: 1.6em;
-    margin: 0 auto;
-    max-width: 960px;
-    text-align: center;
+    &:hover {
+      span {
+        @include animate();
+        margin-top: $spacing-tighter;
+      }
+    }
   }
 }
 
-.btn.demo-request {
-  color: $cDark;
+.intro {
+  @include remSize(16px);
+  line-height: 1.6em;
+  margin: 0 auto;
+  max-width: 960px;
+  text-align: center;
 }
 
 // DYNAMIC BUDGET
@@ -152,9 +170,12 @@
 
   .home {
 
-    h1 {
-      @include remSize(64px);
-      margin-top: $spacing-loosest*2.8;
+    h1{
+      margin-top: $spacing-loosest*3.8;
+    }
+    h1,
+    h2 {
+      @include remSize($fsDisplay3);
     }
 
     .more button{
@@ -173,17 +194,10 @@
 @include media-min($screenLarge){
 
   .intro {
-    @include remSize(22px);
-  }
-  .home {
-
-    .more {
-
-      span {
-        display: inline;
-        margin: $spacing;
-      }
-    }
+    @include remSize(32px);
+    border-bottom: 1px solid $cGray400;
+    margin-bottom:$spacing-loosest;
+    padding: $spacing-loosest 0;
   }
   .customer-types {
     .feature {
