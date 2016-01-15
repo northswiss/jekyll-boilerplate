@@ -16,9 +16,9 @@ All Z-indexes should be managed here
 // 2
 
 // 3
+.banner { @include z-index( 3, absolute )}
+.fixed-header .banner { @include z-index(3, fixed) }
 
 // 4 - HIGHEST
-
-.fixed-header .banner { @include z-index(4, fixed) }
 .overlay { @include z-index(4, fixed) }
 .icon-close { @include z-index(4, absolute) }
