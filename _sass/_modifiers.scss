@@ -47,6 +47,9 @@
 }
 
 // F
+.fill-screen{
+  height: 100%;
+}
 .flex{
   @include clearfix();
 
@@ -184,9 +187,6 @@
 @include media-min($screenMedium){
 
   // F
-  .fill-screen{
-    height: 100%;
-  }
   .flex {
 
     &.padded >* {

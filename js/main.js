@@ -24,7 +24,7 @@ btn_more.click(function() {
 
 // BANNER ON SCROLL
 $(window).scroll(function () {
-  if( $(this).scrollTop() > site_header.offset().top+400) {
+  if( $(this).scrollTop() > site_header.offset().top+295) {
     site_header.addClass("fixed-header");
   } else {
     site_header.removeClass("fixed-header");
