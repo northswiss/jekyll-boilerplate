@@ -4,6 +4,7 @@
     background-image: url("/imgs/hero-background.jpg");
     background-position: center center;
     background-size: cover;
+    height: 100%;
     position: fixed;
     width: 100%;
     z-index: -1;
@@ -16,26 +17,25 @@
   }
   h1,
   h2 {
-    font-weight: 100;
+    font-weight: 500;
   }
 
   .site-header {
     background: transparent;
-    //background-image: url("/imgs/hero-background.jpg");
-    //background-position: center center;
-    //background-size: cover;
+    position: relative;
 
     h2 {
       color: $white;
       color: transparentize($white, .2);
       margin-bottom: 0;
     }
+    button {
+      display: block;
+      margin: $spacing auto;
+    }
   }
   .wrapper.fill-screen {
     padding: $spacing-loosest 0;
-  }
-  .more {
-    text-align: center;
   }
   .find-out-more {
     background: transparent;
@@ -54,7 +54,16 @@
     }
   }
 }
-
+.find-out-more,
+.hero-demo-request {
+  @include animation('fade-in 2s');
+}
+.more {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
 .intro {
   @include remSize(16px);
   line-height: 1.6em;
@@ -165,21 +174,22 @@
 
 
 // BREAK POINTS
-
+@include media-max($screenMedium) {
+  .home .site-header {
+    padding-bottom: 100px;
+  }
+}
 @include media-min($screenMedium) {
 
   .home {
 
     h1{
-      margin-top: $spacing-loosest*3.8;
+      margin-top: $spacing-loosest*3.2;
     }
     h1,
     h2 {
-      @include remSize($fsDisplay3);
-    }
-
-    .more button{
-      margin: $spacing-loosest auto;
+      @include remSize($fsDisplay2);
+      font-weight: 100;
     }
   }
 
@@ -206,6 +216,16 @@
 
     .content {
       padding: $spacing-loosest;
+    }
+  }
+}
+
+@include media-min( $screenLarger ) {
+  .home {
+
+    h1,
+    h2 {
+      @include remSize($fsDisplay3);
     }
   }
 }

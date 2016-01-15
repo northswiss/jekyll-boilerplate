@@ -9,6 +9,7 @@
   "_colors-core",
   "_sass-definitions",
   "_mixins",
+  "_animations",
   "_html-elements",
   "_modifiers",
   "_syntax-highlighting",
@@ -35,8 +36,5 @@
 
   section {
     padding: $spacing-loosest 0;
-  }
-  h2{
-    margin-top: 1em;
   }
 }

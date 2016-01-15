@@ -1,22 +1,26 @@
-{% assign pages = site.pages | sort:"weight"  %}
-<ul>
-  {% for p in pages %}
-  {% if p.nav == "main" %}
-  <li {% if p.url == page.url %}class="current"{% endif %}>
-    <a href="{{ p.url }}" class="{{ p.nav-class }}">
-      {% if p.nav-title %}
-        {{ p.nav-title }}
-      {% else %}
-        {{ p.title }}
-      {% endif %}
-    </a>
-  </li>
-  {% endif %}
-  {% endfor %}
-  <li>
-    <a href="http://beta.travelperk.com">Log in</a>
-  </li>
-  <li>
-    <button id="btn-sign-up">Sign up</button>
-  </li>
-</ul>
+<nav class="site-nav">
+  <!-- To add pages to the main nav, add nav: main to the YAML Front Matter -->
+  <a href="#" class="menu">Menu</a>
+  {% assign pages = site.pages | sort:"weight"  %}
+  <ul>
+    {% for p in pages %}
+    {% if p.nav == "main" %}
+    <li {% if p.url == page.url %}class="current"{% endif %}>
+      <a href="{{ p.url }}" class="{{ p.nav-class }}">
+        {% if p.nav-title %}
+          {{ p.nav-title }}
+        {% else %}
+          {{ p.title }}
+        {% endif %}
+      </a>
+    </li>
+    {% endif %}
+    {% endfor %}
+    <li>
+      <a href="http://beta.travelperk.com">Log in</a>
+    </li>
+    <li>
+      <button id="btn-sign-up">Sign up</button>
+    </li>
+  </ul>
+</nav>

@@ -67,9 +67,9 @@ btn_close.click(closePopUp);
 
 function showPopup ( whichPopup ) {
   body.addClass("no-scroll");
-  overlay_content.addClass("hide");
+  overlay_content.removeClass("show");
   overlay.fadeIn("fast");
-  whichPopup.removeClass("hide");
+  whichPopup.addClass("show");
 }
 
 function closePopUp(e) {

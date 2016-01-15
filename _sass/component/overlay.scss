@@ -19,10 +19,13 @@
   .request-demo {
     background: transparent;
   }
+  .show .card {
+    @include animation('fade-in-from-bottom-delayed .5s');
+  }
 }
 
-.sign-up-overlay {
-  //display: none;
+.overlay-content {
+  display: none;
 }
 
 @include media-min($screenMedium) {

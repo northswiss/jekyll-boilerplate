@@ -14,11 +14,8 @@
       <img class="logo-color" src="/imgs/brand/travelperk-logo.svg" alt="{{ site.title }}">
     </a>
 
-    <nav class="site-nav">
-      <!-- To add pages to the main nav, add nav: main to the YAML Front Matter -->
-      <!--<a href="#" class="menu">Menu</a>-->
-      {% include core/nav-main.html %}
-    </nav>
+    {% include core/nav-main.html %}
+
   </div>
 
   <div class="wrapper">
@@ -28,14 +25,15 @@
     {% endif %}
 
     {% if page.id == "home" %}
-
-    <div class="more">
-      <button id="btn-request">Request a demo</button>
-      <button id="more" class="find-out-more">Find out more<span class="icon-expand_more"></span></button>
-    </div>
-
+      <button id="btn-request" class="hero-demo-request">Request a demo</button>
     {% endif %}
 
   </div>
+
+  {% if page.id == "home" %}
+  <div class="more">
+    <button id="more" class="find-out-more">Find out more<span class="icon-expand_more"></span></button>
+  </div>
+  {% endif %}
 
 </header>
