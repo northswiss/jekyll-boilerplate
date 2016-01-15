@@ -1,6 +1,6 @@
 <nav class="site-nav">
   <!-- To add pages to the main nav, add nav: main to the YAML Front Matter -->
-  <a href="#" class="menu">Menu</a>
+  <button class="btn-menu">Menu</button>
   {% assign pages = site.pages | sort:"weight"  %}
   <ul>
     {% for p in pages %}
@@ -20,7 +20,7 @@
       <a href="http://beta.travelperk.com">Log in</a>
     </li>
     <li>
-      <button id="btn-sign-up">Sign up</button>
+      <button id="btn-sign-up" class="btn-sign-up">Sign up</button>
     </li>
   </ul>
 </nav>

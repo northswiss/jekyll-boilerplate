@@ -88,12 +88,12 @@
   margin: $spacing-tight $spacing;
 }
 
-.menu {
+.btn-menu {
   @include remSize($fsTitle);
 }
 
 .site-nav{
-  line-height: 48px;
+  //line-height: 48px;
   position: absolute;
   top: 0;
   right: $spacing;
@@ -129,8 +129,8 @@
   &:hover{
     z-index: 10;
 
-    .menu{
-      color: $c-gray900;
+    .btn-menu{
+      color: $c-gray700;
       cursor: default;
     }
 
@@ -149,11 +149,41 @@
   .logo {
     width: 160px;
   }
+  .fixed-header .site-nav {
+    top: $spacing-tighter;
+
+    a {
+      margin-top: 0;
+    }
+  }
   .site-nav {
-    background: transparentize( $c-dark, .1 );
+    border: 1px solid $white;
     right: 0;
     top: $spacing-tighter;
 
+    &:hover {
+      @include box-shadow();
+      background: transparentize( $white, .1 );
+
+      a{
+        color: $color-link;
+      }
+    }
+
+    button {
+      line-height: inherit;
+      padding: $spacing-tight;
+    }
+    .btn-menu {
+      border: none;
+      color: $white;
+      font-size: $fsTitle;
+      font-weight: 300;
+      margin:0 !important;
+      padding: $spacing-tighter;
+      text-align: right;
+      width: 100%;
+    }
     ul {
       width: 200px;
     }
@@ -161,15 +191,19 @@
     li {
       text-align: center;
     }
-    a {
+    a,
+    button {
+      color: $color-link;
+      font-size: $fsTitle;
       margin: 0;
       padding: $spacing-tight;
     }
-    button {
+    .btn-sign-up {
       border-left: 0;
       border-top: 1px solid $white;
-      line-height: inherit;
+      font-size: $fsTitle;
       margin-bottom: 0 !important;
+      padding: $spacing-tight !important;
       width: 100%;
     }
   }
@@ -177,8 +211,8 @@
 @include media-min($screenMedium){
   .site-nav {
 
-    .menu{ // Don't need menu button on larger devices
-      display: none;
+    .btn-menu{ // Don't need menu button on larger devices
+      display: none !important;
     }
     ul{
       display: block;

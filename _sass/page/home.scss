@@ -69,6 +69,7 @@
   line-height: 1.6em;
   margin: 0 auto;
   max-width: 960px;
+  padding: $spacing-loosest 0;
   text-align: center;
 }
 
@@ -207,7 +208,6 @@
     @include remSize(32px);
     border-bottom: 1px solid $c-gray400;
     margin-bottom:$spacing-loosest;
-    padding: $spacing-loosest 0;
   }
   .customer-types {
     .feature {
