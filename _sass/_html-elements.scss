@@ -195,7 +195,8 @@ button{
     background: transparent;
     border: 0;
 
-    &:hover {
+    &:hover,
+    &:focus {
       transform: scale(1,1);
     }
   }
@@ -329,7 +330,6 @@ h6 {
   h1 {
     @include remSize($fsDisplay2);
   }
-
   h2 {
     @include remSize($fsHeadline)
   }
@@ -371,7 +371,7 @@ ins {
 }
 input {
   background: $white;
-  border: 1px solid $gray;
+  border: 1px solid $c-gray800;
   color: $gray;
   line-height: normal;
   margin-bottom: $spacing-tight;
@@ -388,12 +388,6 @@ input {
   &::-moz-focus-inner{
     border: 0;
     padding: 0;
-  }
-  &::-webkit-input-placeholder,
-  &:-moz-placeholder,
-  &::-moz-placeholder,
-  &:-ms-input-placeholder{
-    color: $gray-lighter;
   }
 
   // INPUT TYPES
@@ -412,9 +406,11 @@ input {
   &[type="password"] {
     max-width: 90%;
 
-    &:hover,
+    &:hover {
+      border-color: $c-gray600;
+    }
     &:focus {
-
+      border-color: $color-link;
     }
   }
   &[type="search"] {
