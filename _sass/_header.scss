@@ -57,7 +57,7 @@
 
     a,
     button {
-      color: $color-link;
+      color: $color-link !important;
     }
     button {
       border-color: $c-blue;
@@ -115,6 +115,7 @@
     background: transparent;
     border: 0;
     border-left: 1px solid $white;
+    color: $color-link;
     font-size: 1em;
     font-weight: 500;
     margin: 0;
