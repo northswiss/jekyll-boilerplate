@@ -95,6 +95,24 @@
         width: 33.333%;
       }
     }
+    &.four {
+
+      & > * {
+        width: 50%;
+      }
+    }
+  }
+}
+
+@include media-min($screenLarge) {
+  .flex {
+
+    &.four {
+
+      & > * {
+        width: 25%;
+      }
+    }
   }
 }
 

@@ -6,7 +6,8 @@ var body =                  $("body"),
   btn_manager =           $("#btn_manager"),
   btn_demo_request =      $("#btn-request"),
   btn_demo_submit =       $("#request-demo-submit"),
-  btn_sign_up =           $("#btn-sign-up"),
+  btn_sign_up_nav =       $("#btn-sign-up-nav"),
+  btn_sign_up_hero =      $("#btn-sign-up-hero"),
   btn_close =             $("#close"),
   btn_more =              $("#more"),
   slide_wrapper =         $("#slide_wrapper"),
@@ -55,7 +56,10 @@ btn_manager.click(function () {
 
 // OVERLAY
 
-btn_sign_up.on( 'click', function () {
+btn_sign_up_nav.on( 'click', function () {
+  showPopup( sign_up );
+});
+btn_sign_up_hero.on( 'click', function () {
     showPopup( sign_up );
 });
 
@@ -63,7 +67,11 @@ btn_demo_request.on( 'click', function () {
   showPopup( request_demo );
 });
 
+overlay_content.click(function (e) {
+  e.stopPropagation();
+});
 btn_close.click(closePopUp);
+overlay.click(closePopUp);
 
 function showPopup ( whichPopup ) {
   body.addClass("no-scroll");
@@ -73,9 +81,9 @@ function showPopup ( whichPopup ) {
 }
 
 function closePopUp(e) {
+  e.preventDefault();
   body.removeClass("no-scroll");
   overlay_content.addClass("hide");
-  e.preventDefault();
   overlay.fadeOut("fast");
 }
 
@@ -83,7 +91,7 @@ function closePopUp(e) {
 // GA TRACKING =========================
 
 // BUTTONS
-var tracking_array = [ btn_more, btn_demo_request, btn_demo_submit, btn_sign_up ];
+var tracking_array = [ btn_more, btn_demo_request, btn_demo_submit, btn_sign_up_nav, btn_sign_up_hero ];
 
 $.each( tracking_array, function ( i, val ) {
   val.click(function () {

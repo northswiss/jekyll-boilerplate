@@ -26,6 +26,11 @@
     font-weight: 300;
   }
 }
+.exec {
+  a {
+    background: $c-blue300;
+  }
+}
 
 @include media-min($screenMedium) {
   .team {

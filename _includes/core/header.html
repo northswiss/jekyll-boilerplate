@@ -25,7 +25,13 @@
     {% endif %}
 
     {% if page.id == "home" %}
-      <button id="btn-request" class="hero-demo-request">Request a demo</button>
+      <div class="hero-buttons">
+        <div class="flex">
+          <button id="btn-request" class="hero-demo-request">Request a demo</button>
+          <span>or</span>
+          <button id="btn-sign-up-hero" class="btn hero-signup">Start trial</button>
+        </div>
+      </div>
     {% endif %}
 
   </div>

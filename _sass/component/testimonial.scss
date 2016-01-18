@@ -5,6 +5,15 @@
   ul{
     max-width: 100%;
   }
+
+  h3{
+
+    small {
+      color: $c-gray600;
+      display: block;
+      font-weight: 300;
+    }
+  }
 }
 .testimonial-logo {
   display: block;

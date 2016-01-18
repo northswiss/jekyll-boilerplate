@@ -17,13 +17,25 @@ id: about
 
 <section class="team">
   <h2>The TravelPerk team</h2>
-  <div class="clearfix">
-    {% for person in site.data.team %}
-      <a target="_blank" class="team-member" href="{{ person.linkedin }}">
-        <img src="/imgs/team/{{ person.image }}" alt="{{ person.name }}"/>
-        <h3>{{ person.name }}</h3>
-        <h4>{{ person.role }}</h4>
-      </a>
+
+  <div class="clearfix exec">
+    {% for person in site.data.team.exec %}
+          <a target="_blank" class="team-member" href="{{ person.linkedin }}">
+            <img src="/imgs/team/{{ person.image }}" alt="{{ person.name }}"/>
+            <h3>{{ person.name }}</h3>
+            <h4>{{ person.role }}</h4>
+          </a>
     {% endfor %}
   </div>
+
+  <div class="clearfix">
+  {% for person in site.data.team.non-exec %}
+    <a target="_blank" class="team-member" href="{{ person.linkedin }}">
+      <img src="/imgs/team/{{ person.image }}" alt="{{ person.name }}"/>
+      <h3>{{ person.name }}</h3>
+      <h4>{{ person.role }}</h4>
+    </a>
+  {% endfor %}
+  </div>
+
 </section>

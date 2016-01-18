@@ -31,7 +31,6 @@
     }
     .hero-demo-request {
       display: block;
-      margin: $spacing auto;
     }
   }
   .wrapper.fill-screen {
@@ -57,6 +56,24 @@
 .find-out-more,
 .hero-demo-request {
   @include animation('fade-in 2s');
+}
+.hero-buttons {
+  margin-top: $spacing-looser;
+  text-align: center;
+
+  button {
+    margin: $spacing-tighter auto;
+  }
+  span {
+    color: $white;
+    display: none;
+    padding: $spacing-loose $spacing-tight;
+  }
+  .flex{
+    margin:auto;
+    max-width: 340px;
+  }
+
 }
 .more {
   position: absolute;
@@ -170,7 +187,17 @@
   text-align: center;
 
   img {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
     margin: $spacing-tight;
+  }
+
+  &:hover {
+
+    img {
+      -webkit-filter: grayscale(0);
+      filter: grayscale(0);
+    }
   }
 }
 
@@ -195,6 +222,15 @@
     }
   }
 
+  .hero-buttons {
+
+    button {
+      margin: $spacing 0;
+    }
+    span {
+      display: inline-block;
+    }
+  }
   .customer-types {
 
     .feature {
@@ -218,6 +254,10 @@
     .feature {
       margin: $spacing-loosest 0 $spacing-loosest;
       padding: $spacing-loosest 0;
+
+      h3 {
+        @include remSize($fsHeadline);
+      }
     }
 
     .content {
