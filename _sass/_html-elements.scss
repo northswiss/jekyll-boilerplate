@@ -81,6 +81,15 @@ ul {
   @include remSize(14px);
 }
 
+main {
+  p,
+  ul,
+  ol{
+    margin: 0 auto $spacing-loose;
+    max-width: 50em;
+  }
+}
+
 @include media-min($screenMedium) {
   blockquote,
   body,
@@ -107,12 +116,8 @@ a{
   color: $color-link;
   text-decoration: none;
 
-  &:visited{
-    color: $color-link;
-    //color: $color-visited;
-  }
   &:hover{
-    color: $color-hover;
+    color: $color-hover !important;
     outline: 0;
   }
   &:active{
@@ -186,11 +191,18 @@ button{
   @include btn();
   overflow: visible;
 
+  &.clear {
+    background: transparent;
+    border: 0;
+
+    &:hover {
+      transform: scale(1,1);
+    }
+  }
   &::-moz-focus-inner{
     border: 0;
     padding: 0;
   }
-
 
   &[type="submit"] {
     display: block;
@@ -288,6 +300,12 @@ h2 {
   @include remSize($fsSubtitle);
   font-weight: 300;
   text-align: center;
+
+  small{
+    clear: both;
+    display: block;
+    font-size: .4em;
+  }
 }
 
 h3 {
@@ -475,7 +493,7 @@ optgroup {
 // P
 //--------------------------------
 p {
-  margin-bottom: $spacing-loose;
+
 }
 pre {
   overflow: auto;

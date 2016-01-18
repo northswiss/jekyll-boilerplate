@@ -82,7 +82,7 @@
   }
 }
 
-@mixin btn($btn_bg: $c-blue, $btn_border: $color-link, $outline: true, $ghost: false){
+@mixin btn($btn_bg: $color-link, $btn_border: $color-link, $outline: true, $ghost: false){
   background: $btn_bg;
   border: 1px solid $btn_border;
   border-radius: $radius;
@@ -103,7 +103,10 @@
   }
 
   &:hover{
+    background: $color-hover;
+    border-color: $color-hover;
     cursor: pointer;
+    transform:scale(.98,.98);
   }
 }
 

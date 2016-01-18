@@ -4,7 +4,7 @@
   {% assign pages = site.pages | sort:"weight"  %}
   <ul>
     {% for p in pages %}
-    {% if p.nav == "main" %}
+    {% if p.nav-header == true %}
     <li {% if p.url == page.url %}class="current"{% endif %}>
       <a href="{{ p.url }}" class="{{ p.nav-class }}">
         {% if p.nav-title %}

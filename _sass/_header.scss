@@ -140,7 +140,7 @@
   }
 }
 .current a{ // current nav items
-  color: $c-blue;
+  color: $c-blue700 !important;
 }
 
 @include media-max( 340px ) {

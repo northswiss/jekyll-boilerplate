@@ -29,7 +29,7 @@
       color: transparentize($white, .2);
       margin-bottom: 0;
     }
-    button {
+    .hero-demo-request {
       display: block;
       margin: $spacing auto;
     }
@@ -66,6 +66,7 @@
 }
 .intro {
   @include remSize(16px);
+  color: $c-emerald;
   line-height: 1.6em;
   margin: 0 auto;
   max-width: 960px;
@@ -78,7 +79,8 @@
   background: #272C39;
   padding: $spacing-loosest $spacing;
 
-  h3{
+  h3,
+  p {
     color: $white;
     text-align: center;
   }
@@ -105,7 +107,7 @@
   }
 }
 .customer-types{
-  background: #eeeeee;
+  background: #FAFAFA;
   overflow-x: hidden;
 
   nav {
@@ -143,7 +145,6 @@
     padding: $spacing-tight;
   }
   img{
-    //margin: $spacing-loosest*2 0 0;
     max-width: 200px;
   }
 
@@ -164,13 +165,13 @@
   }
 }
 
-.product-shot {
-  @include box-shadow();
-}
-
 // PUBLICITY
 .publicity {
   text-align: center;
+
+  img {
+    margin: $spacing-tight;
+  }
 }
 
 
@@ -196,6 +197,10 @@
 
   .customer-types {
 
+    .feature {
+      margin: $spacing-loose 0 $spacing-loose;
+      padding: $spacing-loose 0;
+    }
     img {
       margin: auto;
     }
@@ -211,7 +216,8 @@
   }
   .customer-types {
     .feature {
-      margin: $spacing-loosest 0 $spacing;
+      margin: $spacing-loosest 0 $spacing-loosest;
+      padding: $spacing-loosest 0;
     }
 
     .content {

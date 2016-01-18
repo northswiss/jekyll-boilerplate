@@ -1,13 +1,17 @@
 /* About.scss */
 
-.about {
+.team {
 
-  .flex {
-    align-items: baseline;
-    justify-content: space-around;
+  a {
+    box-sizing: border-box;
+    display: block;
+    padding:$spacing-loose 0;
+
+    &:hover {
+      background: $c-pale;
+    }
   }
 }
-
 .team-member {
   color: $c-dark;
   text-align: center;
@@ -20,5 +24,26 @@
   h4 {
     color: $c-gray600;
     font-weight: 300;
+  }
+}
+
+@include media-min($screenMedium) {
+  .team {
+
+    a {
+      border: 1px solid $c-gray300;
+      min-height:410px;
+      float: left;
+      width: 50%;
+      &:nth-child(1n) {
+        border-top: 0;
+        border-left: 0;
+      }
+
+      &:nth-child(2n) {
+        border-top: 0;
+        border-left: 0;
+      }
+    }
   }
 }

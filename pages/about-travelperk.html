@@ -1,25 +1,25 @@
 ---
 permalink: /about-travelperk/
-title: Our Story
-subtitle: Why we built the product, and the team behind it!
-nav: footer
+title: The TravelPerk story
+nav-header: true
 nav-title: About TravelPerk
 id: about
 ---
 
 <section class="story">
   <div class="wrapper">
-    <h2>The TravelPerk Story</h2>
-    <p>How it started etc...Progress so far</p>
-    <p>TravelPerk, Inc. is a US corporation with operations in Barcelona, Spain. The company is co-founded by a team of entrepreneurial executives with deep market expertise, including leadership-level experience, at one of the most successful players in the online travel industry.</p>
+    <p class="intro">We are setting out to reinvent the way that companies book and manage business travel.</p>
+    <p>The TravelPerk application is tool created for travelers, by travelers. With more than half of our team made up of travel industry veterans, with some coming from the likes of Booking.com and Skyscanner, you could say that we know what the travel booking experience should look like.</p>
+    <p>In 2015, the co-founders were troubled by leisure travelers having a myriad of online tools and apps to help them plan and coordinate their trips, while business travelers were stuck using outdated and overly complicated tools.</p>
+    <p>Our focus is to make business travel booking and management suck less, and we aim to do this by providing a best-in-class experience whilst continuing to adapt and develop for the needs of the industry and our clients. We will do this by continuing to build a great team and by merging the latest technologies with the best experiences.</p>
   </div>
 </section>
 
 <section class="team">
   <h2>The TravelPerk team</h2>
-  <div class="flex padded">
+  <div class="clearfix">
     {% for person in site.data.team %}
-      <a class="team-member" href="{{ person.linkedin }}">
+      <a target="_blank" class="team-member" href="{{ person.linkedin }}">
         <img src="/imgs/team/{{ person.image }}" alt="{{ person.name }}"/>
         <h3>{{ person.name }}</h3>
         <h4>{{ person.role }}</h4>

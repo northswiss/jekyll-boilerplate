@@ -80,11 +80,14 @@ function closePopUp(e) {
 }
 
 
-// GA TRACKING
-var tracking_array = [ btn_booker, btn_traveler, btn_manager, btn_more, btn_demo_request, btn_demo_submit ];
+// GA TRACKING =========================
+
+// BUTTONS
+var tracking_array = [ btn_more, btn_demo_request, btn_demo_submit, btn_sign_up ];
 
 $.each( tracking_array, function ( i, val ) {
   val.click(function () {
-    ga('send', 'event', 'Category', 'Action', btn_more.html());
+    ga('send', 'event', 'Category', 'Action', val.html());
+    console.log(val.html());
   });
 });

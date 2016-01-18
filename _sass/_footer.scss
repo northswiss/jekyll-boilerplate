@@ -2,19 +2,33 @@
 
 .site-footer {
   background: $c-dark;
-  padding: $spacing-loosest 0;
+  padding: $spacing-loosest 0 $spacing;
 
+  .clearfix {
+    text-align: center;
+  }
   h3{
     text-align: center;
     text-transform: uppercase;
   }
   .description {
     border-top: 1px dashed $white;
-    margin-top: $spacing-loosest;
     padding: $spacing 0;
   }
 
   * {
     color: $white !important;
+  }
+}
+
+@include media-min($screenMedium) {
+  .site-footer {
+    h3 {
+      float: right;
+      margin-top: $spacing-loose;
+    }
+  }
+  .social {
+    float: left;
   }
 }
