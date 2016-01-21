@@ -19,7 +19,7 @@ notifications:
 deploy:
   provider: s3
   access_key_id: $AMAZON_KEY_ID
-  bucket: www.travelperk.com
+  bucket: travelperk.com
   endpoint: www.travelperk.com.s3-website-eu-west-1.amazonaws.com
   region: eu-west-1
   acl: public_read
