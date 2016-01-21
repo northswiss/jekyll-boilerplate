@@ -283,3 +283,8 @@
   }
 }
 
+@media( max-height: 650px ) and ( min-width: $screenLarge ) {
+  .hero-buttons {
+    margin-top: 0;
+  }
+}
