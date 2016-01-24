@@ -2,7 +2,7 @@
 title: TravelPerk
 email: info@travelperk.com
 description: > # this means to ignore newlines until "baseurl:"
-  TravelPerk helps business travelers, bookers and managers to easily book and manage their travel all in one platform.
+  TravelPerk helps business travelers &amp; office managers book &amp; manage their business travel all in one tool, offering expense integration and travel budget reporting too.
 host: "startersite.dev"
 #baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
