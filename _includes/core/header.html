@@ -27,9 +27,9 @@
     {% if page.id == "home" %}
       <div class="hero-buttons">
         <div class="flex">
-          <button id="btn-request" class="hero-demo-request">Request a demo</button>
+          <button id="btn-request" class="hero-demo-request" data-ga-category="Hero buttons">Request a demo</button>
           <span>or</span>
-          <button id="btn-sign-up-hero" class="btn hero-signup">Start trial</button>
+          <button id="btn-sign-up-hero" class="btn hero-signup" data-ga-category="Hero buttons">Start trial</button>
         </div>
       </div>
     {% endif %}
@@ -38,7 +38,7 @@
 
   {% if page.id == "home" %}
   <div class="more">
-    <button id="more" class="find-out-more">Find out more<span class="icon-expand_more"></span></button>
+    <button id="more" class="find-out-more" data-ga-category="Hero buttons">Find out more<span class="icon-expand_more"></span></button>
   </div>
   {% endif %}
 

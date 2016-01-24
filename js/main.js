@@ -1,21 +1,23 @@
 var body =                  $("body"),
   site_header =           $("#header"),
+  slide_wrapper =         $("#slide_wrapper"),
 // Buttons
   btn_booker =            $("#btn_booker"),
-  btn_traveler =          $("#btn_traveler"),
-  btn_manager =           $("#btn_manager"),
+  btn_close =             $("#close"),
   btn_demo_request =      $("#btn-request"),
   btn_demo_submit =       $("#request-demo-submit"),
+  btn_login =             $("#btn-login"),
+  btn_manager =           $("#btn_manager"),
+  btn_menu =              $("#btn-menu"),
+  btn_more =              $("#more"),
   btn_sign_up_nav =       $("#btn-sign-up-nav"),
   btn_sign_up_hero =      $("#btn-sign-up-hero"),
-  btn_close =             $("#close"),
-  btn_more =              $("#more"),
-  slide_wrapper =         $("#slide_wrapper"),
+  btn_traveler =          $("#btn_traveler"),
 //Overlay stuff
-  sign_up =               $("#sign-up-overlay"),
-  request_demo =          $("#request-demo-overlay"),
   overlay_content =       $(".overlay-content"),
-  overlay =               $("#overlay");
+  overlay =               $("#overlay"),
+  sign_up =               $("#sign-up-overlay"),
+  request_demo =          $("#request-demo-overlay");
 
 btn_more.click(function() {
   $('html, body').animate({
@@ -91,11 +93,25 @@ function closePopUp(e) {
 // GA TRACKING =========================
 
 // BUTTONS
-var tracking_array = [ btn_more, btn_demo_request, btn_demo_submit, btn_sign_up_nav, btn_sign_up_hero ];
+var tracking_array = [ btn_close, btn_more, btn_demo_request, btn_demo_submit, btn_sign_up_nav, btn_sign_up_hero, btn_login, btn_menu ];
 
-$.each( tracking_array, function ( i, val ) {
-  val.click(function () {
-    ga('send', 'event', 'Category', 'Action', val.html());
-    console.log(val.html());
+$.each( tracking_array, function ( i, $button ) {
+  var getCategory = function() {
+    if( $button.attr("data-ga-category") == null ) {
+      category = "Button click";
+    } else {
+      category = $button.attr("data-ga-category");
+    }
+  };
+  var getLabel = function() {
+    if( val.attr("data-ga-label") == null ) {
+      label = $button.text();
+    } else {
+      label = $button.attr("data-ga-label");
+    }
+  };
+
+  $button.click(function () {
+    ga('send', 'event', category, 'Clicked', label );
   });
 });
