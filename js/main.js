@@ -1,4 +1,4 @@
-var body =                  $("body"),
+var body =                $("body"),
   site_header =           $("#header"),
   slide_wrapper =         $("#slide_wrapper"),
 // Buttons
