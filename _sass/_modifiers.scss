@@ -174,10 +174,17 @@
   color: $white;
 }
 
+// M
+.margin-vertical {
+  margin-top: $spacing-loosest;
+  margin-bottom: $spacing-loosest;
+}
+
 // N
 .no-scroll {
   overflow: hidden;
 }
+
 
 // S
 .serif{
