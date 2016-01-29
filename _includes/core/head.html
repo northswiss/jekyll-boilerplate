@@ -31,6 +31,10 @@
   <meta name="msapplication-config" content="/favicons/browserconfig.xml">
   <meta name="theme-color" content="#1396e4">
 
+  {% if page.id == 404 %}
+  <meta http-equiv="refresh" content="3;URL=http://travelperk.com">
+  {% endif %}
+
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://i.icomoon.io/public/c679f5ca28/PublicWebsite/style.css">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}?{{ site.time }}">
