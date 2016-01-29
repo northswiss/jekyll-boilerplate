@@ -2,6 +2,16 @@
 title: Blog
 subtitle: Thoughts from TravelPerk
 nav-footer: false
+permalink: /blog/
 ---
 
-<script async src="https://static.medium.com/embed.js"></script><a class="m-collection" href="https://medium.com/thoughts-from-travelperk">Thoughts from TravelPerk</a>
+<h3>Posts</h3>
+<ul>
+  {% for post in site.posts %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+
+<!--<script async src="https://static.medium.com/embed.js"></script><a class="m-collection" href="https://medium.com/thoughts-from-travelperk">Thoughts from TravelPerk</a>-->
