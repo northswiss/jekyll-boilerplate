@@ -14,7 +14,7 @@
   border-#{$position}-radius: $radius;
   -webkit-border-#{$position}-radius: $radius;
 }
-@mixin box-shadow($top: 0px, $left: 0px, $blur:.5em, $spread: .2em, $color: transparentize($gray-darker, .8), $inset: false) {
+@mixin box-shadow($top: 0px, $left: 0px, $blur:.5em, $spread: .2em, $color: transparentize($c-gray-darker, .8), $inset: false) {
   @if $inset {
     -webkit-box-shadow:inset $top $left $blur $spread $color;
     -moz-box-shadow:inset $top $left $blur $spread $color;
@@ -28,8 +28,8 @@
 
 .browserupgrade {
   margin: $spacing 0;
-  background: $color-state-warning;
-  color: $gray-dark;
+  background: $c-state-warning;
+  color: $c-gray-dark;
   padding: $spacing;
 }
 .btn{
@@ -48,7 +48,7 @@
 
 // G
 
-@mixin gradient-linear ($from: $white, $to: $black, $direction: top) {
+@mixin gradient-linear ($from: $c-white, $to: $c-black, $direction: top) {
   background: $from;
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from($from), to($to));
   background: -webkit-linear-gradient($direction, $from, $to);
@@ -59,7 +59,7 @@
 
 // L
 .current a{ // current nav items
-  color: $color-visited;
+  color: $c-visited;
 }
 .large{
   font-size: $font-large;
@@ -99,7 +99,7 @@
   position: relative;
 }
 
-@include media-min($medium){
+@include media-min($screen-medium){
 
   // H
   .hbox{

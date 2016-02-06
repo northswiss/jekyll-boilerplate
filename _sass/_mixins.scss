@@ -1,8 +1,10 @@
 /* MIXINS.SCSS */
 
+// A
+
 
 // B
-@mixin box-shadow($top: 1px, $left: 0, $blur: 3px, $color: $gray-lighter, $inset: false) {
+@mixin box-shadow($top: 1px, $left: 0, $blur: 3px, $color: $c-gray-lighter, $inset: false) {
   @if $inset {
     -webkit-box-shadow:inset $top $left $blur $color;
     -moz-box-shadow:inset $top $left $blur $color;
@@ -24,12 +26,12 @@
   padding: $spacing;
 
   @if $outline{
-    border: 1px solid $white;
+    border: 1px solid $c-white;
   }
 
   @if $ghost{
-    background: $white;
-    background: transparentize($white, .8);
+    background: $c-white;
+    background: transparentize($c-white, .8);
   }
 
   &:hover{
@@ -48,7 +50,7 @@
 }
 
 
-
+// M
 @mixin media-min($size) {
   @media screen and (min-width: $size) {
     @content;
@@ -60,3 +62,9 @@
   }
 }
 
+
+// R
+@mixin remSize($px) {
+  font-size: $px;
+  font-size: calculateRem($size);
+}

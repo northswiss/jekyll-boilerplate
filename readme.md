@@ -22,3 +22,6 @@ Use underscores "_" for naming IDs and any JavaScript related files
 ### CSS & SASS
 Use dashes "-" for naming classes and any style related files
 
+### Ready for production?
+
+Run `gulp prod` to run all the minification and optimisation tasks

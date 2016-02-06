@@ -11,6 +11,8 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 #permalink: pretty
 exclude: [node_modules, gulpfile.js]
 
+port: 8080
+
 # Build settings
 markdown: kramdown
 jquery_version: 1.11.3
@@ -40,3 +42,13 @@ compress_html:
   profile: false
   ignore:
     envs: [local]
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+exclude:
+  - package.json
+  - node_modules
+  - gulpfile.js
+  - readme.md
