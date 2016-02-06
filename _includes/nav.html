@@ -1,5 +1,5 @@
 {% assign pages = site.pages | sort:"weight"  %}
-<ul>
+<ul class="wrapper">
   {% for p in pages %}
   {% if p.nav == "main" %}
   <li {% if p.url == page.url %}class="current"{% endif %}>
@@ -7,3 +7,4 @@
   </li>
   {% endif %}
 {% endfor %}
+</ul>

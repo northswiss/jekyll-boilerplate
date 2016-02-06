@@ -3,8 +3,8 @@
 }
 
 .site-nav{
-  background: $white;
-  border: 1px solid $gray-lighter;
+  background: $c-white;
+  border: 1px solid $c-gray-lighter;
   border-radius: $radius;
   position: absolute;
   top: 0;
@@ -26,7 +26,7 @@
     z-index: 10;
 
     .menu{
-      color: $gray-lighter;
+      color: $c-gray-lighter;
       cursor: default;
     }
 
@@ -37,7 +37,7 @@
 }
 
 
-@include media-min($medium){
+@include media-min($screen-medium){
   .site-nav {
 
     .menu{ // Don't need menu button on larger devices

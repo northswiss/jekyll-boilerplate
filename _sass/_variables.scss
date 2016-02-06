@@ -6,10 +6,10 @@ $golden-rule:           1.61803399;
 
 $radius:                4px;
 
-$small:                 480px;
-$medium:                768px;
-$large:                 960px;
-$larger:                1024px;
+$screen-small:                 480px;
+$screen-medium:                768px;
+$screen-large:                 960px;
+$screen-larger:                1024px;
 
 /*
 COLORS
@@ -17,30 +17,30 @@ COLORS
 
 // Some base colors to get us started
 
-$black:                 #000;
-$white:                 #fff;
+$c-black:                 #000;
+$c-white:                 #fff;
 
-$gray-lightest:         lighten($black, 96%);
-$gray-lighter:          lighten($black, 82%);
-$gray-light:            lighten($black, 66%);
-$gray:                  lighten($black, 50%);
-$gray-dark:             lighten($black, 34%);
-$gray-darker:           lighten($black, 20%);
-$gray-darkest:          lighten($black, 2%);
+$c-gray-lightest:         lighten($c-black, 96%);
+$c-gray-lighter:          lighten($c-black, 82%);
+$c-gray-light:            lighten($c-black, 66%);
+$c-gray:                  lighten($c-black, 50%);
+$c-gray-dark:             lighten($c-black, 34%);
+$c-gray-darker:           lighten($c-black, 20%);
+$c-gray-darkest:          lighten($c-black, 2%);
 
-$color-brand:           #B11623;
+$c-brand:           #B11623;
 
 // Colors with purpose
-$color-link:            complement($color-brand);
-$color-visited:         invert($color-link);
-$color-hover:           lighten($color-link, 5%);
-$color-active:          darken($color-link, 5%);
+$c-link:            complement($c-brand);
+$c-visited:         invert($c-link);
+$c-hover:           lighten($c-link, 5%);
+$c-active:          darken($c-link, 5%);
 
-$color-state-warning:   #F5F4D7;
-$color-state-error:     #faa;
-$color-state-success:   #faa;
+$c-state-warning:   #F5F4D7;
+$c-state-error:     #faa;
+$c-state-success:   #faa;
 
-$color-highlight: #f4ff6f;
+$c-highlight: #f4ff6f;
 
 /*
 FONTS & TYPOGRAPHY
