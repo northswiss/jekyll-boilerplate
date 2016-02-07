@@ -2,16 +2,47 @@
   img{
     max-width: 180px;
   }
-  ul{
-    max-width: 100%;
+  li {
+    float: left;
+    position: relative;
+  }
+  .employee-img {
+    height:auto;
+    max-width: 80px;
+    position: absolute;
+    left: 0;
+    top: 0;
   }
 
   h3{
+    margin-top: $spacing;
+    padding-left:100px;
+    position: relative;
 
     small {
       color: $c-gray600;
       display: block;
       font-weight: 300;
+    }
+  }
+  ul {
+    overflow: hidden;
+  }
+}
+
+.testimonial-slides {
+  overflow: hidden;
+  position: relative;
+}
+.testimonial-switch {
+  text-align: center;
+
+  button{
+    background: $c-gray300;
+    border: 0;
+    border-radius: 20px;
+    &:hover {
+      background: $c-gray500;
     }
   }
 }
@@ -21,16 +52,20 @@
 }
 
 @include media-min($screenMedium) {
-  .testimonial-logo {
+
+  .testimonial-logo{
     float: left;
+    position: absolute;
+    left: $spacing;
   }
   .testimonials {
-    img{
-      position: absolute;
-      left: $spacing;
-    }
-    li{
-      margin-left: 200px;
+
+    blockquote {
+      padding-left: 280px;
+
+      &:before {
+        left: 220px;
+      }
     }
     h3 {
       margin-left: $spacing-loosest;
