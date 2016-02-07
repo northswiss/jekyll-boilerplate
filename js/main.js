@@ -118,6 +118,7 @@ $.each( tracking_array, function ( i, $button ) {
     getCategory();
     getLabel();
     ga('send', 'event', category, 'Clicked', label );
+    // TODO: Remove console log
     console.log(category, label);
   });
 });
