@@ -37,12 +37,24 @@
 .testimonial-switch {
   text-align: center;
 
-  button{
-    background: $c-gray300;
+  button {
+    background: transparent;
     border: 0;
-    border-radius: 20px;
-    &:hover {
+
+    span {
+      background: $c-gray400;
+      border-radius: 20px;
+      display: block;
+      height: 15px;
+      width: 15px;
+    }
+
+    &.active span,
+    &.active:hover span {
       background: $c-gray500;
+    }
+    &:hover span {
+      background: $c-gray600;
     }
   }
 }
@@ -69,6 +81,7 @@
     }
     h3 {
       margin-left: $spacing-loosest;
+      left: 220px;
     }
   }
 }

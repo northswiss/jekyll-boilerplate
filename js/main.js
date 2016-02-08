@@ -108,9 +108,13 @@ $testimonials_li.css("width", slideWidth+"%");
 
 
 btn_testimonial_two.click(function () {
+  btn_testimonial_one.removeClass("active");
+  $(this).addClass("active");
   $testimonials_li.animate({left: "-" +slideWidth+"%"}, 300);
 });
 btn_testimonial_one.click(function () {
+  btn_testimonial_two.removeClass("active");
+  $(this).addClass("active");
   $testimonials_li.animate({left: 0}, 300);
 });
 

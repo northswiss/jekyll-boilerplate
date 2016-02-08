@@ -16,9 +16,7 @@
     </div>
     <div class="testimonial-switch">
       {% for customer in site.data.testimonials %}
-      <button id="slide{{ forloop.index }}" data-slide="{{ forloop.index }}"></button>
-      <!--<button id="testimonial-prev" data-slide="1"></button>-->
-      <!--<button id="testimonial-next" data-slide="2"></button>-->
+      <button id="slide{{ forloop.index }}" {% if forloop.index == 1 %} class="active"{% endif %} data-slide="{{ forloop.index }}"><span></span></button>
       {% endfor %}
     </div>
   </div>
