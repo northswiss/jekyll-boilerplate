@@ -1,16 +1,23 @@
 <section id="testimonials" class="testimonials">
   <div class="wrapper">
     <h2>We love what we've built. Our clients do too!</h2>
-    <ul class="collapse">
+    <div class="testimonial-slides">
+      <ul class="collapse">
+        {% for customer in site.data.testimonials %}
+        <li id="testimonial{{ forloop.index }}">
+          <img class="testimonial-logo" src="imgs/customers/{{ customer.logo }}" alt="{{ customer.name }} logo">
+          <blockquote>
+            {{ customer.quote }}
+          </blockquote>
+          <h3><img class="employee-img" src="/imgs/customers/{{ customer.photo }}" alt="{{ customer.name }}">{{ customer.name }} <small>{{ customer.role }}</small></h3>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="testimonial-switch">
       {% for customer in site.data.testimonials %}
-      <li>
-        <img class="testimonial-logo" src="imgs/customers/{{ customer.logo }}" alt="{{ customer.name }} logo">
-        <blockquote>
-          {{ customer.quote }}
-        </blockquote>
-        <h3>{{ customer.name }} <small>{{ customer.role }}</small></h3>
-      </li>
+      <button id="slide{{ forloop.index }}" {% if forloop.index == 1 %} class="active"{% endif %} data-slide="{{ forloop.index }}"><span></span></button>
       {% endfor %}
-    </ul>
+    </div>
   </div>
 </section>
