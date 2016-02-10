@@ -1,53 +1,104 @@
-.site-header{
-  padding: $spacing 0;
+.site-header {
+  font-weight: 400;
+  font-size: $font-large;
 }
 
-.site-nav{
-  background: $c-white;
-  border: 1px solid $c-gray-lighter;
-  border-radius: $radius;
+.logo {
+  display: inline-block;
+  margin: $spacing 0;
+}
+
+.menu-title {
+  color: $c-white;
+  display: none;
+  font-weight: 300;
+  line-height: 1em;
+  margin: 0;
   position: absolute;
-  top: 0;
+
+  &.nav-mobile {
+    display: inline;
+    text-align: left;
+    top: $spacing;
+    left: $spacing;
+  }
+}
+.btn-menu {
+  background: transparent;
+  border: 1px solid $c-gray300;
+  border-radius: $radius;
+  color: $c-link;
+  display: table;
+  padding: $spacing-tighter;
+  position: absolute;
+  top: $spacing-tight;
   right: $spacing;
-  text-align: right;
+
+  .icon {
+    margin-top: -4px;
+  }
+
+  &:hover {
+    background: $c-gray200;
+  }
+}
+.nav-main{
+  @include display(flex);
+  display: none;
+
+  li:first-child a {
+    margin-left: 0;
+  }
+  li:last-child a {
+    margin-right: 0;
+  }
 
   a{
     display: block;
-    padding: $spacing-tight;
+    margin: 0 $spacing-tight;
+    padding: $spacing-tight 0;
   }
 
-  ul{
-    display: none;
-    margin: 0;
-    padding: 0;
+  .show {
+    display: block;
   }
-  &:hover{
-    @include box-shadow();
-    z-index: 10;
 
-    .menu{
-      color: $c-gray-lighter;
-      cursor: default;
+  &.nav-mobile {
+    display: block;
+    left: 0;
+    text-align: center;
+    width: 100%;
+
+    ul {
+      padding-top: $spacing-loosest;
     }
 
-    ul{
-      display: block;
+    li {
+      display: block !important;
+    }
+    a {
+      margin: 0;
+
+      &:hover {
+        background: $c-brand;
+        color: $c-white;
+      }
     }
   }
 }
 
-
 @include media-min($screen-medium){
-  .site-nav {
+  .nav-main {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: $spacing;
 
-    .menu{ // Don't need menu button on larger devices
-      display: none;
+    li {
+      display: inline-block;
     }
-    ul{
-      display: block;
-      li{
-        display: inline-block;
-      }
+    a{
+      padding: $spacing 0;
     }
   }
 }

@@ -1,10 +1,11 @@
 /* MIXINS.SCSS */
+// See Mixins available at http://bourbon.io/docs/
+// If you need some more, add 'em below...
 
-// A
 
 
 // B
-@mixin box-shadow($top: 1px, $left: 0, $blur: 3px, $color: $c-gray-lighter, $inset: false) {
+@mixin box-shadow($top: 1px, $left: 0, $blur: 3px, $color: $c-gray300, $inset: false) {
   @if $inset {
     -webkit-box-shadow:inset $top $left $blur $color;
     -moz-box-shadow:inset $top $left $blur $color;
@@ -16,14 +17,14 @@
   }
 }
 
-@mixin btn($btn_bg: $color-link, $outline: true, $ghost: false){
+@mixin btn($btn_bg: $c-link, $outline: true, $ghost: false){
   background: $btn_bg;
   border-radius: $radius;
   display: block;
   margin: 0 auto;
   min-width: 200px;
   width: 200px;
-  padding: $spacing;
+  padding: $spacing-tight;
 
   @if $outline{
     border: 1px solid $c-white;
@@ -35,22 +36,22 @@
   }
 
   &:hover{
+    background: lighten($btn_bg, 10%);
     cursor: pointer;
   }
 }
 
-// C
-@mixin clearfix {
 
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+// D
+
+@mixin debug($color : red){
+  background: yellow !important;
+  border: 1px solid $color;
 }
 
 
 // M
+
 @mixin media-min($size) {
   @media screen and (min-width: $size) {
     @content;
@@ -60,11 +61,4 @@
   @media screen and (max-width: $size) {
     @content;
   }
-}
-
-
-// R
-@mixin remSize($px) {
-  font-size: $px;
-  font-size: calculateRem($size);
 }

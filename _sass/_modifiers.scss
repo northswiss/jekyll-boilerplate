@@ -29,38 +29,56 @@
 .browserupgrade {
   margin: $spacing 0;
   background: $c-state-warning;
-  color: $c-gray-dark;
+  color: $c-gray600;
   padding: $spacing;
 }
 .btn{
-  @include btn(transparent, false, false);
+  @include btn();
 }
 
 // C
-
-
-// D
-
-@mixin debug($color : red){
-  background: yellow !important;
-  border: 1px solid $color;
+.close {
+  position: absolute;
+  top: $spacing;
+  right: $spacing;
+  &:hover {
+    cursor: pointer;
+  }
 }
-
-// G
-
-@mixin gradient-linear ($from: $c-white, $to: $c-black, $direction: top) {
-  background: $from;
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from($from), to($to));
-  background: -webkit-linear-gradient($direction, $from, $to);
-  background: -moz-linear-gradient($direction, $from, $to);
-  background: -ms-linear-gradient($direction, $from, $to);
-  background: -o-linear-gradient($direction, $from, $to);
+.collapse,
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-
-// L
 .current a{ // current nav items
   color: $c-visited;
+  border-bottom: 2px solid $c-visited;
 }
+
+// H
+.hide {
+  display: none;
+}
+
+// I
+.icon {
+  fill: $c-icon;
+  height: 24px;
+  width: 24px;
+
+  &.link {
+    fill: $c-link;
+
+    &:hover {
+      fill: $c-hover;
+    }
+  }
+  &.white{
+    fill: $c-white;
+  }
+}
+// L
 .large{
   font-size: $font-large;
 }
@@ -71,11 +89,22 @@
   font-size: $font-largest;
 }
 
-
+// O
+.overlay {
+  background: transparentize($c-black, .1);
+  display: none;
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 
 // S
 .serif{
   font-family: serif;
+}
+.show {
+  display: block;
 }
 .small{
   font-size: $font-small;
@@ -90,6 +119,23 @@
   list-style: none;
 }
 
+// U
+ul.fancy {
+  list-style-type: none;
+  position: relative;
+  margin-left: $spacing;
+  padding-left: 0;
+
+  li {
+    &:before {
+      color: $c-brand;
+      content: "◆";
+      margin-right: $spacing;
+      position: absolute;
+      left: -$spacing;
+    }
+  }
+}
 
 // W
 .wrapper{

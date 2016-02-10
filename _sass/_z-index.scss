@@ -7,14 +7,16 @@ All Z-indexes should be managed here
   z-index: $z;
 }
 
-// -1 - Background stuff
+// 4 - HIGHEST
 
-// 0 - LOWEST
+// 3
+.nav-mobile { @include z-index(3, absolute) }
+
+// 2
+.overlay { @include z-index(2, absolute) };
 
 // 1
 
-// 2
+// 0 - LOWEST
 
-// 3
-
-// 4 - HIGHEST
+// -1 - Background stuff

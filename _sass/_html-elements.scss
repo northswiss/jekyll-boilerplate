@@ -58,7 +58,7 @@ input[type="submit"] {
   cursor: pointer;
 }
 body, input, p {
-  color: $c-gray-darkest;
+  color: $c-gray800;
   font-size: 1em;
   font-weight: 300;
   font-family: 'Open Sans', 'Roboto', 'Helvetica', 'Helvetica Neue', sans-serif;
@@ -125,11 +125,16 @@ blockquote {
 
 }
 body{
-
+  position: relative;
 }
 button{
+  display: table;
+  line-height: 24px;
   overflow: visible;
 
+  &>* {
+    vertical-align: middle;
+  }
   &::-moz-focus-inner{
     border: 0;
     padding: 0;
@@ -191,7 +196,7 @@ em {
 //------------------------------------------------------
 //------------------------------------------------------
 fieldset {
-  border: 1px solid $c-gray-light;
+  border: 1px solid $c-gray400;
   margin: 0 $spacing-tightest;
   padding: $spacing-tight;
 }
@@ -202,7 +207,8 @@ figure {
 
 }
 footer {
-
+  background: $c-gray200;
+  padding: $spacing-loosest 0;
 }
 form{
 
@@ -303,7 +309,7 @@ input {
   &:-moz-placeholder,
   &::-moz-placeholder,
   &:-ms-input-placeholder{
-    color: $c-gray-lighter;
+    color: $c-gray300;
   }
 
   // INPUT TYPES
@@ -363,7 +369,7 @@ legend {
   padding: 0;
 }
 li {
-  list-style: none;
+
 }
 
 // M
@@ -373,7 +379,7 @@ mark {
 
 }
 main {
-  margin: 0 auto;
+  margin: $spacing-looser auto;
   max-width: $max-width;
 }
 menu {
@@ -404,7 +410,7 @@ optgroup {
 //------------------------------------------------------
 //------------------------------------------------------
 p {
-
+  margin-bottom: $spacing;
 }
 pre {
   overflow: auto;
@@ -462,8 +468,12 @@ summary {
   }
 
 }
-svg:not(:root) {
-  overflow: hidden;
+svg {
+  //display: none;
+  //fill: currentColor;
+}
+svg path {
+  fill: inherit;
 }
 
 // T
@@ -505,7 +515,7 @@ tt {
 //------------------------------------------------------
 //------------------------------------------------------
 ul {
-
+  list-style: square;
 }
 
 // V

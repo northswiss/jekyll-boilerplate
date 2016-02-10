@@ -5,12 +5,28 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+
+// UTILS AND CORE COMPONENTS
+
 "_variables",
+"bourbon/_bourbon",
+"neat/_neat",
 "_mixins",
+"_animations",
 "_html-elements",
 "_modifiers",
 "_syntax-highlighting",
 "_header",
+"_footer",
 "_z-index",
-"bourbon/_bourbon",
-"neat/_neat";
+
+// PAGES STYLES
+
+"blog";
+
+// Hide anything mobile specific
+@include media-min($screen-medium) {
+  [data-mobile="true"] {
+    display: none;
+  }
+}

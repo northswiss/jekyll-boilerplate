@@ -6,10 +6,10 @@ $golden-rule:           1.61803399;
 
 $radius:                4px;
 
-$screen-small:                 480px;
-$screen-medium:                768px;
-$screen-large:                 960px;
-$screen-larger:                1024px;
+$screen-small:          480px;
+$screen-medium:         768px;
+$screen-large:          960px;
+$screen-larger:         1024px;
 
 /*
 COLORS
@@ -17,30 +17,37 @@ COLORS
 
 // Some base colors to get us started
 
-$c-black:                 #000;
-$c-white:                 #fff;
+$c-black:               #000;
+$c-white:               #fff;
 
-$c-gray-lightest:         lighten($c-black, 96%);
-$c-gray-lighter:          lighten($c-black, 82%);
-$c-gray-light:            lighten($c-black, 66%);
-$c-gray:                  lighten($c-black, 50%);
-$c-gray-dark:             lighten($c-black, 34%);
-$c-gray-darker:           lighten($c-black, 20%);
-$c-gray-darkest:          lighten($c-black, 2%);
+$c-gray800:             lighten($c-black, 2%);
+$c-gray700:             lighten($c-black, 20%);
+$c-gray600:             lighten($c-black, 34%);
+$c-gray500:             lighten($c-black, 50%);
+$c-gray400:             lighten($c-black, 66%);
+$c-gray300:             lighten($c-black, 82%);
+$c-gray200:             lighten($c-black, 96%);
 
-$c-brand:           #B11623;
+$c-gray:                $c-gray500;
+
+$c-brand:               #005F6B;
 
 // Colors with purpose
-$c-link:            complement($c-brand);
-$c-visited:         invert($c-link);
-$c-hover:           lighten($c-link, 5%);
-$c-active:          darken($c-link, 5%);
 
-$c-state-warning:   #F5F4D7;
-$c-state-error:     #faa;
-$c-state-success:   #faa;
+$c-text:                $c-gray800;
 
-$c-highlight: #f4ff6f;
+$c-link:                #00B4CC;
+$c-visited:             $c-link;
+$c-hover:               darken($c-link, 15%);
+$c-active:              darken($c-link, 15%);
+
+$c-icon:                $c-gray;
+
+$c-state-warning:       #F5F4D7;
+$c-state-error:         #faa;
+$c-state-success:       #faa;
+
+$c-highlight:           #f4ff6f;
 
 /*
 FONTS & TYPOGRAPHY
@@ -54,19 +61,23 @@ $font-large:            $font-nrml-size*1.3;
 $font-larger:           $font-large*1.3;
 $font-largest:          $font-larger*1.3;
 
+$font-weight-light:     300;
+$font-weight-normal:    400;
+$font-weight-medium:    500;
+
 
 /*
 SPACING
 */
-$spacing:               1em;
-$spacing-tight:         $spacing/$golden-rule;
-$spacing-tighter:       $spacing-tight/$golden-rule;
-$spacing-tightest:      $spacing-tighter/$golden-rule;
-$spacing-loose:         $spacing*$golden-rule;
-$spacing-looser:        $spacing-loose*$golden-rule;
-$spacing-loosest:       $spacing-looser*$golden-rule;
+$spacing-tightest:      4px;
+$spacing-tighter:       8px;
+$spacing-tight:         16px;
+$spacing:               24px;
+$spacing-loose:         32px;
+$spacing-looser:        48px;
+$spacing-loosest:       64px;
 
 $line-height:           $font-nrml-size*$golden-rule;
 
 // 1260px as ems
-$max-width:             78.75em;
+$max-width:             78.75rem;

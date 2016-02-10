@@ -1,9 +1,10 @@
-var gulp = require('gulp');
-var shell = require('gulp-shell');
-var browserSync = require('browser-sync').create();
-var uglify = require('gulp-uglify');
-var concat = require('gulp-concat');
-var del = require('del');
+var gulp =              require('gulp'),
+    shell =             require('gulp-shell'),
+    browserSync =       require('browser-sync').create(),
+    uglify =            require('gulp-uglify'),
+    concat =            require('gulp-concat'),
+    del =               require('del'),
+    svgSprite =         require('gulp-svg-sprite');
 
 gulp.task('build', shell.task(['jekyll build --watch']));
 
@@ -17,18 +18,33 @@ gulp.task('serve', function () {
     gulp.watch('_site/**/*.*').on('change', browserSync.reload);
 });
 
+// Inline SVGs FTW
+var svgConfig = {
+    shape : {
+        dimension : { // Set maximum dimensions
+            maxWidth : 32,
+            maxHeight : 32
+        }
+    },
+    mode : {
+        symbol : true // Activate the «symbol» mode
+    }
+};
+gulp.task('svg',function(){
+    return gulp.src('_svgs/**/*.svg')
+        .pipe(svgSprite(svgConfig))
+        .pipe(gulp.dest('_includes'));
+});
+
 gulp.task('clean', function () {
     return del([
         './_site/js/**/*.js',
         '!./_site/js/vendor/modernizr-2.8.3.min.js'
-        // here we use a globbing pattern to match everything inside the `mobile` folder
-        //'dist/mobile/**/*',
-        // we don't want to clean this file though so we negate the pattern
     ]);
 });
 
 gulp.task('compressScripts', function() {
-    return gulp.src(['./js/main.js'])// Add all JS files here that you want to concat & minify to main.js
+    return gulp.src(['./js/main.js', './js/analytics.js'])// Add all JS files here that you want to concat & minify to main.js
         .pipe(concat('main.js'))
         .pipe(uglify())
         .pipe(gulp.dest('./_site/js'));
