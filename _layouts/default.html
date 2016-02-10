@@ -6,22 +6,20 @@ layout: compress
 
 {% include head.html %}
 
-<body>
+<body {% if page.id %}class="{{ page.id }}"{% endif %}>
 <!--[if lt IE 8]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 
 {% include header.html %}
 
-<div class="page-content">
-  <div class="wrapper">
-    {{ content }}
+<main>
+  <div class="page-content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
   </div>
-</div>
-
-<hr class="wrapper"/>
-
-{% include nav.html context="/team/" %}
+</main>
 
 {% include footer.html %}
 

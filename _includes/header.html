@@ -4,14 +4,14 @@
 
   <div class="wrapper">
 
-    <a class="logo" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a id="logo" class="logo" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
-    <nav class="site-nav">
-      <!-- To add pages to the main nav, add nav: main to the YAML Front Matter -->
-      <a href="#" class="menu">Menu</a>
-      {% include nav.html %}
-    </nav>
+      <!-- To add pages to the main nav, add nav_header: true to the YAML Front Matter -->
+      <h2 id="menu_title" class="menu-title">Menu</h2>
+      <button id="btn_menu" class="btn-menu" data-mobile="true">Menu
+        <svg class="icon link"><use xlink:href="#ic-menu"/></svg>
+      </button>
+      {% include nav-header.html %}
 
   </div>
-
 </header>

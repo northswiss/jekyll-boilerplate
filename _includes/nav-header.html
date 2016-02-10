@@ -1,0 +1,12 @@
+{% assign pages = site.pages | sort:"weight"  %}
+<nav id="nav_main" class="nav-main">
+  <ul class="collapse">
+    {% for p in pages %}
+      {% if p.nav_header %}
+        <li {% if page.url == p.url %}class="current"{% endif %}>
+          <a href="{{ p.url }}">{{ p.title }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</nav>

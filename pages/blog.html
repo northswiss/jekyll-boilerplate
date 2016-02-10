@@ -1,0 +1,19 @@
+---
+title: Blog
+url: /blog/
+nav_header: true
+id: blog
+---
+
+<ul class="post-list collapse">
+  {% for post in site.posts %}
+  <li>
+    <h2>
+      <a class="blog-snippet-link" href="{{ post.url | prepend: site.baseurl }}" data-ga-category="post-snippet">{{ post.title }}</a>
+    </h2>
+    <small class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</small>
+  </li>
+  {% endfor %}
+</ul>
+
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
