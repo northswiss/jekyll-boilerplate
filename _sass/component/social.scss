@@ -1,8 +1,8 @@
 .social{
   a{
-    @include remSize(32px);
+    @include remSize(24px);
     display: inline-block;
-    margin: $spacing-tight;
-    padding: $spacing-tight;
+    margin: $spacing-tighter;
+    padding: $spacing-tighter;
   }
 }

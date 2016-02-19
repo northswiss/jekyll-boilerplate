@@ -1,16 +1,13 @@
 <footer class="site-footer">
 
   <div class="wrapper">
-
-    <div class="clearfix">
-      {% include component/social.html %}
-      <h3>Win-win Business Travel</h3>
-    </div>
-
-    {% include core/nav-footer.html %}
-
+    <a id="site-logo" class="logo" href="{{ site.baseurl }}/">
+      <img src="/imgs/brand/travelperk-logo-white.svg" alt="{{ site.title }}">
+    </a>
     <p class="description">{{ site.description }}</p>
-    <p class="small">Copyright &copy; {{ 'now' | date: "%Y" }}</p>
+
+    {% include component/social.html %}
+    <p class="small">Copyright &copy; {{ 'now' | date: "%Y" }} TravelPerk S.L. All rights reserved</p>
   </div>
 
 </footer>
