@@ -1,21 +1,20 @@
 <footer class="site-footer">
 
   <div class="wrapper">
-
-    <div class="clearfix">
-      {% include component/social.html %}
-      <h3>Win-win Business Travel</h3>
-    </div>
-
-    {% include core/nav-footer.html %}
-
+    <a id="site-logo" class="logo" href="{{ site.baseurl }}/">
+      <img src="/imgs/brand/travelperk-logo-white.svg" alt="{{ site.title }}">
+    </a>
     <p class="description">{{ site.description }}</p>
-    <p class="small">Copyright &copy; {{ 'now' | date: "%Y" }}</p>
+
+    {% include component/social.html %}
+    <p class="small">Copyright &copy; {{ 'now' | date: "%Y" }} TravelPerk S.L. All rights reserved</p>
   </div>
 
 </footer>
 
 {% include component/overlay.html %}
+
+<p id="work-in-progress" class="work-in-progress">We are working on this part of the website. If you would like more information on this feature, please <button>request a demo</button> and we will be in touch soon.</p>
 
 <!-- If you don't need JQuery, remove it!-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/{{site.jquery_version}}/jquery.min.js"></script>

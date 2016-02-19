@@ -14,7 +14,7 @@
     top: 0;
   }
 
-  h3{
+  h4{
     margin-top: $spacing;
     padding-left:100px;
     position: relative;
@@ -22,6 +22,7 @@
     small {
       color: $c-gray600;
       display: block;
+      font-size: $fsBody;
       font-weight: 300;
     }
   }
@@ -79,8 +80,9 @@
         left: 220px;
       }
     }
-    h3 {
+    h4 {
       margin-left: $spacing-loosest;
+      padding-top:$spacing-tight;
       left: 220px;
     }
   }

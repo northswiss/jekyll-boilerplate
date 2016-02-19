@@ -18,6 +18,7 @@
 
   .request-demo {
     background: transparent;
+    margin-top: $spacing-loosest;
   }
   .show .card {
     @include animation('fade-in-from-bottom-delayed .5s');

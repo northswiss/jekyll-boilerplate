@@ -1,20 +1,28 @@
 .request-demo {
-  background: url("/imgs/pattern.png");
+  background: $c-gray900;
 
-  .flex {
-
-    &> span {
-      flex: 1 200px;
-    }
+  h2,
+  h3 {
+    color: $white;
+    text-align: center;
+  }
+  form {
+    max-width:75%;
   }
 }
 
 @include media-min($screenMedium) {
   .request-demo {
 
-    input {
-      margin: auto;
-      width: 80%;
+    form {
+
+      span {
+        padding-right: $spacing;
+
+        &:last-child {
+          padding-right: 0;
+        }
+      }
     }
 
     .card {
