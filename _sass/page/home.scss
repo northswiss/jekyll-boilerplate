@@ -118,6 +118,7 @@
 
 .customer-types{
   background: #FAFAFA;
+  padding-bottom: 0 !important;
   overflow-x: hidden;
 
   nav {
@@ -191,6 +192,26 @@
   .laptop {
     background: url("/imgs/divide-with-shadow.png") no-repeat -400% 80%;
     background-size: 95%;
+  }
+
+  .expenses {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+
+    span{
+      display: block;
+      height: 235px;
+      overflow: hidden;
+      text-align: center;
+
+      img {
+        margin: auto;
+      }
+    }
+
+    .product-shot {
+      max-width: 235px;
+    }
   }
 }
 
@@ -288,10 +309,44 @@
 
       &.divider {
         background-size: 75%;
+
+        &:nth-of-type(5) {
+          background: transparent;
+        }
       }
 
       h3 {
         @include remSize($fsHeadline);
+      }
+    }
+    .expenses {
+      background: url("/imgs/product-shots/expenses-section-bg.jpg") no-repeat right top;
+      background-size: cover;
+      height: 470px;
+      margin-bottom: 0;
+      padding: 0;
+      position: relative;
+
+      span{
+        height: 470px;
+        position: absolute;
+        top: -20px;
+        left: 0;
+        width: 50%;
+
+        img {
+          max-width: 100%;
+        }
+      }
+      .content {
+        color: $white;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 35%;
+      }
+      p {
+        color: $white;
       }
     }
 
@@ -307,6 +362,16 @@
     h1,
     h2 {
       @include remSize($fsDisplay3);
+    }
+  }
+  .customer-types {
+    .expenses {
+      span {
+        left: 10%;
+      }
+      .content {
+        right: 10%;
+      }
     }
   }
 }
