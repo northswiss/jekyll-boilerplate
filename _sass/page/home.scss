@@ -98,38 +98,24 @@
   text-align: center;
 }
 
-// DYNAMIC BUDGET
-.budget-img-wrapper {
-  background: #272C39;
-  padding: $spacing-loosest $spacing;
-
-  h3,
-  p {
-    color: $white;
-    text-align: center;
-  }
-}
-.dynamic-budget {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-}
-
-
 // CUSTOMER TYPES
 
-.customer-type-nav {
+// TEMP HONEY POT
 
-  ul {
-    flex-wrap: nowrap;
-    padding: $spacing-tight;
-  }
+.work-in-progress {
+  background: $c-blue400;
+  display: none;
+  font-size: $fsCaption;
+  padding: $spacing-tighter $spacing-tight;
+  position: absolute;
+  width: 80%;
 
   button {
     margin: 0;
-    padding: $spacing-tight;
+    padding: 0;
   }
 }
+
 .customer-types{
   background: #FAFAFA;
   overflow-x: hidden;
@@ -167,6 +153,7 @@
   }
   .content {
     padding: $spacing-tight;
+    position: relative;
   }
   img{
     max-width: 200px;
@@ -183,10 +170,47 @@
   }
   .feature {
 
+    &.divider {
+      background: url("/imgs/divider-line.png") bottom center no-repeat;
+      background-size: 95%;
+    }
+
     img{
+      display: block;
       max-width:100%;
     }
+    button {
+      background: transparent;
+      border: 0;
+      color: $c-blue800;
+      margin-top: 0;
+      margin-bottom: $spacing-tighter;
+      padding-left:0;
+    }
   }
+  .laptop {
+    background: url("/imgs/divide-with-shadow.png") no-repeat -400% 80%;
+    background-size: 95%;
+  }
+}
+
+// DYNAMIC BUDGET
+.budget {
+  background: #272C39;
+  h2,
+  h3,
+  p {
+    color: $white;
+    text-align: center;
+  }
+}
+.budget-img-wrapper {
+  padding: $spacing-loosest $spacing;
+}
+.dynamic-budget {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 // PUBLICITY
@@ -259,8 +283,12 @@
   }
   .customer-types {
     .feature {
-      margin: $spacing-loosest 0 $spacing-loosest;
+      margin: $spacing-loosest auto $spacing-loosest;
       padding: $spacing-loosest 0;
+
+      &.divider {
+        background-size: 75%;
+      }
 
       h3 {
         @include remSize($fsHeadline);
@@ -268,7 +296,7 @@
     }
 
     .content {
-      padding: $spacing-loosest;
+      padding: 0 $spacing $spacing-loosest $spacing-loosest;
     }
   }
 }

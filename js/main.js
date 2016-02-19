@@ -3,29 +3,43 @@ var body =                    $("body"),
   slide_wrapper =             $("#slide_wrapper"),
   $testimonials_li =          $(".testimonials li"),
 // Buttons
-  btn_booker =                $("#btn_booker"),
+  btn_honeypot_demo =         $(".work-in-progress button"),
+  btn_feature_honeypot =      $(".honeypot-btn"),
+  btn_honeypot_one =          $("#honeypot-one"),
+  btn_honeypot_two =          $("#honeypot-two"),
+  btn_honeypot_three =        $("#honeypot-three"),
+  btn_honeypot_four =         $("#honeypot-four"),
+
   btn_close =                 $("#close"),
   btn_demo_request =          $("#btn-request"),
   btn_demo_submit =           $("#request-demo-submit"),
   btn_login =                 $("#btn-login"),
-  btn_manager =               $("#btn_manager"),
   btn_menu =                  $("#btn-menu"),
   btn_more =                  $("#more"),
   btn_sign_up_nav =           $("#btn-sign-up-nav"),
   btn_sign_up_hero =          $("#btn-sign-up-hero"),
-  btn_traveler =              $("#btn_traveler"),
   btn_testimonial_one =       $("#slide1"),
   btn_testimonial_two =       $("#slide2"),
 //Overlay stuff
   overlay_content =           $(".overlay-content"),
   overlay =                   $("#overlay"),
   sign_up =                   $("#sign-up-overlay"),
-  request_demo =              $("#request-demo-overlay");
+  request_demo =              $("#request-demo-overlay"),
+  // GENERATED CONTENT
+  $work_in_progress =         $("#work-in-progress");
 
 btn_more.click(function() {
   $('html, body').animate({
     scrollTop: $("#customer_types").offset().top-68
   }, 1000);
+});
+
+
+// HONEYPOT
+btn_feature_honeypot.click(function () {
+  $work_in_progress.show();
+  $(this).replaceWith($work_in_progress);
+  btn_honeypot_demo = $(".honeypot-btn");
 });
 
 // BANNER ON SCROLL
@@ -35,28 +49,6 @@ $(window).scroll(function () {
   } else {
     site_header.removeClass("fixed-header");
   }
-});
-
-
-// SLIDES - NOT USED AT THE MOMENT
-
-btn_booker.click(function () {
-  slide_wrapper.attr("data-state", "slide-one");
-  btn_traveler.removeClass("active");
-  btn_manager.removeClass("active");
-  $(this).addClass("active");
-});
-btn_traveler.click(function () {
-  slide_wrapper.attr("data-state", "slide-two");
-  btn_booker.removeClass("active");
-  btn_manager.removeClass("active");
-  $(this).addClass("active");
-});
-btn_manager.click(function () {
-  slide_wrapper.attr("data-state", "slide-three");
-  btn_booker.removeClass("active");
-  btn_traveler.removeClass("active");
-  $(this).addClass("active");
 });
 
 // OVERLAY
@@ -80,6 +72,10 @@ btn_sign_up_nav.on( 'click', function () {
 });
 btn_sign_up_hero.on( 'click', function () {
     showPopup( sign_up );
+});
+
+btn_honeypot_demo.click(function () {
+  showPopup( request_demo );
 });
 
 btn_demo_request.on( 'click', function () {
@@ -121,7 +117,7 @@ btn_testimonial_one.click(function () {
 // GA TRACKING =========================
 
 // BUTTONS
-var tracking_array = [ btn_close, btn_more, btn_demo_request, btn_demo_submit, btn_sign_up_nav, btn_sign_up_hero, btn_login, btn_menu ];
+var tracking_array = [ btn_close, btn_more, btn_demo_request, btn_demo_submit, btn_sign_up_nav, btn_sign_up_hero, btn_login, btn_menu, btn_honeypot_one, btn_honeypot_two, btn_honeypot_three, btn_honeypot_four ];
 
 $.each( tracking_array, function ( i, $button ) {
   var category, label;

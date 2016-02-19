@@ -1,29 +1,5 @@
 <!-- Customer types -->
 <section id="customer_types" class="customer-types">
-  <!--<h2>We make business travel booking easier for...</h2>
-  <nav class="customer-type-nav">
-    <ul class="collapse flex">
-      <li>
-        <button id="btn_booker" class="active">
-          Travel Bookers
-          <span class="icon-booker"></span>
-        </button>
-      </li>
-      <li>
-        <button id="btn_traveler">
-          Travelers
-          <span class="icon-traveler"></span>
-        </button>
-      </li>
-      <li>
-        <button id="btn_manager">
-          Executives
-          <span class="icon-managers"></span>
-        </button>
-      </li>
-    </ul>
-  </nav>-->
-
   <div id="slide_wrapper" class="slides-wrapper" data-state="slide-one">
     <div id="user_one" class="slide">
       <div class="wrapper">
@@ -34,40 +10,52 @@
         <p>If you regularly book business travel for others, TravelPerk makes your life easier. You can manage travel policies, budgets and payment methods while also having complete visibility of all trips - both in the past and upcoming.</p>
         <p>As TravelPerk is a web-based tool and not a travel agent, you or your colleagues can search and book your business travel 24/7. Though we are web-based, we do also offer customer support for any complex travel needs.</p>
       </div>
-      <div class="feature flex two">
-        <div>
-          <img class="product-shot" src="/imgs/product-shots/hotel-flight.jpg" alt="Hotels and flight search in one tool">
-        </div>
-        <div class="content">
-          <h3>Search flights &amp; hotels in one tool</h3>
-          <p>No more jumping back and forth between different websites. With TravelPerk, you will be able to search all of the major airlines and over 800,000 hotels worldwide - all from one single tool.</p>
-        </div>
-      </div>
-      <div class="feature flex two reverse">
-        <span>
-          <img src="/imgs/product-shots/single-itinerary.jpg" alt="Multiple travel documents">
-        </span>
-        <div class="content">
-          <h3>One booking confirmation for the complete trip</h3>
-          <p>TravelPerk sends you one email per trip, containing all flights and hotels details. As well as the invoice for the trip.</p>
+      <div class="feature laptop">
+        <div class="wrapper flex two">
+          <div>
+            <img class="product-shot" src="/imgs/product-shots/search-flights-and-hotels.png" alt="Hotels and flight search in one tool">
+          </div>
+          <div class="content">
+            <h3>Search flights &amp; hotels in one tool</h3>
+            <p>No more jumping back and forth between different websites. With TravelPerk, you will be able to search all of the major airlines and over 800,000 hotels worldwide - all from one single tool.</p>
+            <button class="honeypot-btn" id="honeypot-one" data-ga-category="Honeypot button" data-ga-label="More Flights and Hotels">Find out more</button>
+          </div>
         </div>
       </div>
-      <div class="feature flex two">
-        <span>
-          <img src="/imgs/product-shots/travel-documents.jpg" alt="Business travel documents">
-        </span>
-        <div class="content">
-          <h3>Easily manage traveler details</h3>
-          <p>With TravelPerk you can easily add new travelers to the tool. Once you have booked a trip for someone TravelPerk will remember the travelers important details for next time, so you will no longer need to retype passport numbers or frequent flyer programs again. </p>
+      <div class="feature divider">
+        <div class="wrapper flex two reverse">
+          <span>
+            <img src="/imgs/product-shots/travel-documents.jpg" alt="Business travel documents">
+          </span>
+          <div class="content">
+            <h3>Easily manage traveler details</h3>
+            <p>With TravelPerk you can easily add new travelers to the tool. Once you have booked a trip for someone TravelPerk will remember the travelers important details for next time, so you will no longer need to retype passport numbers or frequent flyer programs again. </p>
+            <button class="honeypot-btn" id="honeypot-two" data-ga-category="Honeypot button" data-ga-label="More manage traveler details">Find out more</button>
+          </div>
         </div>
       </div>
-      <div class="feature flex two reverse">
-        <span>
-          <img class="product-shot" src="/imgs/product-shots/payment-options.jpg" alt="Flexible business travel payments">
-        </span>
-        <div class="content">
-          <h3>Flexible payment options</h3>
-          <p>We understand the need for flexible payment methods, which is why with TravelPerk you can book using any number of credit cards, or you can choose to be invoiced monthly for your business travel bookings.</p>
+      <div class="feature divider">
+        <div class="wrapper flex two">
+          <span>
+            <img class="product-shot" src="/imgs/product-shots/payment-options.jpg" alt="Flexible business travel payments">
+          </span>
+          <div class="content">
+            <h3>Flexible payment options</h3>
+            <p>We understand the need for flexible payment methods, which is why with TravelPerk you can book using any number of credit cards, or you can choose to be invoiced monthly for your business travel bookings.</p>
+            <button class="honeypot-btn" id="honeypot-three" data-ga-category="Honeypot button" data-ga-label="More flexible payment options">Find out more</button>
+          </div>
+        </div>
+      </div>
+      <div class="feature divider">
+        <div class="wrapper flex two reverse">
+          <span>
+            <img src="/imgs/product-shots/single-itinerary.jpg" alt="Multiple travel documents">
+          </span>
+          <div class="content">
+            <h3>One booking confirmation for the complete trip</h3>
+            <p>TravelPerk sends you one email per trip, containing all flights and hotels details. As well as the invoice for the trip.</p>
+            <button class="honeypot-btn" id="honeypot-four" data-ga-category="Honeypot button" data-ga-label="More single confirmation">Find out more</button>
+          </div>
         </div>
       </div>
       <div class="feature flex two">
@@ -79,80 +67,4 @@
           <p>Your travel bookings will automagically appear in your expense report thanks to TravelPerk's integrated expense management partners.</p>
         </div>
       </div>
-      <div class="feature flex reverse two">
-        <span>
-          <img class="product-shot" src="/imgs/product-shots/clean-ui.jpg" alt="TravelPerks clean and simple UI">
-        </span>
-        <div class="content">
-          <h3>Clean &amp; Simple design</h3>
-          <p>Gone are the days of complex and clunky user interfaces. Booking travel should be easy and <em>(yes, we'll say it)</em> fun. With our simple user interface you can spend your time efficiently booking travel and not trying to navigate complex tools.</p>
-        </div>
-      </div>
-    </div>
-
-
-    <!--<div id="user_two" class="slide">
-      <div class="wrapper">
-        <h2>Be rewarded for making smarter travel decisions</h2>
-        <p>We understand that business travel can sometimes be tiring, but planning your trip doesn't have to be. TravelPerk is built from the ground up to make sure that booking business travel is a breeze. Not only that, but if your company chooses to enable rewards, you can get up to 50% of your travel savings back as vouchers to spend. It pays to save!</p>
-      </div>
-      <div class="feature flex">
-        <span>
-          <img src="//placehold.it/1024x768?text=Product+screenshot" alt="Product shot">
-        </span>
-        <span class="content">
-          <h3>Incentives!!!</h3>
-          <p>Yayy!!!</p>
-          <a href="/" class="btn">Find out more...</a>
-        </span>
-      </div>
-      <div class="feature flex reverse">
-        <span>
-          <img src="//placehold.it/1024x768?text=Product+screenshot" alt="Product shot">
-        </span>
-        <span class="content">
-          <h3>Many parts, one itinerary</h3>
-          <p>No matter how complicated your trip booking is, TravelPerk will display all of your trip details in a nice, easy-to-read format.</p>
-          <a href="/" class="btn">Find out more...</a>
-        </span>
-      </div>
-      <div class="feature flex">
-          <span>
-            <img src="//placehold.it/1024x768?text=Product+screenshot" alt="Product shot">
-          </span>
-          <span class="content">
-            <h3>Search for flights &amp; hotels using the same tool!</h3>
-            <p>No more jumping back and forth between different websites. With TravelPerk, you will be able to search all of the major airlines and over 500,000 hotels worldwide.</p>
-            <a href="/" class="btn">Find out more...</a>
-          </span>
-      </div>
-      <div class="feature flex reverse">
-        <span>
-          <img src="//placehold.it/1024x768?text=Product+screenshot" alt="Product shot">
-        </span>
-        <span class="content">
-          <h3>No more complex requests</h3>
-          <p>Whether you have a company credit card, or need approval for travel from your manager, TravelPerk makes it easy by allowing you to add cards or simply enter the email your manager to get sign-off on your trip.</p>
-          <a href="/" class="btn">Find out more...</a>
-        </span>
-      </div>
-
-      <a href="/for-traveling-employees/">Find out more about Employee Perks</a>
-    </div>
-
-
-    <div id="user_three" class="slide">
-      <div class="wrapper">
-        <h2>Complete visibility &amp; control</h2>
-        <ul class="ticks">
-          <li>See travel spend across the company, by employee, team or department.</li>
-          <li>Approval work-flows give you full control over travel bookings.</li>
-          <li>Adopt a cultural change across the company by focusing on savings made through smarter business travel.</li>
-          <li>Reward staff for beating the budget with an incentivised rewards scheme.</li>
-          <li>Payment options to suit your business. Add company cards for booking or choose to get invoiced monthly.</li>
-        </ul>
-        <a href="/business-travel-for-execs/">Find out more about Manager Perks</a>
-      </div>
-    </div>
-  </div>-->
 </section>
