@@ -100,15 +100,13 @@
 
 // CUSTOMER TYPES
 
-// TEMP HONEY POT
+  // TEMP HONEY POT
 
 .work-in-progress {
   background: $c-blue400;
   display: none;
   font-size: $fsCaption;
   padding: $spacing-tighter $spacing-tight;
-  position: absolute;
-  width: 80%;
 
   button {
     margin: 0;
@@ -190,7 +188,7 @@
     }
   }
   .laptop {
-    background: url("/imgs/divide-with-shadow.png") no-repeat -400% 80%;
+    background: url("/imgs/divide-with-shadow.png") no-repeat 50% 100%;
     background-size: 95%;
   }
 
@@ -227,6 +225,16 @@
 }
 .budget-img-wrapper {
   padding: $spacing-loosest $spacing;
+  position: relative;
+  height: 438px;
+  overflow: hidden;
+
+  img {
+    position: absolute;
+    left: -50%;
+    width: 200%;
+    max-width: 200%;
+  }
 }
 .dynamic-budget {
   display: block;
@@ -255,6 +263,18 @@
 
 
 // BREAK POINTS
+@include media-max($screenSmall) {
+
+
+  .budget-img-wrapper {
+    padding: 0;
+    height: 350px;
+
+    img {
+    }
+  }
+
+}
 @include media-max($screenMedium) {
   .home .site-header {
     padding-bottom: 100px;
@@ -293,6 +313,18 @@
       margin: auto;
     }
   }
+  .budget-img-wrapper {
+    height: auto;
+    max-width: $max-width;
+    margin: auto;
+
+    img {
+      position: relative;
+      left: 0;
+      width: 100%;
+      max-width: 100%;
+    }
+  }
 }
 
 @include media-min($screenLarge){
@@ -318,6 +350,11 @@
       h3 {
         @include remSize($fsHeadline);
       }
+    }
+
+    .laptop {
+      background: url("/imgs/divide-with-shadow.png") no-repeat -400% 80%;
+      background-size: 95%;
     }
     .expenses {
       background: url("/imgs/product-shots/expenses-section-bg.jpg") no-repeat right top;

@@ -93,7 +93,6 @@
 }
 
 .site-nav{
-  //line-height: 48px;
   position: absolute;
   top: 0;
   right: $spacing;
@@ -168,10 +167,12 @@
 
       a{
         color: $color-link;
+        font-size: $fsBody;
       }
     }
 
     button {
+      font-size: $fsSubtitle !important;
       line-height: inherit;
       padding: $spacing-tight;
     }
@@ -186,7 +187,7 @@
       width: 100%;
     }
     ul {
-      width: 200px;
+      width: 100%;
     }
 
     li {
