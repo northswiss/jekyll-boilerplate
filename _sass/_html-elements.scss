@@ -439,6 +439,7 @@ main,
 .main {
   @include remSize($fsBody);
   margin: 0 auto;
+  overflow: hidden;
 }
 menu {
 
