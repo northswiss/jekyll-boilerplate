@@ -9,6 +9,14 @@ layout: default
 
   <article class="post-content">
     {{ content }}
+
+    <footer>
+      <p class="category">
+        {% if page.categories %}
+          Category: <strong>{{ page.categories }}</strong>
+        {% endif %}
+      </p>
+    </footer>
   </article>
 
   <footer class="author-block">
@@ -17,4 +25,18 @@ layout: default
     <p>Strategic Advisor & Co-founder</p>
     <a href="https://www.linkedin.com/profile/view?id=ADEAAAAAlPABPzqPCzkfeUz2OdzJjy_bSDBjF9E">LinkedIn</a>
   </footer>
+
+  <div class="pager-navigation">
+    {% if page.previous.url %}
+    <div class="prev">
+      Previous article: <br><a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+    </div>
+    {% endif %}
+    {% if page.next.url %}
+    <div class="next">
+      Next article: <br><a href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+    </div>
+    {% endif %}
+  </div>
+
 </div>

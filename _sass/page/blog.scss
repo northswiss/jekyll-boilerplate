@@ -1,3 +1,72 @@
+/*
+* BLOG LIST
+*/
+.blog {
+
+  .main {
+    background: $c-pale;
+  }
+
+  .card {
+    border: 2px solid $c-white;
+    padding: 0;
+
+    a {
+      display: block;
+      padding: $spacing;
+    }
+    p {
+      margin-bottom: 0;
+    }
+
+    &:hover {
+      @include box-shadow(0, 0, 0, 0);
+      background: $c-blue300;
+      border-color: $c-blue400;
+    }
+  }
+  .wrapper {
+    padding-top: $spacing-tighter;
+  }
+}
+
+.post-header {
+  margin-top:$spacing;
+}
+
+.blog-posts {
+  margin: 0 auto;
+
+  li{
+    line-height: 1.4em;
+    margin: $spacing-tightest auto;
+    position: relative;
+  }
+  .subtitle {
+    color: $c-gray700;
+    font-weight: 300;
+  }
+  .meta {
+    color: $c-gray500;
+  }
+  .category {
+    color: $c-gray700;
+    line-height: 1.2em;
+    text-align: right;
+    position: absolute;
+    right: $spacing;
+    top: $spacing;
+
+    span {
+      color: $c-gray500;
+    }
+  }
+}
+
+
+/*
+* BLOG POST
+*/
 .post {
   max-width: 50em;
 }
@@ -18,4 +87,35 @@
     max-width:120px;
     margin-right: $spacing;
   }
+}
+
+/* PAGINATION */
+.pager-navigation {
+  font-size: 14px;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+.pager-navigation div {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.pager-navigation .next {
+  float: right;
+  text-align: right;
+}
+
+@include media-min($screenMedium) {
+
+  .blog-posts {
+
+    li{
+      margin: $spacing-tighter auto;
+    }
+  }
+
 }

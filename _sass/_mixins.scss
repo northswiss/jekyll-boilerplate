@@ -70,7 +70,7 @@
   border-radius: $radius;
   -webkit-border-radius: $radius;
 }
-@mixin box-shadow($top: 0px, $left: 0px, $blur:.5em, $spread: .2em, $color: transparentize($c-gray900, .8), $inset: false) {
+@mixin box-shadow($top: 0px, $left: 0px, $blur:.5em, $spread: .2em, $color: $c-gray300, $inset: false) {
   @if $inset {
     -webkit-box-shadow:inset $top $left $blur $spread $color;
     -moz-box-shadow:inset $top $left $blur $spread $color;
