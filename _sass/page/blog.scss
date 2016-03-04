@@ -52,10 +52,7 @@
   .category {
     color: $c-gray700;
     line-height: 1.2em;
-    text-align: right;
-    position: absolute;
-    right: $spacing;
-    top: $spacing;
+    margin-top: $spacing-tight;
 
     span {
       color: $c-gray500;
@@ -115,6 +112,13 @@
 
     li{
       margin: $spacing-tighter auto;
+    }
+    .category {
+      margin-top: 0;
+      text-align: right;
+      position: absolute;
+      right: $spacing;
+      top: $spacing;
     }
   }
 
