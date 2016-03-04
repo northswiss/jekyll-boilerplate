@@ -1,16 +1,42 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="post wrapper">
 
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <p class="post-meta">{% if page.author %}Written by {{ page.author }} • {% endif %}{{ page.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
   <article class="post-content">
     {{ content }}
+
+    <footer>
+      <p class="category">
+        {% if page.categories %}
+          Category: <strong>{{ page.categories }}</strong>
+        {% endif %}
+      </p>
+    </footer>
   </article>
+
+  <footer class="author-block">
+    <img src="/imgs/team/ron-levin.png" alt="Ron Levin">
+    <h4>Ron Levin</h4>
+    <p>Strategic Advisor & Co-founder</p>
+    <a href="https://www.linkedin.com/profile/view?id=ADEAAAAAlPABPzqPCzkfeUz2OdzJjy_bSDBjF9E">LinkedIn</a>
+  </footer>
+
+  <div class="pager-navigation">
+    {% if page.previous.url %}
+    <div class="prev">
+      Previous article: <br><a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+    </div>
+    {% endif %}
+    {% if page.next.url %}
+    <div class="next">
+      Next article: <br><a href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+    </div>
+    {% endif %}
+  </div>
 
 </div>
