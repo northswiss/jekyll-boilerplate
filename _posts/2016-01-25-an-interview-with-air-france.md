@@ -8,6 +8,8 @@ category: Interview
 
 ---
 
+<img class="left" src="/imgs/blog/frank-pon-interview/frank-pon.jpg" alt="Frank Pon - Commercial Director Air France" />
+
 ### What can business travelers on Air France and KLM expect to see in 2016 in terms of fleet renewal, cabin upgrades and other modernizations?
 
 We are in the process of investing $1 billion until 2017 to renew all our long haul cabins. 
