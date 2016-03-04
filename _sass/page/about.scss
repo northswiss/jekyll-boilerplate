@@ -52,3 +52,15 @@
     }
   }
 }
+
+@include media-min($screenLarge) {
+  .team {
+    a {
+      width: 33%;
+    }
+
+    .exec a {
+      width: 50%;
+    }
+  }
+}

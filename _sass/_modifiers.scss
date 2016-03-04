@@ -159,6 +159,13 @@
   right: 0;
   width: 100%;
 }
+.img-vertical {
+  img {
+    display: block;
+    float: none;
+    margin: 0 $spacing $spacing 0;
+  }
+}
 
 // L
 .large{
@@ -170,6 +177,13 @@
 .largest{
   @include remSize($fsDisplay1);
 }
+.left {
+  float: left;
+}
+img.left {
+  margin: 0 $spacing $spacing 0;
+}
+
 .light-text{
   color: $white;
 }
@@ -185,6 +199,13 @@
   overflow: hidden;
 }
 
+// R
+.right {
+  float: right;
+}
+img.right {
+  margin: 0 0 $spacing $spacing;
+}
 
 // S
 .serif{

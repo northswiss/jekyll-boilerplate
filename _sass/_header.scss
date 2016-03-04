@@ -19,6 +19,7 @@
   h2{
     @include animation('fade-in-from-bottom-delayed 2s');
     color: darken($c-blue, 10%);
+    margin-bottom: 0;
   }
 }
 .logo-white {
