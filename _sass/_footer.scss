@@ -7,12 +7,12 @@
   .clearfix {
     text-align: center;
   }
-  h3{
-    text-align: center;
-    text-transform: uppercase;
+  .logo {
+    margin-left: 0;
   }
   .description {
-    border-top: 1px dashed $white;
+    border-bottom: 1px solid $c-gray900;
+    margin-bottom: $spacing;
     padding: $spacing 0;
   }
 
@@ -23,12 +23,17 @@
 
 @include media-min($screenMedium) {
   .site-footer {
-    h3 {
-      float: right;
-      margin-top: $spacing-loose;
+    .logo {
+      float: left;
+    }
+    .description {
+      margin-bottom: $spacing-looser;
+      padding: $spacing-tight $spacing $spacing-loosest;
     }
   }
   .social {
-    float: left;
+    position: absolute;
+    right: $spacing;
+    bottom: 0;
   }
 }

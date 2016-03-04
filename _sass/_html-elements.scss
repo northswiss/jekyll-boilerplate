@@ -83,7 +83,6 @@ ul {
 
 main {
   p,
-  ul,
   ol{
     margin: 0 auto $spacing-loose;
     max-width: 50em;
@@ -151,32 +150,13 @@ b {
 }
 blockquote {
   @include remSize(18px);
+  color: $c-gray700;
   margin: 0;
   position: relative;
-
-  &:before {
-    @include remSize(124px);
-    color: transparentize($c-dark, .8);
-    content: "“";
-    font-family: "Georgia", "Baskerville", serif;
-    position: absolute;
-    top: 16px;
-  }
 }
 @include media-min($screenMedium) {
   blockquote {
-    @include remSize(28px);
-    padding: $spacing-looser $spacing $spacing-looser $spacing-loosest;
-
-    &:before {
-      @include remSize(124px);
-      color: transparentize($c-dark, 0);
-      content: "“";
-      font-family: "Georgia", "Baskerville", serif;
-      position: absolute;
-      top: 80px;
-      left: 0;
-    }
+    padding: $spacing $spacing $spacing-looser $spacing-loosest;
   }
 }
 body{
@@ -276,7 +256,8 @@ footer {
 
 }
 form{
-  margin: $spacing-loose auto;
+  margin: $spacing auto;
+  padding: $spacing;
 }
 
 // H
@@ -310,8 +291,8 @@ h2 {
 }
 
 h3 {
-  @include remSize($fsBody);
-  font-weight: 400;
+  @include remSize($fsTitle);
+  font-weight: 200;
 }
 
 h4 {
@@ -332,11 +313,6 @@ h6 {
   }
   h2 {
     @include remSize($fsHeadline)
-  }
-
-  h3 {
-    @include remSize($fsTitle);
-    font-weight: 400;
   }
 
   h4 {
@@ -463,6 +439,7 @@ main,
 .main {
   @include remSize($fsBody);
   margin: 0 auto;
+  overflow: hidden;
 }
 menu {
 

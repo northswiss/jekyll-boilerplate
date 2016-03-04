@@ -98,40 +98,25 @@
   text-align: center;
 }
 
-// DYNAMIC BUDGET
-.budget-img-wrapper {
-  background: #272C39;
-  padding: $spacing-loosest $spacing;
-
-  h3,
-  p {
-    color: $white;
-    text-align: center;
-  }
-}
-.dynamic-budget {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-}
-
-
 // CUSTOMER TYPES
 
-.customer-type-nav {
+  // TEMP HONEY POT
 
-  ul {
-    flex-wrap: nowrap;
-    padding: $spacing-tight;
-  }
+.work-in-progress {
+  background: $c-blue400;
+  display: none;
+  font-size: $fsCaption;
+  padding: $spacing-tighter $spacing-tight;
 
   button {
     margin: 0;
-    padding: $spacing-tight;
+    padding: 0;
   }
 }
+
 .customer-types{
   background: #FAFAFA;
+  padding-bottom: 0 !important;
   overflow-x: hidden;
 
   nav {
@@ -167,6 +152,7 @@
   }
   .content {
     padding: $spacing-tight;
+    position: relative;
   }
   img{
     max-width: 200px;
@@ -183,10 +169,77 @@
   }
   .feature {
 
+    &.divider {
+      background: url("/imgs/divider-line.png") bottom center no-repeat;
+      background-size: 95%;
+    }
+
     img{
+      display: block;
       max-width:100%;
     }
+    button {
+      background: transparent;
+      border: 0;
+      color: $c-blue800;
+      margin-top: 0;
+      margin-bottom: $spacing-tighter;
+      padding-left:0;
+    }
   }
+  .laptop {
+    background: url("/imgs/divide-with-shadow.png") no-repeat 50% 100%;
+    background-size: 95%;
+  }
+
+  .expenses {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+
+    span{
+      display: block;
+      height: 235px;
+      overflow: hidden;
+      text-align: center;
+
+      img {
+        margin: auto;
+      }
+    }
+
+    .product-shot {
+      max-width: 235px;
+    }
+  }
+}
+
+// DYNAMIC BUDGET
+.budget {
+  background: #272C39;
+  h2,
+  h3,
+  p {
+    color: $white;
+    text-align: center;
+  }
+}
+.budget-img-wrapper {
+  padding: $spacing-loosest $spacing;
+  position: relative;
+  height: 438px;
+  overflow: hidden;
+
+  img {
+    position: absolute;
+    left: -50%;
+    width: 200%;
+    max-width: 200%;
+  }
+}
+.dynamic-budget {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 // PUBLICITY
@@ -210,6 +263,18 @@
 
 
 // BREAK POINTS
+@include media-max($screenSmall) {
+
+
+  .budget-img-wrapper {
+    padding: 0;
+    height: 350px;
+
+    img {
+    }
+  }
+
+}
 @include media-max($screenMedium) {
   .home .site-header {
     padding-bottom: 100px;
@@ -248,6 +313,18 @@
       margin: auto;
     }
   }
+  .budget-img-wrapper {
+    height: auto;
+    max-width: $max-width;
+    margin: auto;
+
+    img {
+      position: relative;
+      left: 0;
+      width: 100%;
+      max-width: 100%;
+    }
+  }
 }
 
 @include media-min($screenLarge){
@@ -259,16 +336,59 @@
   }
   .customer-types {
     .feature {
-      margin: $spacing-loosest 0 $spacing-loosest;
+      margin: $spacing-loosest auto $spacing-loosest;
       padding: $spacing-loosest 0;
+
+      &.divider {
+        background-size: 75%;
+
+        &:nth-of-type(5) {
+          background: transparent;
+        }
+      }
 
       h3 {
         @include remSize($fsHeadline);
       }
     }
 
+    .laptop {
+      background: url("/imgs/divide-with-shadow.png") no-repeat -400% 80%;
+      background-size: 95%;
+    }
+    .expenses {
+      background: url("/imgs/product-shots/expenses-section-bg.jpg") no-repeat right top;
+      background-size: cover;
+      height: 470px;
+      margin-bottom: 0;
+      padding: 0;
+      position: relative;
+
+      span{
+        height: 470px;
+        position: absolute;
+        top: -20px;
+        left: 0;
+        width: 50%;
+
+        img {
+          max-width: 100%;
+        }
+      }
+      .content {
+        color: $white;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 35%;
+      }
+      p {
+        color: $white;
+      }
+    }
+
     .content {
-      padding: $spacing-loosest;
+      padding: 0 $spacing $spacing-loosest $spacing-loosest;
     }
   }
 }
@@ -279,6 +399,16 @@
     h1,
     h2 {
       @include remSize($fsDisplay3);
+    }
+  }
+  .customer-types {
+    .expenses {
+      span {
+        left: 10%;
+      }
+      .content {
+        right: 10%;
+      }
     }
   }
 }
