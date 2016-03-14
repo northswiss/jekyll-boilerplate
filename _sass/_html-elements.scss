@@ -405,6 +405,9 @@ input {
       top:1px;
     }
   }
+  &[type="hidden"]{
+    display: none;
+  }
 }
 
 // K

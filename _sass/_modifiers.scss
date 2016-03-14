@@ -1,5 +1,8 @@
 
 // TODO : Just for DEV. Remove for PROD
+.bg-gray-dark {
+  background: $c-gray900;
+}
 .block {
   border: 1px dashed $gray;
   padding: $spacing-loosest $spacing $spacing !important;
