@@ -1,0 +1,61 @@
+.pricing {
+
+  .request-demo {
+    margin-bottom: $spacing-loosest;
+    padding: $spacing-tighter 0;
+
+    form {
+      padding: 0;
+
+      span {
+        padding-right: 0;
+      }
+    }
+
+    h2,
+    h3 {
+      display: none;
+    }
+    .flex.three>* {
+      float: none;
+      width: 100%;
+    }
+  }
+}
+.enterprise {
+  background: url("/imgs/pricing/enterprise.jpg") no-repeat right bottom $c-dark;
+  padding: $spacing;
+
+  h3,
+  p {
+    color: $c-white;
+    margin: $spacing-tight 0;
+    width: 60%;
+  }
+}
+
+@include media-min($screenMedium) {
+
+  .pricing {
+
+    .free {
+      @include clearfix();
+      float: left;
+      width: 60%;
+    }
+    .request-demo {
+      float: right;
+      width: 30%;
+    }
+  }
+  .enterprise {
+    @include clearfix();
+
+    p {
+      float: left;
+    }
+    .btn {
+      float: right;
+    }
+  }
+}

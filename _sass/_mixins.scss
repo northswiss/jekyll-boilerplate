@@ -106,6 +106,7 @@
   &:focus {
     background: $color-hover;
     border-color: $color-hover;
+    color: $white;
     cursor: pointer;
     transform:scale(.98,.98);
   }
