@@ -2,7 +2,7 @@
 
   .request-demo {
     margin-bottom: $spacing-loosest;
-    padding: 0;
+    padding: $spacing-tighter 0;
 
     form {
       padding: 0;

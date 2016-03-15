@@ -116,7 +116,7 @@ a{
   text-decoration: none;
 
   &:hover{
-    color: $color-hover !important;
+    color: $color-hover;
     outline: 0;
   }
   &:active{
