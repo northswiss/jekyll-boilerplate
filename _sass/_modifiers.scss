@@ -25,7 +25,7 @@
   padding: $spacing;
 }
 .btn{
-  @include btn(transparent, null, false, false);
+  @include btn(transparent, null, false, true);
 }
 
 // C
