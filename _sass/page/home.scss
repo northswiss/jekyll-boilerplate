@@ -1,9 +1,9 @@
 .home {
 
   .hero {
-    background-image: url("/imgs/hero-background.jpg");
-    background-position: center center;
-    background-size: cover;
+    background-image: url("/imgs/hero-background-light.jpg");
+    background-position: right center;
+    background-size: auto;
     height: 100%;
     position: fixed;
     width: 100%;
@@ -11,19 +11,20 @@
   }
 
   h1{
-    @include remSize($fsSubtitle);
-    color: $white;
+    @include remSize($fsTitle);
     margin-top: $spacing-loose;
   }
   h1,
   h2 {
-    font-weight: 500;
+    font-weight: 300 !important;
+    text-align: center;
   }
 
-  .site-nav {
+  .banner{
+    background: transparentize($c-white, .4);
 
     button {
-      color: $white;
+      color: $color-link;
     }
   }
 
@@ -32,8 +33,6 @@
     position: relative;
 
     h2 {
-      color: $white;
-      color: transparentize($white, .2);
       margin-bottom: 0;
     }
     .hero-demo-request {
@@ -46,6 +45,7 @@
   .find-out-more {
     background: transparent;
     border: none;
+    color: $c-gray600;
     display: block;
 
     span {
@@ -66,19 +66,18 @@
 }
 .hero-buttons {
   margin-top: $spacing-looser;
-  text-align: center;
+  //text-align: center;
 
   button {
-    margin: $spacing-tighter auto;
+    margin: $spacing-tighter;
   }
   span {
-    color: $white;
     display: none;
     padding: $spacing-loose $spacing-tight;
   }
   .flex{
-    margin:auto;
-    max-width: 420px;
+    //margin:auto;
+    //max-width: 420px;
   }
 
 }
@@ -277,7 +276,7 @@
 }
 @include media-max($screenMedium) {
   .home .site-header {
-    padding-bottom: 100px;
+    //padding-bottom: 100px;
   }
 }
 @include media-min($screenMedium) {
@@ -285,7 +284,7 @@
   .home {
 
     h1{
-      margin-top: $spacing-loosest*3.2;
+      margin-top: $spacing-loosest*3;
     }
     h1,
     h2 {
@@ -296,6 +295,10 @@
 
   .hero-buttons {
 
+    .flex {
+      margin: 0 auto;
+      max-width:400px;
+    }
     button {
       margin: $spacing 0;
     }
@@ -329,6 +332,26 @@
 
 @include media-min($screenLarge){
 
+  .home {
+
+    .hero {
+      background-position: center top;
+    }
+
+    h1,
+    h2 {
+      @include remSize(36px);
+      margin-left: $spacing-loosest*4;
+      text-align: left;
+    }
+    .hero-buttons {
+      margin-left: $spacing-loosest*4;
+
+      .flex {
+        margin: 0;
+      }
+    }
+  }
   .intro {
     @include remSize(32px);
     border-bottom: 1px solid $c-gray400;
@@ -398,7 +421,14 @@
 
     h1,
     h2 {
-      @include remSize($fsDisplay3);
+      //@include remSize($fsDisplay3);
+      margin-left: $spacing-loosest*6;
+    }
+    .hero {
+      background-size: cover;
+    }
+    .hero-buttons{
+      margin-left: $spacing-loosest*6;
     }
   }
   .customer-types {

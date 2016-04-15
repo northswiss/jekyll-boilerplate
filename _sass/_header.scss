@@ -1,7 +1,6 @@
 
 .site-header {
   background-image: url("/imgs/pattern.png");
-  //border-bottom: 4px solid $c-gray400;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -18,24 +17,19 @@
   }
   h2{
     @include animation('fade-in-from-bottom-delayed 2s');
-    color: darken($c-blue, 10%);
+    //color: darken($c-blue, 10%);
     margin-bottom: 0;
   }
 }
-.logo-white {
-  display: none;
-}
 .home {
-  .logo-white {
-    display: block;
-  }
-  .logo-color {
-    display: none;
-  }
   .banner {
     a {
-      color: $white;
+      color: $color-link;
     }
+  }
+  .hero-buttons button {
+    display: block;
+    margin: $spacing auto;
   }
 }
 .banner {
@@ -91,6 +85,13 @@
 
 .btn-menu {
   @include remSize($fsTitle);
+  border: none;
+  color: $white;
+  font-size: $fsTitle;
+  font-weight: 300;
+  margin:0 $spacing 0 0;
+  padding: $spacing-tighter;
+  text-align: right;
 }
 
 .site-nav{
@@ -114,11 +115,11 @@
     @include border-radius(0);
     background: transparent;
     border: 0;
-    border-left: 1px solid $white;
+    border-left: 1px solid $c-gray300;
     color: $color-link;
     font-size: 1em;
     font-weight: 500;
-    margin: 0;
+    margin: 0 $spacing 0 0;
   }
 
   ul{
@@ -158,14 +159,16 @@
     }
   }
   .site-nav {
-    border: 1px solid $white;
+    //border: 1px solid $white;
     right: 0;
     top: $spacing-tighter;
 
     &:hover {
-      @include box-shadow();
-      background: transparentize( $white, .1 );
+      background: $c-white;
 
+      button {
+        border: 0;
+      }
       a{
         color: $color-link;
         font-size: $fsBody;
@@ -178,14 +181,7 @@
       padding: $spacing-tight;
     }
     .btn-menu {
-      border: none;
-      color: $white;
-      font-size: $fsTitle;
-      font-weight: 300;
-      margin:0 !important;
-      padding: $spacing-tighter;
-      text-align: right;
-      width: 100%;
+      //width: 100%;
     }
     ul {
       width: 100%;
@@ -211,7 +207,7 @@
     }
   }
 }
-@include media-min($screenMedium){
+@include media-min($screenLarge){
   .site-nav {
 
     .btn-menu{ // Don't need menu button on larger devices
