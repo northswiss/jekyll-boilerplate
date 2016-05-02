@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  TravelPerk - 4 Benefits to Systemizing Travel Management 
+title:  4 Benefits to Using a Travel Management Tool 
 subtitle: 
 meta: "Managing corporate business travel is difficult without the right help. Systemizing travel management can make it easier: here are 4 ways how."  
 author: Javier Suarez
@@ -10,7 +10,7 @@ category: Process
 
 <img class="left" src="/imgs/blog/systemised-travel.jpg" alt="TravelPerk - Systemizing travel management feature image" />
 
-Managing a stable of dedicated employees and their travel arrangements is a taxing gig that requires all the help you can get. While corporate travel agencies are the usual go-to when it comes to booking airlines, hotels, and transportation, they introduce many points of friction. In this increasingly connected day and age, _these points of friction just don’t need to be there_. 
+Managing a team of dedicated employees and their travel arrangements is a taxing gig that requires all the help you can get. While corporate travel agencies are the usual go-to when it comes to booking airlines, hotels, and transportation, they introduce many points of friction. In this increasingly connected day and age, _these points of friction just don’t need to be there_. 
 
 Consider the role of the internet: over the past 20 years, it has disrupted every industry from leisure travel to lodging to taxi services. Corporate travel management is no exception, with companies like ours working to provide travel managers like you with a more streamlined and intuitive platform to overhaul the entire process of traditional business travel booking. 
 

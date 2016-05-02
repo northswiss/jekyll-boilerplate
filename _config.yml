@@ -4,15 +4,16 @@ email: info@travelperk.com
 description: > # this means to ignore newlines until "baseurl:"
   TravelPerk is a free tool to help office managers book &amp; manage their business travel all in one place, offering expense integration and travel budget reporting too.
 host: "http://travelperk.com"
-#baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://travelperk.com" # the base hostname & protocol for your site
-#permalink: pretty
+permalink: /blog/:title/
 exclude: [node_modules, gulpfile.js, vendor]
 
 # Build settings
 markdown: kramdown
 jquery_version: 1.11.3
 modernizr:  true
+post_dirs: false
 
 # Site defaults
 defaults:
