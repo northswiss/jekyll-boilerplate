@@ -3,6 +3,7 @@
   <button id="btn-menu" class="btn-menu" data-ga-category="Site nav">Menu</button>
   {% assign pages = site.pages | sort:"weight"  %}
   <ul>
+    <li><a href="/">Home</a></li>
     {% for p in pages %}
     {% if p.nav-header == true %}
     <li {% if p.url == page.url %}class="current"{% endif %}>
