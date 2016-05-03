@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  4 Benefits to Using a Travel Management Tool 
-subtitle: 
-meta: "Managing corporate business travel is difficult without the right help. Systemizing travel management can make it easier: here are 4 ways how."  
+title: 4 Benefits to Using a Travel Management Tool
+subtitle: null
+meta: "Managing corporate business travel is difficult without the right help. Systemizing travel management can make it easier: here are 4 ways how."
 author: Javier Suarez
 category: Process
-
+published: true
 ---
 
 <img class="left" src="/imgs/blog/systemised-travel.jpg" alt="TravelPerk - Systemizing travel management feature image" />
@@ -39,3 +39,9 @@ For both travel managers and the employees they manage, some digital travel solu
 Putting everything into the hands of a corporate travel agent only serves to take it out of yours, depriving you of valuable data that can serve to improve your processes over time. Without it, you’re left groping in the dark, hoping the corporate travel company you’re dealing with truly has your bottom line in mind. (Plot twist: they probably don’t.)
 
 Using digital travel solutions means generating troves of data full of valuable metrics like flight costs, hidden fees, travel frequency, hotel stay frequency, and many more. All of this valuable data can be used to better allocate funds and negotiate better deals with those most used flights and hotels — making you and those above you so much happier over the long-term.
+
+### Related Links:
+- [5 ways com- panies waste money](http://travelperk.com/blog/business-travel-5-ways-companies-waste-money/)
+- [4 must-have business travel tools](http://travelperk.com/blog/four-must-have-business-travel-tools-for-office-managers/)
+- [Business Manag
+ement with TravelPerk](http://travelperk.com)
