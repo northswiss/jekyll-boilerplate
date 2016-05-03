@@ -19,11 +19,12 @@ post_dirs: false
 defaults:
   -
     scope:
-      path: "posts"
+      path: ""
       type: "posts"
     values:
       layout: "post"
-      author: "Ron Levin"
+      author: "Javier Suarez"
+      category: "Business Travel"
   -
     scope:
       path: "pages"
