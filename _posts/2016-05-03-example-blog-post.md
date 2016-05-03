@@ -1,5 +1,8 @@
 ---
-published: false
+published: true
+subtitle: This is an example of a subtitle
+meta: "Managing corporate business travel is difficult without the right help. Systemizing travel management can make it easier: here are 4 ways how."
+category: Example blog
 ---
 ## This is a header 2
 When you create a new line, it creates a paragraph, so just start writing.
