@@ -1,5 +1,6 @@
 ---
 published: true
+category: Testing
 ---
 ## This is the subtitle for the blog
 
