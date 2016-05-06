@@ -1,0 +1,25 @@
+@include media-min($screenMedium){
+  .sign-up{
+    background: #000;
+    .content {
+      @include clearfix();
+      float: left;
+      margin-bottom: $spacing-loosest;
+      width: 60%;
+
+      ul {
+        margin-top: 0;
+        padding-left: 2em;
+        list-style-type: none;
+      }
+
+      li:before{
+        color: $c-green;
+        content: "\2713";
+        font-weight: bold;
+        margin-left: -1.3em;
+        position: absolute;
+      }
+    }
+  }
+}

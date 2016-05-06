@@ -1,24 +1,13 @@
 ---
 
 ---
-<!DOCTYPE html>
-<html class="no-js" lang="en">
 
-{% include core/head.html %}
+{% include core-component/head.html %}
 
-<body class="{{ page.id }}">
-<!--[if lt IE 8]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-<![endif]-->
-
-{% include core/header.html %}
+{% include core-component/header.html %}
 
 <main class="main">
   {{ content }}
 </main>
 
-{% include core/footer.html %}
-
-</body>
-
-</html>
+{% include core-component/footer.html %}

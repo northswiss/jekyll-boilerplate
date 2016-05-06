@@ -1,8 +1,13 @@
 <!-- Sign up -->
 
 <section id="request-demo" class="request-demo bg-gray-dark">
+    {% if page.id == "home" %}
     <h3>Making business travel management a whole lot simpler.</h3>
     <h2 class="wrapper">Ready to get started?</h2>
+    {% endif %}
+    {% if page.id == "sign-up" %}
+    <h3 class="wrapper">Start your <strong>free</strong> account today!</h3>
+    {% endif %}
     <form accept-charset="UTF-8" action="http://formspree.io/juli@travelperk.com" method="POST">
       <div class="flex three">
       <span>

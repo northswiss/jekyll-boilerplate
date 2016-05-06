@@ -1,27 +1,4 @@
-.pricing {
 
-  .request-demo {
-    margin-bottom: $spacing-loosest;
-    padding: $spacing-tighter 0;
-
-    form {
-      padding: 0;
-
-      span {
-        padding-right: 0;
-      }
-    }
-
-    h2,
-    h3 {
-      display: none;
-    }
-    .flex.three>* {
-      float: none;
-      width: 100%;
-    }
-  }
-}
 .enterprise {
   background: url("/imgs/pricing/enterprise.jpg") no-repeat right bottom $c-dark;
   padding: $spacing;
@@ -36,7 +13,8 @@
 
 @include media-min($screenMedium) {
 
-  .pricing {
+  .pricing,
+  .sign-up {
 
     .free {
       @include clearfix();
