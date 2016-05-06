@@ -13,7 +13,9 @@
       <img class="logo-color" src="/imgs/brand/travelperk-logo-dark.svg" alt="{{ site.title }}">
     </a>
 
-    {% include core/nav-main.html %}
+    {% if page.id != "sign-up" %}
+      {% include core-component/nav-main.html %}
+    {% endif %}
 
   </div>
 

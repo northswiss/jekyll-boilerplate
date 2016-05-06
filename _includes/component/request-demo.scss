@@ -1,0 +1,78 @@
+.request-demo {
+
+  h2,
+  h3,
+  h4 {
+    color: $white;
+    margin-left: auto;
+    text-align: center;
+  }
+  form {
+    max-width:75%;
+  }
+}
+
+@include media-min($screenMedium) {
+  .request-demo {
+
+    form {
+
+      span {
+        padding-right: $spacing;
+
+        &:last-child {
+          padding-right: 0;
+        }
+      }
+    }
+
+    .card {
+      margin: $spacing auto;
+      max-width: 75%;
+    }
+
+  }
+}
+
+.pricing,
+.sign-up {
+
+  .request-demo {
+    margin-bottom: $spacing-loosest;
+    padding: $spacing-tighter 0;
+
+    form {
+      padding: 0;
+
+      span {
+        padding-right: 0;
+      }
+    }
+    .flex.three>* {
+      float: none;
+      width: 100%;
+    }
+  }
+}
+
+// Thank you mail animation
+@keyframes envelope-zoom {
+  from {
+    position: relative;
+    top: 140px;
+    left: -140px;
+    transform: scale(0,0);
+  }
+  to {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: scale(1,1);
+  }
+}
+
+/* The element to apply the animation to */
+.envelope {
+  animation-name: envelope-zoom;
+  animation-duration: 1s;
+}

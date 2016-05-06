@@ -28,9 +28,13 @@ defaults:
   -
     scope:
       path: "pages"
-      type: "pages" # previously `page` in Jekyll 2.2.
+      type: "pages" # previously `_sass-page` in Jekyll 2.2.
     values:
       layout: "page" # overrides previous default layout
+
+sass:
+    sass_dir: _includes
+    style: compressed
 
 # Compress HTML settings via http://jch.penibelst.de/
 compress_html:

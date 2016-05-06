@@ -4,34 +4,35 @@
 
 @charset "utf-8";
 
-// Import partials from `sass_dir` (defaults to `_sass`)
+// Import partials from `sass_dir` (defaults to `_sass-core`)
 @import
-  "_colors-core",
-  "_sass-definitions",
-  "_mixins",
-  "_animations",
-  "_html-elements",
-  "_modifiers",
-  "_syntax-highlighting",
-  "_icomoon",
-  "_header",
-  "_footer",
-  "_z-index";
+  "_sass-core/colors-core",
+  "_sass-core/sass-definitions",
+  "_sass-core/mixins",
+  "_sass-core/animations",
+  "_sass-core/html-elements",
+  "_sass-core/modifiers",
+  "_sass-core/syntax-highlighting",
+  "_sass-core/icomoon",
+  "_sass-core/header",
+  "_sass-core/footer",
+  "_sass-core/z-index";
 
 // PAGES
 @import
-  "page/home",
-  "page/about",
-  "page/blog",
-  "page/faqs",
-  "page/pricing";
+  "_sass-page/home",
+  "_sass-page/about",
+  "_sass-page/blog",
+  "_sass-page/faqs",
+  "_sass-page/pricing",
+  "_sass-page/sign-up";
 
 // COMPONENTS
 @import
   "component/testimonial",
   "component/overlay",
   "component/request-demo",
-  "component/sign-up",
+  "component/sign-up-form",
   "component/social";
 
 

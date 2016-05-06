@@ -15,7 +15,7 @@
 @include keyframes(fade-in-from-bottom) {
   0% {
     opacity: 0;
-    top: 3em;
+    top: 1em;
   }
   100% {
     opacity: 1;
@@ -26,11 +26,11 @@
 @include keyframes(fade-in-from-bottom-delayed) {
   0% {
     opacity: 0;
-    top: 2em;
+    top: 1em;
   }
   50% {
     opacity: 0;
-    top: 2em;
+    top: .5em;
   }
   100% {
     opacity: 1;

@@ -13,11 +13,10 @@
     position: relative;
   }
   h1{
-    @include animation('fade-in-from-bottom 1.5s');
+    @include animation('fade-in-from-bottom 1s');
   }
   h2{
-    @include animation('fade-in-from-bottom-delayed 2s');
-    //color: darken($c-blue, 10%);
+    @include animation('fade-in-from-bottom-delayed 1s');
     margin-bottom: 0;
   }
 }
