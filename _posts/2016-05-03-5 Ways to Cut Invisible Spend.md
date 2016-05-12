@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 meta: "Do you know about the Invisible Travel Costs in Travel Management? Learn where unexpected corporate travel costs ocurre and 5 ways to reduce them."
 author: avi
 ---
