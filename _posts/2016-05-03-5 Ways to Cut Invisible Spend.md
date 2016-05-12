@@ -7,7 +7,6 @@ author: avi
 
 ![Invisible Spend]({{site.baseurl}}/_posts/Invisible spend 800.png)
 
-
 Being an effective travel manager means handling the complexity of dozens, hundreds, or sometimes even thousands of constantly moving employees. And for every travel manager, efficient, comfortable travel for each employee is the foremost priority. After all, a comfortable employee — especially those who travel often — are able to be far more productive in the long run.  
 
 As a Travel Manager you know that coordinating corporate travel means not only juggling all their employees travel needs, but also each employee’s habits and preferences. Add to that the increasingly connected and complex nature of business travel and you have a sour tasting recipe that can affect the company’s bottom line negatively.
