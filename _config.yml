@@ -23,6 +23,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      id: "single-post"
       author: "Javier Suarez"
       category: "Business Travel"
   -
