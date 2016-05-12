@@ -58,6 +58,10 @@ prose:
     - /_includes
   metadata:
     _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
       - name: "layout"
         field:
           element: "hidden"
@@ -122,3 +126,4 @@ prose:
           element: "text"
           label: "Permalink"
           value: ""
+  id: "post"
