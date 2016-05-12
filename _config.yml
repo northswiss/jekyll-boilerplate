@@ -62,7 +62,7 @@ prose:
         field:
           element: "hidden"
           value: "post"
-      - name: "tags"
+      - name: "author"
         field:
           element: "select"
           label: "Choose Author"
@@ -74,6 +74,18 @@ prose:
               value: "javier"
             - name: "Ron Levin"
               value: "ron"
+      - name: "seo-meta"
+        field:
+          element: "textarea"
+          label: "Add SEO meta description"
+          placeholder: "Should be no more than 155 characters"
+          help: "See https://moz.com/learn/seo/meta-description for more information"
+      - name: "subtitle"
+        field:
+          element: "text"
+          label: "An an optional subtitle for the blog"
+          placeholder: "Should be no more than 155 characters"
+          help: "This will appear below the main header and in the list of blog posts. Can be used for SEO"
       - name: "tags"
         field:
           element: "multiselect"
