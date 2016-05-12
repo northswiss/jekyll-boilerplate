@@ -84,7 +84,7 @@ prose:
         field:
           element: "text"
           label: "An an optional subtitle for the blog"
-          placeholder: "Should be no more than 155 characters"
+          placeholder: "Article subtitle"
           help: "This will appear below the main header and in the list of blog posts. Can be used for SEO"
       - name: "tags"
         field:
@@ -93,11 +93,23 @@ prose:
           placeholder: "Choose Tags"
           options:
             - name: "Business travel"
-              value: "business travel"
-            - name: "Process"
-              value: "process"
-            - name: "Cost saving"
-              value: "cost saving"
+              value: "Business Travel"
+            - name: "Business Travel Tips"
+              value: "Business travel tips"
+            - name: "Business Process"
+              value: "Business process"
+            - name: "Business Travel Top Picks"
+              value: "Business travel top picks"
+            - name: "Cost Saving"
+              value: "Cost saving"
+            - name: "Interview"
+              value: "Interview"
+            - name: "Travel Management"
+              value: "Travel management"
+            - name: "Travel Safety"
+              value: "Travel safety"
+            - name: "Travel Spend"
+              value: "Travel spend"
     _posts/static:
       - name: "layout"
         field:
