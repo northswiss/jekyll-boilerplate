@@ -44,3 +44,43 @@ compress_html:
   profile: false
   ignore:
     envs: [local]
+
+# Prose settings
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://travelperk.com/'
+  relativeLinks: 'http://travelperk.com'
+  media: 'blog-media'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Business travel"
+              value: "business travel"
+            - name: "Process"
+              value: "process"
+            - name: "Cost saving"
+              value: "cost saving"
+    _posts/static:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          value: ""
