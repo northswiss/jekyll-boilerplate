@@ -3,10 +3,6 @@
 */
 .blog {
 
-  h1{
-    text-transform: capitalize;
-  }
-
   .main {
     background: $c-pale;
   }
@@ -36,6 +32,11 @@
 
 .post-header {
   margin-top:$spacing;
+}
+.post{
+  h1{
+    text-transform: capitalize;
+  }
 }
 
 .blog-posts {
