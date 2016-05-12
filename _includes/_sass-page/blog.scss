@@ -3,6 +3,10 @@
 */
 .blog {
 
+  h1{
+    text-transform: capitalize;
+  }
+
   .main {
     background: $c-pale;
   }
