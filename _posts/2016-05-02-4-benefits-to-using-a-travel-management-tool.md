@@ -2,7 +2,7 @@
 layout: post
 title: 4 Benefits to Using a Travel Management Tool
 subtitle: null
-meta: "Managing corporate business travel is difficult without the right help. Systemizing travel management can make it easier: here are 4 ways how."
+seo-meta: "Managing corporate business travel is difficult without the right help. Systemizing travel management can make it easier: here are 4 ways how."
 author: Javier Suarez
 category: Process
 published: true

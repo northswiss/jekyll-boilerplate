@@ -184,7 +184,7 @@
   float: left;
 }
 img.left {
-  margin: 0 $spacing $spacing 0;
+  margin: 0 $spacing $spacing-tight 0;
 }
 
 .light-text{
@@ -207,7 +207,7 @@ img.left {
   float: right;
 }
 img.right {
-  margin: 0 0 $spacing $spacing;
+  margin: 0 0 $spacing $spacing-tight;
 }
 
 // S
