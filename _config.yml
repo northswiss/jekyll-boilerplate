@@ -110,6 +110,8 @@ prose:
               value: "Travel safety"
             - name: "Travel Spend"
               value: "Travel spend"
+            - name: "Tools & Productivity"
+              value: "Tools & productivity"
     _posts/static:
       - name: "layout"
         field:
