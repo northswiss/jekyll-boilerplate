@@ -20,16 +20,22 @@ layout: default
   </article>
 
   <footer class="author-block">
-    {% if page.author == "Ron Levin" %}
-    <img src="/imgs/team/ron-levin.png" alt="Ron Levin">
-    <h4>Ron Levin</h4>
-    <p>Strategic Advisor & Co-founder</p>
-    <a href="https://www.linkedin.com/profile/view?id=ADEAAAAAlPABPzqPCzkfeUz2OdzJjy_bSDBjF9E">LinkedIn</a>
-    {% else %}
-    <img src="/imgs/team/javier-suarez.png" alt="Javier Suarez">
-    <h5>About the Author:</h5>
-    <h4><a href="https://www.linkedin.com/in/javier-suarez-4b800362" title="Connect with Javier on LinkedIn">Javier Suarez</a></h4>
-    <p>Javier Suarez is the Co-Founder and CPO of <a href="http://travelperk.com/">TravelPerk</a>.</p>
+    {% assign articleAuthor = page.author | downcase %}
+    {% if articleAuthor == "ron" %}
+      <img src="/imgs/team/ron-levin.png" alt="Ron Levin">
+      <h4>Ron Levin</h4>
+      <p>Strategic Advisor & Co-founder</p>
+      <a href="https://www.linkedin.com/profile/view?id=ADEAAAAAlPABPzqPCzkfeUz2OdzJjy_bSDBjF9E">LinkedIn</a>
+    {% elsif articleAuthor == "avi" %}
+      <img src="/imgs/team/avi-meir.png" alt="Avi Meir">
+      <h5>About the Author:</h5>
+      <h4><a href="https://es.linkedin.com/in/avimeir" title="Connect with Avi on LinkedIn">Avi Meir</a></h4>
+      <p>Avi Meir is the Co-Founder and CEO of <a href="http://travelperk.com/">TravelPerk</a>.</p>
+    {% elsif articleAuthor == "javier" %}
+      <img src="/imgs/team/javier-suarez.png" alt="Javier Suarez">
+      <h5>About the Author:</h5>
+      <h4><a href="https://www.linkedin.com/in/javier-suarez-4b800362" title="Connect with Javier on LinkedIn">Javier Suarez</a></h4>
+      <p>Javier Suarez is the Co-Founder and CPO of <a href="http://travelperk.com/">TravelPerk</a>.</p>
     {% endif %}
   </footer>
 

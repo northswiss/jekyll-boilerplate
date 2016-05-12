@@ -3,7 +3,7 @@ layout: post
 title:  "Alternatives to the alternative"
 subtitle: 5 trendy accommodations beyond AirBnB
 date:   2015-10-04 12:21:00
-author: Ron Levin
+author: Ron
 category: Accommodation
 
 ---
