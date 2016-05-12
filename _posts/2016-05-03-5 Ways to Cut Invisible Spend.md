@@ -3,7 +3,7 @@ published: true
 meta: "Do you know about the Invisible Travel Costs in Travel Management? Learn where unexpected corporate travel costs ocurre and 5 ways to reduce them."
 author: avi
 ---
-#Making The Invisible, Visible: 5 Ways to Cut Invisible Spend
+## Making The Invisible, Visible: 5 Ways to Cut Invisible Spend
 ![Invisible Spend]({{site.baseurl}}/_posts/Invisible spend 800.png)
 
 
