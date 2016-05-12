@@ -6,7 +6,7 @@ author: avi
 ---
 ## Making The Invisible, Visible: 5 Ways to Cut Invisible Spend
 
-<img alt="Invisible spend" src="{{site.baseurl}}/blog-media/Invisible%20spend%20500%20.png" />
+<img alt="Invisible spend" class="left" src="{{site.baseurl}}/blog-media/Invisible%20spend%20500%20.png" />
 
 Being an effective travel manager means handling the complexity of dozens, hundreds, or sometimes even thousands of constantly moving employees. And for every travel manager, efficient, comfortable travel for each employee is the foremost priority. After all, a comfortable employee — especially those who travel often — are able to be far more productive in the long run.  
 
