@@ -1,9 +1,13 @@
 ---
-published: true
+layout: post
+published: false
 author: avi
 subtitle: This is an example of a subtitle
 meta: "Managing corporate business travel is difficult without the right help. Systemizing travel management can make it easier: here are 4 ways how."
 category: Example blog
+tags: 
+  - ""
+  - ""
 ---
 
 ## This is a header 2
@@ -44,4 +48,4 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 ## Adding images to the blog
 Click on the image icon above and then in the path, put imgs/blog before your image. So, for example, if you upload an image called airplane.jpg, you will need to add imgs/blog before the path of the image, like this: imgs/blog/airplane.jpg
 
-It is also good practice to give your image alt text, so fill this out in the box as well. This should try and focus on the keywords for the page where applicable. 
+It is also good practice to give your image alt text, so fill this out in the box as well. This should try and focus on the keywords for the page where applicable.
