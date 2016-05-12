@@ -1,8 +1,11 @@
 ---
 published: false
+meta: "Do you know about the Invisible Travel Costs in Travel Management? Learn where unexpected corporate travel costs ocurre and 5 ways to reduce them."
+author: avi
 ---
 #Making The Invisible, Visible: 5 Ways to Cut Invisible Spend
-![Invisible Travel Costs]({{site.baseurl}}/_posts/Invisible Spend.jpg)
+![Invisible Spend]({{site.baseurl}}/_posts/Invisible spend 800.png)
+
 
 Being an effective travel manager means handling the complexity of dozens, hundreds, or sometimes even thousands of constantly moving employees. And for every travel manager, efficient, comfortable travel for each employee is the foremost priority. After all, a comfortable employee — especially those who travel often — are able to be far more productive in the long run.  
 
@@ -63,5 +66,3 @@ Luckily, this instance of invisible spend has a pretty easy fix: simply inform y
 [Out of Travel Policy - The Age of DIY Business Travel](http://travelperk.com/blog/the-age-of-diy-business-travel/)
 
 [Business Travel Management with TravelPerk](www.travelperk.com)
- 
-
