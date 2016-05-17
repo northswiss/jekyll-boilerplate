@@ -7,7 +7,7 @@ subtitle: This is an example of a subtitle
   Managing corporate business travel is difficult without the right help. Systemizing travel management can make it easier: here are 4 ways how.
 category: Example blog
 date: "2016-05-17 11:09 +0200"
-title: DELETE ME
+title: Example Blog Post Title
 ---
 
 There is an article on the TravelPerk Wiki which also explains how to set up and format your blog post. You can see this here: https://travelperk.atlassian.net/wiki/display/SNM/Marketing+Website
