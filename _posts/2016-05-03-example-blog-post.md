@@ -3,11 +3,11 @@ layout: post
 published: false
 author: avi
 subtitle: This is an example of a subtitle
-seo-meta: "Managing corporate business travel is difficult without the right help. Systemizing travel management can make it easier: here are 4 ways how."
+"seo-meta": 
+  Managing corporate business travel is difficult without the right help. Systemizing travel management can make it easier: here are 4 ways how.
 category: Example blog
-tags: 
-  - ""
-  - ""
+date: "2016-05-17 11:09 +0200"
+title: DELETE ME
 ---
 
 ## This is a header 2
