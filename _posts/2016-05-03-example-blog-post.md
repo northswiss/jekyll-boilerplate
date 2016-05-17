@@ -10,6 +10,8 @@ date: "2016-05-17 11:09 +0200"
 title: DELETE ME
 ---
 
+There is an article on the TravelPerk Wiki which also explains how to set up and format your blog post. You can see this here: https://travelperk.atlassian.net/wiki/display/SNM/Marketing+Website
+
 ## This is a header 2
 The blog is formatted using Markdown. It's easier if you just head over to [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and see some of the formatting options, use the toolbar above, or click the **?** button for formatting help.
 
