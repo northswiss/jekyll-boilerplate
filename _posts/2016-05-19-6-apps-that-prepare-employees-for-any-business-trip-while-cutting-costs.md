@@ -46,6 +46,7 @@ It’s hard to know what’s worth eating in a new city and where that food is, 
 
 ## [Google Translate](www.translate.google.com) -  translate any street sign with the new scan app
 
+![o-GOOGLE-TRANSLATE-facebook.jpg]({{site.baseurl}}/blog-media/o-GOOGLE-TRANSLATE-facebook.jpg)
 
 If you add the difficulties that come with a foreign language to all of the challenges in navigating a new city, then everything becomes that much more difficult. This results in employees almost certainly leaning on those more convenient apps and services — and in the process, spending more company money. 
 
