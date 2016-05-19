@@ -42,7 +42,7 @@ Having unobstructed access to map data is a big deal in a new city, saving time 
 
 With MapsWithMe, business travelers don’t need to worry again: this travel app lets them download extremely detailed maps for the biggest cities and smallest villages around the world for offline use. By leveraging the power of GPS, MapsWithMe allows users to find where they need to go without the need of a working internet connection, saving both time and frustration for them — and more than a few pennies for the employer. 
 
-## [AroundMe](http://www.aroundmeapp.com/)- Find the nearest atm, cafes and more
+## [AroundMe](http://www.aroundmeapp.com/)- Find the nearest Atm, Cafes and more
 
 Ending up lost in a new city is a common occurrence for employees on the move. Not only can it cost employers more since employees might reach for an Uber for a meeting that’s right around the corner, but getting lost also puts employee’s safety at risk too. 
 
