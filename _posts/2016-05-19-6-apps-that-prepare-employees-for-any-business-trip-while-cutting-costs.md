@@ -1,7 +1,7 @@
 ---
 layout: post
 date: "2016-05-19 05:28 +0200"
-published: false
+published: true
 title: 6 Apps That Prepare Employees for Any Business Trip
 author: avi
 "seo-meta": These six business travel apps help every company prepare their employees for a trip no matter where they go while cutting costs.
@@ -67,4 +67,3 @@ The well-known Google Translate is a crutch for all cramming university seniors 
 [4 Benefits to Using a Travel Management Too](http://travelperk.com/blog/4-benefits-to-using-a-travel-management-tool/)l
 [5 ways to Cut Invisible Spend](http://travelperk.com/blog/5-Ways-to-Cut-Invisible-Spend/)
 [Benefits of Business Travel with Travelperk](www.travelperk.com/signup)
-
