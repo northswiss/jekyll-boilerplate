@@ -3,10 +3,14 @@ layout: post
 date: "2016-05-19 05:28 +0200"
 published: false
 title: 6 Apps That Prepare Employees for Any Business Trip
-author: ""
-"seo-meta": ""
-subtitle: ""
-tags: ""
+author: avi
+"seo-meta": These six business travel apps help every company prepare their employees for a trip no matter where they go while cutting costs.
+subtitle: Cut Invisible spend with modern technology when employees are travelling
+tags: 
+  - Business Travel
+  - Business travel tips
+  - Travel spend
+  - "Tools & productivity"
 ---
 ![Travel Apps.jpg]({{site.baseurl}}/blog-media/Travel Apps.jpg)
 
@@ -38,19 +42,19 @@ Having unobstructed access to map data is a big deal in a new city, saving time 
 
 With MapsWithMe, business travelers don’t need to worry again: this travel app lets them download extremely detailed maps for the biggest cities and smallest villages around the world for offline use. By leveraging the power of GPS, MapsWithMe allows users to find where they need to go without the need of a working internet connection, saving both time and frustration for them — and more than a few pennies for the employer. 
 
-## [AroundMe](http://www.aroundmeapp.com/)- Search for the nearest cafes, atm and more
+## [AroundMe](http://www.aroundmeapp.com/)- Find the nearest atm, cafes and more
 
 Ending up lost in a new city is a common occurrence for employees on the move. Not only can it cost employers more since employees might reach for an Uber for a meeting that’s right around the corner, but getting lost also puts employee’s safety at risk too. 
 
 AroundMe is a GPS-powered local search engine that intelligently guides users to the nearest restaurants, bars, movie theatres, and even ATMs. With this travel app, it’s never a hassle to get from one place to the next, especially since it features integration with Booking.com, Opentable.com, FourSquare, and many more services. 
 
-##  [The Fork](http://www.thefork.com/)- Find the best restaurant deals
+##  [The Fork](http://www.thefork.com/)- Get the best restaurant deals
 
 Despite room service being notorious for it pricey selections, employees on the road still turn to it for a quick and easy bite. They may be able to lay in bed and munch away, but employers end up footing a larger bill for their comfort.
 
 It’s hard to know what’s worth eating in a new city and where that food is, which is why the gastronomy-centric app by Tripadvisor The Fork is so useful. Through it, frequent travelers can search the city they’re in for local restaurants and book right from the app. In the process, they’ll save money: The app itself points out restaurants offering discounts, and The Fork’s own newsletter and Loyalty Program both make it easy to save on the next dish. With The Fork, your employees are more likely to discover the crispiest schnitzel in Vienna or the tastiest paella in Barcelona, and spend less money doing so! 
 
-## [Google Translate](www.translate.google.com) - Overcome language barriers with the scan app
+## [Google Translate](www.translate.google.com) - Overcome any language barrier with the scan app
 
 ![o-GOOGLE-TRANSLATE-facebook.jpg]({{site.baseurl}}/blog-media/o-GOOGLE-TRANSLATE-facebook.jpg)
 
@@ -58,4 +62,9 @@ If you add the difficulties that come with a foreign language to all of the chal
 
 The well-known Google Translate is a crutch for all cramming university seniors everywhere. But what makes it more interesting outside of its normal text-translation capabilities is the app’s ability to instantly “read” and translate signs using a smartphone’s camera. With an app like this, business travelers won’t ever have to feel mystified by what would otherwise be a routine occurrence — and employees won’t have to cover the bill for bad decisions.  
 
+
+**Related Links: **
+[4 Benefits to Using a Travel Management Too](http://travelperk.com/blog/4-benefits-to-using-a-travel-management-tool/)l
+[5 ways to Cut Invisible Spend](http://travelperk.com/blog/5-Ways-to-Cut-Invisible-Spend/)
+[Benefits of Business Travel with Travelperk](www.travelperk.com/signup)
 
