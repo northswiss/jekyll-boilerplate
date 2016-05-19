@@ -5,7 +5,7 @@ published: false
 title: 6 Apps That Prepare Employees for Any Business Trip
 author: avi
 "seo-meta": These six business travel apps help every company prepare their employees for a trip no matter where they go while cutting costs.
-subtitle: Cut Invisible spend with modern technology when employees are travelling
+subtitle: "How to cut invisible spend using modern technology "
 tags: 
   - Business Travel
   - Business travel tips
