@@ -38,6 +38,7 @@
     text-align: center;
   }
   .btn {
+    @include btn();
     display: block;
     margin: $spacing auto;
     max-width: 260px;
