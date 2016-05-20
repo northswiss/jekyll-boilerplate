@@ -22,6 +22,10 @@ non-exec:
     role:         Director of Engineering
     image:        adam-hayward.png
     linkedin:     https://es.linkedin.com/in/adamhayward
+  - name:         Xavi Francisco
+    role:         Senior Backend Engineer
+    image:        xavi-francisco.png
+    linkedin:     https://www.linkedin.com/in/xavifrancisco/en
   - name:         Jan Myler
     role:         Senior Software Engineer
     image:        jan-myler.png
@@ -30,10 +34,6 @@ non-exec:
     role:         Software Engineer
     image:        sergio-toro.png
     linkedin:     https://es.linkedin.com/in/sergiotoro
-  - name:         Łukas Prasol
-    role:         Senior Software Engineer
-    image:        lukas-prasol.png
-    linkedin:     https://es.linkedin.com/in/łukasz-prasoł-7b649b2a
   - name:         Moritz Sattler
     role:         Junior Software Engineer
     image:        moritz-sattler.png
@@ -42,6 +42,18 @@ non-exec:
     role:         Marketing & Business Development Manager
     image:        juliana-mendez.png
     linkedin:     https://es.linkedin.com/in/julianamendez/en
+  - name:         Maria Juliana
+    role:         Commercial Sales Intern
+    image:        maria-juliana.png
+    linkedin:     https://www.linkedin.com/in/mariazapata1213
+  - name:         Felicia Harstrom
+    role:         Key Account Manager
+    image:        felicia-harstrom.png
+    linkedin:     https://www.linkedin.com/in/felicia-harstrom-54106189
+  - name:         Carina Massachs
+    role:         Key Account Manager
+    image:        carina-massachs.png
+    linkedin:     https://www.linkedin.com/in/carinamassachs/en
   - name:         Frasco Romano
     role:         Visual Designer
     image:        frasco-romano.png
