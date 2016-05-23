@@ -8,9 +8,10 @@ author: ""
 subtitle: ""
 tags: ""
 ---
+
 ## Maximum Value While Minimizing Costs
 
-![Best Frequent Flyer Programs]({{site.baseurl}}/https://travelperk.box.com/shared/static/6eo6efvkja83qnh8drm198r8l0qz7m4g.jpg)
+![Best Loyalty Programs]({{site.baseurl}}/blog-media/Loyalty%20programs.jpg)
 
 Whether you’re a small, medium-sized, or multi-national corporation with business travel needs, finding value in your corporate travel process is the name of the game. Knowing exactly where to cut costs and stretch others is key to not only keeping an eye on the bottom line, but preventing employee turnover as well.
  
@@ -56,4 +57,3 @@ With points that don’t expire, a lack of blackout dates, and the ability to ex
 [Out of Travel policy - The Age of DIY travel booking](http://travelperk.com/blog/the-age-of-diy-business-travel/)
 
 [Sign up now for TravelPerk](www.travelperk.com)
-
