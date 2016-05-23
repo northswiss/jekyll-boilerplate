@@ -1,13 +1,14 @@
 <!-- Sign up -->
 
 <section id="request-demo" class="request-demo bg-gray-dark">
-    {% if page.id == "home" %}
+    {% if page.id == "home" or page.layout == "post" %}
     <h3>Making business travel management a whole lot simpler.</h3>
     <h2 class="wrapper">Ready to get started?</h2>
     {% endif %}
     {% if page.id == "sign-up" %}
     <h3 class="wrapper">Start your <strong>free</strong> account today!</h3>
     {% endif %}
+
     <form accept-charset="UTF-8" action="http://formspree.io/juliana@travelperk.com" method="POST">
       <div class="flex three">
       <span>
@@ -25,7 +26,7 @@
       </span>
       </div>
       <input type="hidden" name="_subject" value="TravelPerk Demo request" />
-      <input type="hidden" name="_cc" value="cgordonroy@gmail.com" />
+      <input type="hidden" name="_cc" value="chris@travelperk.com" />
       <input type="text" name="_gotcha" style="display:none" />
       <input type="hidden" name="_next" value="http://www.travelperk.com/demo-request-confirmation/" />
       <button id="request-demo-submit" type="submit" data-ga-category="Request demo">Request demo</button>
