@@ -27,15 +27,21 @@ With [BlueBiz](http://www.bluebiz.com/en/), companies that often fly with Delta,
 
 Completing the trifecta is the [SAS Credits programme by Scandinavian Airlines](https://www.sas.se/sas-corporate/sas-credits/). It's a completely free corporate loyalty program your company can enrol in, rewarding travel with SAS and Widerøe to Scandinavia and locations abroad in all booking and service classes. The opportunity to earn 2-4% on all air travel cuts costs for flights and hotel stays across the board, especially when you consider that individual employees can still earn EuroBonus points themselves while doing so. Talk about a profitable agreement.
 
-Kick Your Feet Up  
+## Kick Your Feet Up with Hotel Reward programs
 
-In our opinion, the Hilton HHonors program is the best pick when trying to steer your travelling employees in a more value-added direction. It isn’t the largest hotel chain in the world, but the Hilton offers the largest selection of business properties, making it easier to accrue and redeem points earned over time. In addition, the HHonors program allows your business travellers to accumulate both HHonors points and miles with their favourite airline. This gives them more incentive for them to stay at Hiltons — and for you to make their favourite airline your company’s favourite, too..
+In our opinion, the [Hilton HHonors program](http://hhonors3.hilton.com/en/index.html) is the best pick when trying to steer your travelling employees in a more value-added direction. It isn’t the largest hotel chain in the world, but the Hilton offers the largest selection of business properties, making it easier to accrue and redeem points earned over time. In addition, the HHonors program allows your business travellers to accumulate both HHonors points and miles with their favourite airline. This gives them more incentive for them to stay at Hiltons — and for you to make their favourite airline your company’s favourite, too..
 
-If Hilton isn’t your cup of tea, try the Starwood Preferred Guest (SPG) programme instead. It caters primarily to business travelers who often travel to major cities in the United States, Asia and Europe, and its members can earn and redeem points in 1,200 hotels in close to 100 countries. Since the Starwood Group has such a wide variety of properties, members can rack up points at less pricey locations and redeem them at other, more lavish ones. Starpoints can be earned by dining and shopping with Starwood partners, or by making purchases with the Starwood Preferred Guest credit card from American Express. Points can be spent on tickets to concerts and sporting events, and merchandise from a large number of retailers as well as on flights through the SPG Flights program. 
+If Hilton isn’t your cup of tea, try the [Starwood Preferred Guest (SPG) programme](http://www.starwoodhotels.com/preferredguest/index.html?language=en_US) instead. It caters primarily to business travelers who often travel to major cities in the United States, Asia and Europe, and its members can earn and redeem points in 1,200 hotels in close to 100 countries. Since the Starwood Group has such a wide variety of properties, members can rack up points at less pricey locations and redeem them at other, more lavish ones. Starpoints can be earned by dining and shopping with Starwood partners, or by making purchases with the Starwood Preferred Guest credit card from American Express. Points can be spent on tickets to concerts and sporting events, and merchandise from a large number of retailers as well as on flights through the SPG Flights program. 
 
-Get Where You’re Going With Points To Spare
+## Get Where You’re Going With Points For Rides
  
-With its Gold Plus Rewards Programme, Hertz is the gold standard for car rental services. Through a combination of worldwide coverage and seamless global integration, Hertz does an excellent job in providing travel departments the kind of value they’re looking for.
+With its[Gold Plus Rewards Programme, Hertz](https://www.hertz.com/rentacar/member/enrollment) is the gold standard for car rental services. Through a combination of worldwide coverage and seamless global integration, Hertz does an excellent job in providing travel departments the kind of value they’re looking for.
  
 With points that don’t expire, a lack of blackout dates, and the ability to exchange points for miles or points with other travel partners, travelling employees will be hard pressed to find a better alternative. Other rental car companies rely on local affiliates and regional booking websites, all of which can add to the complexity of managing business travel. Hertz Gold Plus Rewards is a truly global rewards program.
+
+**Related Links**
+[5 Ways To Cut Invisible Spend](http://travelperk.com/blog/5-Ways-to-Cut-Invisible-Spend/)
+[5 Ways Companies Waste Money](http://travelperk.com/blog/business-travel-5-ways-companies-waste-money/)
+[Out of Travel policy - The Age of DIY travel booking](http://travelperk.com/blog/the-age-of-diy-business-travel/)
+[Sign up now for TravelPerk](www.travelperk.com)
 
