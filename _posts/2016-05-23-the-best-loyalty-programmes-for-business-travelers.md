@@ -40,11 +40,15 @@ With its[Gold Plus Rewards Programme, Hertz](https://www.hertz.com/rentacar/memb
 With points that don’t expire, a lack of blackout dates, and the ability to exchange points for miles or points with other travel partners, travelling employees will be hard pressed to find a better alternative. Other rental car companies rely on local affiliates and regional booking websites, all of which can add to the complexity of managing business travel. Hertz Gold Plus Rewards is a truly global rewards program.
 
 **Related Links**
--[5 Ways To Cut Invisible Spend](http://travelperk.com/blog/5-Ways-to-Cut-Invisible-Spend/)
 
--[5 Ways Companies Waste Money](http://travelperk.com/blog/business-travel-5-ways-companies-waste-money/)
 
--[Out of Travel policy - The Age of DIY travel booking](http://travelperk.com/blog/the-age-of-diy-business-travel/)
+[5 Ways To Cut Invisible Spend](http://travelperk.com/blog/5-Ways-to-Cut-Invisible-Spend/)
 
--[Sign up now for TravelPerk](www.travelperk.com)
+
+[5 Ways Companies Waste Money](http://travelperk.com/blog/business-travel-5-ways-companies-waste-money/)
+
+
+[Out of Travel policy - The Age of DIY travel booking](http://travelperk.com/blog/the-age-of-diy-business-travel/)
+
+[Sign up now for TravelPerk](www.travelperk.com)
 
