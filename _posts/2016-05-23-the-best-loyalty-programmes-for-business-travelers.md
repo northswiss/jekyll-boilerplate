@@ -5,6 +5,8 @@ published: false
 title: The Best Loyalty Programmes for Business Travelers
 ---
 ## Maximum Value While Minimizing Costs
+
+<img class="left" src="http:https://travelperk.box.com/s/6eo6efvkja83qnh8drm198r8l0qz7m4g/400x400"/> 
 Whether you’re a small, medium-sized, or multi-national corporation with business travel needs, finding value in your corporate travel process is the name of the game. Knowing exactly where to cut costs and stretch others is key to not only keeping an eye on the bottom line, but preventing employee turnover as well.
  
 To do this well, both your company and its employees must be on the same page in developing and maintaining a cost-conscious company culture. Knowing that [employees will usually seek to benefit from the loyalty programmes they’re enrolled in](http://travelperk.com/blog/5-Ways-to-Cut-Invisible-Spend/) — sometimes to the detriment of your company’s travel policy — is powerful information. Why not use it to your advantage?
