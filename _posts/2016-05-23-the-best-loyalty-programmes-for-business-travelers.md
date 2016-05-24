@@ -9,7 +9,6 @@ tags:
   - Business Travel
   - Business travel tips
   - "Tools & productivity"
-subtitle: ""
 ---
 
 ## Maximum Value While Minimizing Costs
@@ -61,4 +60,3 @@ With points that don’t expire, a lack of blackout dates, and the ability to ex
 [5 Ways Companies Waste Money](http://travelperk.com/blog/business-travel-5-ways-companies-waste-money/)
 
 [Out of Travel policy - The Age of DIY travel booking](http://travelperk.com/blog/the-age-of-diy-business-travel/)
-
