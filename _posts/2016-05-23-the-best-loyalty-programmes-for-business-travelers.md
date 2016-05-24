@@ -11,7 +11,7 @@ tags: ""
 
 ## Maximum Value While Minimizing Costs
 
-![Best Loyalty Programs]({{site.baseurl}}/blog-media/Loyalty%20programs.jpg)
+<img class="left" alt="Best Loyalty Programs" src="{{site.baseurl}}/blog-media/Loyalty%20programs.jpg" />
 
 Whether you’re a small, medium-sized, or multi-national corporation with business travel needs, finding value in your corporate travel process is the name of the game. Knowing exactly where to cut costs and stretch others is key to not only keeping an eye on the bottom line, but preventing employee turnover as well.
  
