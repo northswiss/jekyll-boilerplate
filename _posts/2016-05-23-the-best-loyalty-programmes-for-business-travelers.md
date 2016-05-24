@@ -2,7 +2,14 @@
 layout: post
 date: "2016-05-23 20:46 +0200"
 published: false
-title: The Best Loyalty Programmes for Business Travelers
+title: The Best Loyalty Programs for Business Travelers
+"seo-meta": "Managing business travel is about finding value. Use the leading flight, hotel, and car rental loyalty programmes to help."
+author: avi
+tags: 
+  - Business Travel
+  - Business travel tips
+  - "Tools & productivity"
+subtitle: ""
 ---
 
 ## Maximum Value While Minimizing Costs
