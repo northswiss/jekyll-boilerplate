@@ -9,9 +9,9 @@ tags:
   - Business Travel
   - Business travel tips
   - "Tools & productivity"
+subtitle: Maximum Value While Minimizing Costs
 ---
 
-## Maximum Value While Minimizing Costs
 
 <img class="left" alt="Best Loyalty Programs" src="{{site.baseurl}}/blog-media/Loyalty%20programs.jpg" />
 
