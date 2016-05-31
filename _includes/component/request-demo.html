@@ -9,7 +9,7 @@
     <h3 class="wrapper">Start your <strong>free</strong> account today!</h3>
     {% endif %}
 
-    <form accept-charset="UTF-8" action="http://formspree.io/juliana@travelperk.com" method="POST">
+    <form accept-charset="UTF-8" action="http://formspree.io/juliana@travelperk.com" method="POST" id="sign_up_form">
       <div class="flex three">
       <span>
         <input type="hidden" name="utf8" value="✓">
@@ -23,6 +23,23 @@
       <span>
         <label for="email" name="_replyto">Your Email</label>
         <input id="email" type="email" name="email" placeholder="Company Email" required="required">
+      </span>
+      <span>
+        <label for="travelers">How many employees travel regularly?</label>
+        <select name="travelers" id="travelers">
+          <option value="1-10">1-10 travelers</option>
+          <option value="11-50">11-50 travelers</option>
+          <option value="51-100">51-100 travelers</option>
+          <option value="100-500">100-500 travelers</option>
+          <option value="500+">500+ travelers</option>
+        </select>
+      </span>
+      <span>
+        <p class="label">How do you currently book travel?</p>
+        <input type="checkbox" id="office_manager" checked>
+        <label for="office_manager"><span></span>I book for others</label>
+        <input type="checkbox" id="self_service">
+        <label for="self_service"><span></span>Employees book for themselves</label>
       </span>
       </div>
       <input type="hidden" name="_subject" value="TravelPerk Demo request" />

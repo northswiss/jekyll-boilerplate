@@ -25,6 +25,7 @@ var body =                    $("body"),
   overlay =                   $("#overlay"),
   sign_up =                   $("#sign-up-overlay"),
   request_demo =              $("#request-demo-overlay"),
+  form_sign_up =              $("#sign_up_form"),
   // GENERATED CONTENT
   $work_in_progress =         $("#work-in-progress");
 
@@ -68,12 +69,8 @@ function closePopUp(e) {
 }
 
 btn_sign_up_nav.on( 'click', function () {
-  showPopup( sign_up );
+  showPopup( request_demo );
 });
-btn_sign_up_hero.on( 'click', function () {
-    showPopup( sign_up );
-});
-
 btn_honeypot_demo.click(function () {
   showPopup( request_demo );
 });
@@ -83,8 +80,12 @@ btn_demo_request.on( 'click', function () {
 });
 
 overlay_content.click(function (e) {
-  e.stopPropagation();
+  console.log(e.target);
+  if ($(e.target).not('form')) {
+    e.stopPropagation();
+  }
 });
+
 btn_close.click(closePopUp);
 overlay.click(closePopUp);
 

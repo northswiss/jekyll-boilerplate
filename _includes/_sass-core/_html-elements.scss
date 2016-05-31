@@ -75,6 +75,7 @@ html {
 blockquote,
 body,
 input,
+select,
 ol,
 p,
 ul {
@@ -408,6 +409,22 @@ input {
   &[type="hidden"]{
     display: none;
   }
+  &[type="checkbox"] {
+    display:none;
+  }
+  &[type="checkbox"] + label span {
+    display:inline-block;
+    width:28px;
+    height:26px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url(/imgs/input_checkboxes.png) left top no-repeat;
+    cursor:pointer;
+  }
+  &[type="checkbox"]:checked + label span {
+    background:url(/imgs/input_checkboxes.png) left bottom no-repeat;
+    //background: red;
+  }
 }
 
 // K
@@ -418,11 +435,12 @@ kbd {
 
 // L
 //--------------------------------
-label {
+label,
+.label {
   @include remSize($fsCaption);
   color: $c-gray700;
   display: block;
-  margin: spacing 0 spacing-tight;
+  margin: $spacing 0 $spacing-tight;
   text-transform: uppercase;
 }
 legend {
@@ -517,7 +535,9 @@ section {
   text-shadow: none;
 }
 select {
-
+  background: $c-white;
+  padding: $spacing-tight;
+  width: 100%;
 }
 small {
   font-size: .8em;
