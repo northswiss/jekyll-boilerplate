@@ -10,11 +10,12 @@ tags:
 author: avi
 subtitle: Office Manager at GetYourGuide
 ---
-![]({{site.baseurl}}/blog-media/e222d631-be8a-403f-9bdb-87a5d61096e4%20(1).png)
+
+![e222d631-be8a-403f-9bdb-87a5d61096e4.png]({{site.baseurl}}/blog-media/e222d631-be8a-403f-9bdb-87a5d61096e4.png)
 
 
 
-GetYourGuide makes it easy for people to get up and explore the world around them by collecting and categorising the world’s top attractions. This means people do less research, and have more fun!
+[GetYourGuide](https://www.GetYourGuide.com) makes it easy for people to get up and explore the world around them by collecting and categorising the world’s top attractions. This means people do less research, and have more fun!
 
 
 Running the show behind the scenes at the company’s Berlin headquarters is Office Manager Jessica Fromm. We sat down with her and explored her role, her responsibilities, and a little about her experience managing the travel commitments of the many GetYourGuide employees. Read on for some of her essential travel management tips!
@@ -45,7 +46,7 @@ I forward them all confirmations and hand them any necessary paperwork if needed
 
 ###Can you tell us about a particularly difficult problem you overcame when it came to business travel at GetYourGuide?
 
-There was no structure or procedure whatsoever when I took over travel management duties at GetYourGuide. So to acclimate our people to a certain procedure for travel requests took a while to be fully accepted. Going forward, TravelPerk will help us summarize all travel activities and optimize costs for a more robust and efficient travel management workflow overall.
+There was no structure or procedure whatsoever when I took over travel management duties at GetYourGuide. So to acclimate our people to a certain procedure for travel requests took a while to be fully accepted. Going forward, [TravelPerk](https://www.travelperk.com)TravelPerk will help us summarize all travel activities and optimize costs for a more robust and efficient travel management workflow overall.
 
  
 
@@ -67,7 +68,7 @@ When employees are out on the road, sometimes they can encounter problems at the
 
 ###How do you control travel costs and keep an eye on what people spend? Which cost is the most difficult one to control?
 
-I personally try to book within 24 hours of the request to ensure good fares and prices. I try not to waste money on things that might not be needed, like excess baggage, higher fares, seat reservations, and so on. The cost that is most difficult to control is short notice changes and cancellations and while costs like that are unavoidable, I do try to give alternatives and educate people on their booking behaviour to help stem this type of invisible spend.
+I personally try to book within 24 hours of the request to ensure good fares and prices. I try not to waste money on things that might not be needed, like excess baggage, higher fares, seat reservations, and so on. The cost that is most difficult to control is short notice changes and cancellations and while costs like that are unavoidable, I do try to give alternatives and educate people on their booking behaviour to help stem this type of [invisible spend.](http://travelperk.com/blog/5-Ways-to-Cut-Invisible-Spend/)
 
  
 
@@ -75,12 +76,12 @@ I personally try to book within 24 hours of the request to ensure good fares and
 
 When it comes to tools, TravelPerk is a lifesaver. It’s made it easy for me to search for flights and helped me avoid a lot of hassle by saving me the trouble of inputting personal data over and over again for the employees I book for as they are already stored. It’s one of my favourite features being that it saves me so much time! Another big plus is how the tool shows me all booked trips on one page, which is incredibly convenient for me if I need to look up specific travel details.
 
- In terms of apps, I rely on Google Maps to find locations and to plan a trip, Google Calendar to keep me on track, and Monument Valley to challenge me and to help keep my sanity. They’re all definitely some of my most used and loved applications. 
+ In terms of apps, I rely on [Google Maps](https://www.google.com/maps/) to find locations and to plan a trip, [Google Calendar](https://calendar.google.com) to keep me on track, and [Monument Valley])(http://www.monumentvalleygame.com/) to challenge me and to help keep my sanity. They’re all definitely some of my most used and loved applications. 
 
  
 
 ###What general tips would you give to the person in the role of managing travel?
 
-It’s important to keep up with travel news! My personal favourite is fvw, but I suggest reading anything travel related like the Lonely Planet magazine. Be a freak about detail and get to intimately know how flights and fares work. Don’t forget to be open minded and think outside the box, too!
+It’s important to keep up with travel news! My personal favourite is [fvw](http://www.fvw.com/), but I suggest reading anything travel related like the [Lonely Planet Magazine](http://www.lonelyplanet.com/magazine/) Be a freak about detail and get to intimately know how flights and fares work. Don’t forget to be open minded and think outside the box, too!
 
 
