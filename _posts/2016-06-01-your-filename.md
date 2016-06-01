@@ -1,7 +1,7 @@
 ---
 layout: post
 date: "2016-06-01 15:16 +0200"
-published: false
+published: true
 title: 15 Minutes with Jessica Fromm
 "seo-meta": "A day in the life managing business travel with Jessica Fromm, Office Manager at GetYourGuide.com."
 tags: 
