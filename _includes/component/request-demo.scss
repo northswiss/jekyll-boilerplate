@@ -7,8 +7,22 @@
     margin-left: auto;
     text-align: center;
   }
+  p {
+    color: $c-white;
+  }
   form {
     max-width:75%;
+  }
+  hr {
+    border: 1px solid black;
+    margin-top: $spacing;
+  }
+  .extra-information {
+    display: none;
+
+    p {
+      margin-bottom: $spacing-tight;
+    }
   }
 }
 
@@ -75,4 +89,19 @@
 .envelope {
   animation-name: envelope-zoom;
   animation-duration: 1s;
+}
+
+@include media-min($screenMedium) {
+  .request-demo {
+
+    .checkboxes {
+      width: 66%;
+
+      label {
+        color: $c-blue700;
+        display: inline-block;
+        margin-right: $spacing;
+      }
+    }
+  }
 }
