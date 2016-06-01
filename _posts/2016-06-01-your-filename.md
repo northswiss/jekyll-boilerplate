@@ -1,7 +1,7 @@
 ---
 layout: post
 date: "2016-06-01 15:16 +0200"
-published: false
+published: true
 title: 15 Minutes with Jessica Fromm
 "seo-meta": "A day in the life managing business travel with Jessica Fromm, Office Manager at GetYourGuide.com."
 tags: 
@@ -76,7 +76,7 @@ I personally try to book within 24 hours of the request to ensure good fares and
 
 When it comes to tools, TravelPerk is a lifesaver. It’s made it easy for me to search for flights and helped me avoid a lot of hassle by saving me the trouble of inputting personal data over and over again for the employees I book for as they are already stored. It’s one of my favourite features being that it saves me so much time! Another big plus is how the tool shows me all booked trips on one page, which is incredibly convenient for me if I need to look up specific travel details.
 
- In terms of apps, I rely on [Google Maps](https://www.google.com/maps/) to find locations and to plan a trip, [Google Calendar](https://calendar.google.com) to keep me on track, and [Monument Valley])(http://www.monumentvalleygame.com/) to challenge me and to help keep my sanity. They’re all definitely some of my most used and loved applications. 
+ In terms of apps, I rely on [Google Maps](https://www.google.com/maps/) to find locations and to plan a trip, [Google Calendar](https://calendar.google.com) to keep me on track, and [Monument Valley](http://www.monumentvalleygame.com/) to challenge me and to help keep my sanity. They’re all definitely some of my most used and loved applications. 
 
  
 
