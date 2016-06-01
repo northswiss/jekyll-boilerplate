@@ -26,6 +26,10 @@ var body =                    $("body"),
   sign_up =                   $("#sign-up-overlay"),
   request_demo =              $("#request-demo-overlay"),
   form_sign_up =              $("#sign_up_form"),
+  $input_name =               $("input[name=name]"),
+  $label =                    $("input[type=checkbox]"),
+  $extraInformation =         $(".extra-information");
+
   // GENERATED CONTENT
   $work_in_progress =         $("#work-in-progress");
 
@@ -34,7 +38,6 @@ btn_more.click(function() {
     scrollTop: $("#customer_types").offset().top-68
   }, 1000);
 });
-
 
 // HONEYPOT
 btn_feature_honeypot.click(function () {
@@ -52,47 +55,52 @@ $(window).scroll(function () {
   }
 });
 
-// OVERLAY
-
-function showPopup ( whichPopup ) {
-  body.addClass("no-scroll");
-  overlay_content.removeClass("show");
-  overlay.fadeIn("fast");
-  whichPopup.addClass("show");
-}
-
-function closePopUp(e) {
-  e.preventDefault();
-  body.removeClass("no-scroll");
-  overlay_content.addClass("hide");
-  overlay.fadeOut("fast");
-}
-
-btn_sign_up_nav.on( 'click', function () {
-  showPopup( request_demo );
-});
-btn_honeypot_demo.click(function () {
-  showPopup( request_demo );
-});
-
-btn_demo_request.on( 'click', function () {
-  showPopup( request_demo );
-});
-
-overlay_content.click(function (e) {
-  console.log(e.target);
-  if ($(e.target).not('form')) {
+// CLICK LISTENERS
+body
+  // SHOW REQUEST DEMO MODAL
+  .on('click', '.work-in-progress button, #btn-sign-up-nav, #btn-request', function () {
+    body.addClass("no-scroll");
+    overlay_content.removeClass("show");
+    overlay.fadeIn("fast");
+    request_demo.addClass("show");
+  })
+  // FIX CHECKBOX FUNCTIONALITY ON OVERLAY
+  .on('click', '#sign_up_form label.checkbox', function(e) {
+    var $label = $(e.target).closest('label.checkbox');
+    var $checkbox = $($label.find('input[type=checkbox]')[0]);
+    $checkbox.prop('checked', !$checkbox.prop('checked'));
+  })
+  // SHOW EXTRA DEMO FORM CONTENT
+  .on('click, blur', 'label.checkbox, form input, form select', function (e) {
+    if( $label.prop('checked') && $input_name.val().length ) {
+      var $prospect =             $input_name.val(),
+          $prospectPlaceholder =  $("#prospect_name");
+      $prospectPlaceholder.text(' ' + $prospect);
+      $extraInformation.fadeIn();
+    }
+  })
+  // .on('blur', '#sign_up_form input', function (e) {
+  //   if( $input_name.val().length && $label.prop('checked') ) {
+  //     var $prospect =             $input_name.val(),
+  //       $prospectPlaceholder =  $("#prospect_name");
+  //     $prospectPlaceholder.text(' ' + $prospect);
+  //     $extraInformation.fadeIn();
+  //     console.log("awesome");
+  //   }
+  // })
+  .on('click', '#request-demo-overlay', function(e) {
     e.stopPropagation();
-  }
-});
-
-btn_close.click(closePopUp);
-overlay.click(closePopUp);
-
+  })
+  .on('click', '#overlay, #close', function() {
+    body.removeClass("no-scroll");
+    overlay_content.addClass("hide");
+    overlay.fadeOut("fast");
+  })
+;
 
 // TESTIMONIALS
 
-// Needs to happen on window resize
+// TODO: Needs to happen on window resize
 
 // Set width based on # of slides
 var noOfSlides = $testimonials_li.length,
@@ -143,7 +151,5 @@ $.each( tracking_array, function ( i, $button ) {
     getCategory();
     getLabel();
     ga('send', 'event', category, 'Clicked', label );
-    // TODO: Remove console log
-    console.log(category, label);
   });
 });

@@ -425,7 +425,26 @@ input {
     background:url(/imgs/input_checkboxes.png) left bottom no-repeat;
     //background: red;
   }
+
+
 }
+label.checkbox {
+
+  input[type="checkbox"] + span {
+    display:inline-block;
+    width:28px;
+    height:26px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url(/imgs/input_checkboxes.png) left top no-repeat;
+    cursor:pointer;
+  }
+  input[type="checkbox"]:checked + span {
+    background:url(/imgs/input_checkboxes.png) left bottom no-repeat;
+    //background: red;
+  }
+}
+
 
 // K
 //--------------------------------
@@ -438,10 +457,21 @@ kbd {
 label,
 .label {
   @include remSize($fsCaption);
-  color: $c-gray700;
+  color: $c-gray600;
   display: block;
-  margin: $spacing 0 $spacing-tight;
+  line-height: 1.5em;
+  margin: $spacing-tight 0 $spacing-tighter;
   text-transform: uppercase;
+
+  &.checkbox {
+    padding-left: $spacing-loose;
+    position: relative;
+
+    span {
+      left: 0;
+      position: absolute;
+    }
+  }
 }
 legend {
   border: 0;
@@ -535,8 +565,13 @@ section {
   text-shadow: none;
 }
 select {
-  background: $c-white;
-  padding: $spacing-tight;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #303030;
+  border: 2px solid #505050;
+  color: $c-white;
+  padding: $spacing-tighter;
   width: 100%;
 }
 small {
@@ -585,6 +620,11 @@ td {
   padding: 0;
 }
 textarea {
+  background: #303030;
+  border: 2px solid #505050;
+  color: $c-white;
+  padding: $spacing-tighter;
+  width: 97%;
   overflow: auto;
 }
 tfoot {
