@@ -79,15 +79,6 @@ body
       $extraInformation.fadeIn();
     }
   })
-  // .on('blur', '#sign_up_form input', function (e) {
-  //   if( $input_name.val().length && $label.prop('checked') ) {
-  //     var $prospect =             $input_name.val(),
-  //       $prospectPlaceholder =  $("#prospect_name");
-  //     $prospectPlaceholder.text(' ' + $prospect);
-  //     $extraInformation.fadeIn();
-  //     console.log("awesome");
-  //   }
-  // })
   .on('click', '#request-demo-overlay', function(e) {
     e.stopPropagation();
   })
