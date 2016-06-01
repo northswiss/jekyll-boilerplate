@@ -71,10 +71,18 @@ body
     $checkbox.prop('checked', !$checkbox.prop('checked'));
   })
   // SHOW EXTRA DEMO FORM CONTENT
-  .on('click, blur', 'label.checkbox, form input, form select', function (e) {
+  .on('blur', 'form input, form select', function (e) {
     if( $label.prop('checked') && $input_name.val().length ) {
       var $prospect =             $input_name.val(),
           $prospectPlaceholder =  $("#prospect_name");
+      $prospectPlaceholder.text(' ' + $prospect);
+      $extraInformation.fadeIn();
+    }
+  })
+  .on('click', 'label.checkbox', function (e) {
+    if( $label.prop('checked') && $input_name.val().length ) {
+      var $prospect =             $input_name.val(),
+        $prospectPlaceholder =  $("#prospect_name");
       $prospectPlaceholder.text(' ' + $prospect);
       $extraInformation.fadeIn();
     }

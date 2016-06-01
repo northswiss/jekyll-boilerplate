@@ -13,8 +13,8 @@
 
 @include media-min($screenMedium) {
 
-  .pricing,
-  .sign-up {
+  .pricing .wrapper,
+  .sign-up .wrapper {
 
     .free {
       @include clearfix();
