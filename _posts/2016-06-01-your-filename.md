@@ -1,7 +1,7 @@
 ---
 layout: post
 date: "2016-06-01 15:16 +0200"
-published: true
+published: false
 title: 15 Minutes with Jessica Fromm
 "seo-meta": "A day in the life managing business travel with Jessica Fromm, Office Manager at GetYourGuide.com."
 tags: 
@@ -82,6 +82,6 @@ When it comes to tools, TravelPerk is a lifesaver. It’s made it easy for me to
 
 ###What general tips would you give to the person in the role of managing travel?
 
-It’s important to keep up with travel news! My personal favourite is [fvw](http://www.fvw.com/), but I suggest reading anything travel related like the [Lonely Planet Magazine](http://www.lonelyplanet.com/magazine/) Be a freak about detail and get to intimately know how flights and fares work. Don’t forget to be open minded and think outside the box, too!
+It’s important to keep up with travel news! My personal favourite is [fvw](http://www.fvw.com/), but I suggest reading anything travel related like the [Lonely Planet Magazine.](http://www.lonelyplanet.com/magazine/) Be a freak about detail and get to intimately know how flights and fares work. Don’t forget to be open minded and think outside the box, too!
 
 
