@@ -22,7 +22,7 @@ Running the show behind the scenes at the company’s Berlin headquarters is Off
 
 ###Can you please introduce yourself, your role, and your company? 
 
-My name is Jessica Fromm. I am the Office Manager at the Headquarters of GetYourGuide Deutschland GmbH in Berlin
+My name is Jessica Fromm. I am the Office Manager at the Headquarters of GetYourGuide Deutschland GmbH in Berlin.
 
 
 
@@ -46,7 +46,7 @@ I forward them all confirmations and hand them any necessary paperwork if needed
 
 ###Can you tell us about a particularly difficult problem you overcame when it came to business travel at GetYourGuide?
 
-There was no structure or procedure whatsoever when I took over travel management duties at GetYourGuide. So to acclimate our people to a certain procedure for travel requests took a while to be fully accepted. Going forward, [TravelPerk](https://www.travelperk.com)TravelPerk will help us summarize all travel activities and optimize costs for a more robust and efficient travel management workflow overall.
+There was no structure or procedure whatsoever when I took over travel management duties at GetYourGuide. So to acclimate our people to a certain procedure for travel requests took a while to be fully accepted. Going forward, [TravelPerk](https://www.travelperk.com) will help us summarize all travel activities and optimize costs for a more robust and efficient travel management workflow overall.
 
  
 
