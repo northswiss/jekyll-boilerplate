@@ -69,7 +69,8 @@
   //text-align: center;
 
   button {
-    margin: $spacing-tighter;
+    float: none;
+    margin: $spacing auto;
   }
   span {
     display: none;
@@ -295,10 +296,6 @@
 
   .hero-buttons {
 
-    .flex {
-      margin: 0 auto;
-      max-width:400px;
-    }
     button {
       margin: $spacing 0;
     }
@@ -342,7 +339,7 @@
     h2 {
       @include remSize(36px);
       margin-left: $spacing-loosest*4;
-      text-align: left;
+      //text-align: left;
     }
     .hero-buttons {
       margin-left: $spacing-loosest*4;
