@@ -1,16 +1,18 @@
 ---
 layout: post
-date: "2016-06-01 15:16 +0200"
+date: '2016-06-01 15:16 +0200'
 published: true
 title: 15 Minutes with Jessica Fromm
-"seo-meta": "A day in the life managing business travel with Jessica Fromm, Office Manager at GetYourGuide.com."
-tags: 
+seo-meta: >-
+  A day in the life managing business travel with Jessica Fromm, Office Manager
+  at GetYourGuide.com.
+tags:
   - Business Travel
   - Travel management
 author: avi
 subtitle: Office Manager at GetYourGuide
 ---
-<img class="left" alt="GetYourGuide" src="{{site.baseurl}}/blog-media/e222d631-be8a-403f-9bdb-87a5d61096e4.png"/>
+<img class="left" alt="GetYourGuide" src="{{site.baseurl}}/blog-media/9d2e7462-23dc-478e-9bdc-bd6bb215823d.png"/>
 
 
 [GetYourGuide](https://www.GetYourGuide.com) makes it easy for people to get up and explore the world around them by collecting and categorising the world’s top attractions. This means people do less research, and have more fun!
