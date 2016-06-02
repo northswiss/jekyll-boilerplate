@@ -10,10 +10,7 @@ tags:
 author: avi
 subtitle: Office Manager at GetYourGuide
 ---
-
-![e222d631-be8a-403f-9bdb-87a5d61096e4.png]({{site.baseurl}}/blog-media/e222d631-be8a-403f-9bdb-87a5d61096e4.png)
-
-<img class="left" alt="e222d631-be8a-403f-9bdb-87a5d61096e4.png" src="{{site.baseurl}}/blog-media/e222d631-be8a-403f-9bdb-87a5d61096e4.png"/>
+<img class="left" alt="GetYourGuide" src="{{site.baseurl}}/blog-media/e222d631-be8a-403f-9bdb-87a5d61096e4.png"/>
 
 
 [GetYourGuide](https://www.GetYourGuide.com) makes it easy for people to get up and explore the world around them by collecting and categorising the world’s top attractions. This means people do less research, and have more fun!
