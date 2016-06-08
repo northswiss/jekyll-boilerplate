@@ -8,8 +8,10 @@ seo-meta: >-
   Wellness is key to a more productive and dynamic business. Here are some tips
   to make sure it isn’t an afterthought.
 tags:
+  - Cost saving
   - Travel management
-subtitle: ''
+  - Travel spend
+subtitle: 'Healthy Living, Even When Business Travel Calls'
 ---
 
 ![business travel]({{site.baseurl}}/blog-media/a76cef46-dc42-4493-a10d-05f6c00ca2e6.png)
