@@ -1,14 +1,86 @@
 /* About.scss */
 
 .team {
+  padding-top: 0 !important;
 
+  .background {
+    background: $c-gray300;
+    display: inline-block;
+    max-height: 300px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+
+    &:after {
+      @include animate("fast");
+      background: $c-dark-20;
+      display: block;
+      content: "\0020";
+      height: 100%;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      z-index: 10;
+    }
+  }
+  img {
+    vertical-align: bottom;
+  }
+  h3,
+  h4 {
+    padding: 0 $spacing-tighter;
+  }
+  h3 {
+    text-align: center;
+    margin: $spacing-loose 0 $spacing-tighter;
+  }
+  h4 {
+
+    span {
+      display: none;
+    }
+  }
   a {
     box-sizing: border-box;
-    display: block;
-    padding:$spacing-loose 0;
+    display: table;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
 
     &:hover {
-      background: $c-pale;
+
+      h3 {
+        color: $c-blue;
+      }
+
+      h4{
+        position: relative;
+
+        span {
+          color: $c-gray500;
+          display: block;
+          position: absolute;
+          left: 0;
+          top: 24px;
+          text-align: center;
+          width: 100%;
+        }
+      }
+      .background {
+        &:after {
+          @include animate("fast");
+          background: $c-dark-20;
+          display: block;
+          content: "\0020";
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          z-index: 10;
+        }
+      }
     }
   }
 }
@@ -16,19 +88,8 @@
   color: $c-dark;
   text-align: center;
 
-  h3,
-  h4 {
-    margin: 0;
-  }
-
-  h4 {
-    color: $c-gray600;
-    font-weight: 300;
-  }
-}
-.exec {
-  a {
-    background: $c-blue300;
+  h3 {
+    margin-bottom: $spacing-tighter;
   }
 }
 .jobs {
@@ -54,10 +115,11 @@
   .team {
 
     a {
-      border: 1px solid $c-gray300;
-      min-height:420px;
       float: left;
+      min-height: 360px;
+      padding-bottom: $spacing-loose;
       width: 50%;
+
       &:nth-child(1n) {
         border-top: 0;
         border-left: 0;
@@ -71,14 +133,10 @@
   }
 }
 
-@include media-min($screenLarge) {
+@include media-min($screenLarger) {
   .team {
     a {
-      width: 33%;
-    }
-
-    .exec a {
-      width: 50%;
+      width: 33.33%;
     }
   }
 }
