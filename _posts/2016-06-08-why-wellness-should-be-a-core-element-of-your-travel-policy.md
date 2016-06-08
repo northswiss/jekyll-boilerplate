@@ -9,15 +9,16 @@ seo-meta: >-
   to make sure it isn’t an afterthought.
 tags:
   - Travel management
+subtitle: ''
 ---
 
 It doesn’t take a PHD in travel management to figure out how important duty-of-care considerations are. Yet, despite how crucial they are, they’re still too narrow. 
 
 Today, because of heightened states of travel all over the world, the majority of travel policies naturally focus on safety and security. But with safety and security in the spotlight, the importance of the health and wellbeing of travelling employees can be lost. 
 
-As much as the idea of work/life balance has permeated business culture, applying those same ideals to business travel has been slow going. Still, more and more travel managers are beginning to consider the importance of health and wellbeing when it comes to creating effective travel policy. 
+As much as the idea of work/life balance has permeated business culture, applying those same ideals to business travel has been slow going. Still, [more and more travel managers are beginning to consider the importance of health and wellbeing when it comes to creating effective travel policy.](http://buyingbusinesstravel.com/feature/2825641-ask-experts-why-traveller-wellbeing-important-your-programme) 
 
-At the end of the day, the return that comes from treating employees like the talent they are generates goodwill from them, retains them for longer, and unparalleled value for the business itself. 
+At the end of the day, the return that comes from treating employees like the talent they are generates [goodwill from them, retains them for longer, and unparalleled value for the business itself.](http://buyingbusinesstravel.com/feature/2825641-ask-experts-why-traveller-wellbeing-important-your-programme)
 
 Make sure your business travel policies reflect a thoughtful approach to traveller wellbeing for your road warriors with these tips and tricks: 
 
@@ -35,9 +36,9 @@ It’s also important to consider the ROI on travel spend. Think about it — Wh
 
 In the past, lighthouses had the role of leading seafaring ships to land. Now both the travel manager and the travel agent do the same, serving as a travelling employee’s liaison during a business trip. Some digital travel solutions even provide 24-hour-travel support for an additional layer of security.
 
-During a trip, it’s easy for business travellers to feel stressed, with everything from delayed flights to lost luggage contributing to the feeling. That’s why it’s essential that travel managers provide as much real-time information as possible during a trip. If possible, updating travelling employees with information on delayed flights, upcoming connections, mechanical problems and the like can make a huge difference for a traveller’s wellbeing while they’re on the go. And with the amount of technology connecting us all these day, doing so has never been easier. 
+During a trip, it’s easy for business travellers to feel stressed, [with everything from delayed flights to lost luggage](http://www.travelpulse.com/news/business-travel/what-stresses-business-travelers-the-most.html) contributing to the feeling. That’s why it’s essential that travel managers provide as much real-time information as possible during a trip. If possible, updating travelling employees with information on delayed flights, upcoming connections, mechanical problems and the like can make a huge difference for a traveller’s wellbeing while they’re on the go. And with the amount of technology connecting us all these day, doing so has never been easier. 
 
-Failing this, travel managers should aim to solve major disruptions instead of leaving employees to fend for themselves. For an employee, solving a major travel problem themselves can induce high levels of travel stress. With an alert and proactive travel manager backed up by a capable digital travel service, travelling employees can mitigate the unexpected in a far healthier way by knowing that support is a phone call or email away. 
+Failing this, travel managers should aim to solve major disruptions instead of leaving employees to fend for themselves. For an employee, solving a major travel problem themselves can induce high levels of travel stress. With an alert and proactive travel manager backed up by a [capable digital travel service](http://wwww.travelperk.com), travelling employees can mitigate the unexpected in a far healthier way by knowing that support is a phone call or email away. 
 
 ### Give employees ways to de-stress
 
