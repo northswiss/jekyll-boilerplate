@@ -1,7 +1,7 @@
 ---
 layout: post
 date: '2016-06-08 10:32 +0200'
-published: false
+published: true
 title: 'Why Wellness Should Be a Core Element of Your Travel Policy '
 author: javier
 seo-meta: >-
@@ -11,6 +11,9 @@ tags:
   - Travel management
 subtitle: ''
 ---
+
+![business travel]({{site.baseurl}}/blog-media/a76cef46-dc42-4493-a10d-05f6c00ca2e6.png)
+
 
 It doesn’t take a PHD in travel management to figure out how important duty-of-care considerations are. Yet, despite how crucial they are, they’re still too narrow. 
 
