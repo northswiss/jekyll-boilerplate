@@ -60,8 +60,8 @@ Incorporating a more mindful, health-centric approach to travel policy impacts p
 
 **Related Links**
 
-15 Minutes With Jessica Fromm, Office Manager at GetYourGuide
+[15 Minutes With Jessica Fromm, Office Manager at GetYourGuide](http://travelperk.com/blog/15-minutes-with-GetYourGuide/)
 
-The Best Loyalty Programs for Business Travelers
+[The Best Loyalty Programs for Business Travelers](http://travelperk.com/blog/the-best-loyalty-programmes-for-business-travelers/)
 
-Out of Travel Policy: The Age of DIY Business Travel
+[Out of Travel Policy: The Age of DIY Business Travel](http://travelperk.com/blog/the-age-of-diy-business-travel/)
