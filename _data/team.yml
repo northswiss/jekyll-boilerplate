@@ -1,12 +1,12 @@
 employees:
   - name:         Avi Meir
-    role:         Management
+    role:         Co-Founder
     exec:         true
     image:        avi-meir.jpg
     linkedin:     https://es.linkedin.com/in/avimeir
     email:        avi@travelperk.com
   - name:         Javier Suarez
-    role:         Management
+    role:         Co-Founder
     exec:         true
     image:        javier-suarez.jpg
     linkedin:     https://es.linkedin.com/in/javier-suarez-4b800362
