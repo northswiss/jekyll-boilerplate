@@ -1,0 +1,25 @@
+
+// TYPOGRAPHY
+
+$font-stack:      'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+
+.title {
+  font-family: Roboto-Medium, $font-stack;
+  font-weight: 500;
+  font-size: 16px;
+  color: $c-dark;
+  line-height: 16px;
+}
+
+.body {
+  font-family: Roboto-Regular, $font-stack;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: 0px;
+  line-height: 14px;
+}
+
+.text-disabled {
+  color: $c-gray700;
+}
