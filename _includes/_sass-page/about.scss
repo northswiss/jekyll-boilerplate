@@ -16,7 +16,7 @@
       background: $c-dark-20;
       display: block;
       content: "\0020";
-      height: 100%;
+      height: 0;
       position: absolute;
       top: 100%;
       left: 0;
@@ -26,6 +26,7 @@
   }
   img {
     vertical-align: bottom;
+    z-index: 1;
   }
   h3,
   h4 {
@@ -47,6 +48,10 @@
     position: relative;
     overflow: hidden;
     width: 100%;
+
+    &:last-of-type {
+      overflow: visible;
+    }
 
     &:hover {
 
@@ -90,6 +95,24 @@
 
   h3 {
     margin-bottom: $spacing-tighter;
+  }
+
+  &:last-of-type {
+    position: relative;
+
+    .background {
+      overflow: visible;
+    }
+    .background:before {
+      display: block;
+      content: "\00a0";
+      background: $c-gray300;
+      height: 100%;
+      position: absolute;
+      left: 100%;
+      width: 400%;
+      z-index: 0;
+    }
   }
 }
 .jobs {

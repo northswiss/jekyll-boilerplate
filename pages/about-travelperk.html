@@ -18,9 +18,11 @@ id: about
 <section class="team">
   <h2>The TravelPerk team</h2>
 
-  {% assign team_sorted = (site.data.team | sort: 'name') %}
+  {% assign employees = (site.data.team.employees | sort: 'name') %}
+  {% assign advisors = (site.data.team.advisors| sort: 'name') %}
+
   <div class="clearfix">
-    {% for person in team_sorted %}
+    {% for person in employees %}
       <a target="_blank" class="team-member" href="{% if person.linkedin %}{{ person.linkedin }}{% endif %}" {% if person.linkedin == null %}onClick="return false;"{% endif %}>
         <span class="background">
           <img src="/imgs/team/{{ person.image }}" alt="{{ person.name }}"/>
@@ -36,6 +38,26 @@ id: about
         </h4>
         <div class="profile-overlay"></div>
       </a>
+    {% endfor %}
+  </div>
+  <h2>Our Advisors</h2>
+  <div class="clearfix">
+    {% for person in advisors %}
+    <a target="_blank" class="team-member" href="{% if person.linkedin %}{{ person.linkedin }}{% endif %}" {% if person.linkedin == null %}onClick="return false;"{% endif %}>
+        <span class="background">
+          <img src="/imgs/team/{{ person.image }}" alt="{{ person.name }}"/>
+        </span>
+      <h3 class="title">{{ person.name }}</h3>
+      <h4 class="body text-disabled">
+        {{ person.role }}
+        {% if person.linkedin %}
+        <span>View on LinkedIn</span>
+        {% else %}
+        <span>Sorry, I don't have a LinkedIn profile</span>
+        {% endif %}
+      </h4>
+      <div class="profile-overlay"></div>
+    </a>
     {% endfor %}
   </div>
 </section>
