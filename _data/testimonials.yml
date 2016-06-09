@@ -1,10 +1,10 @@
-- name: Jessica Fromm
-  role: Office Manager, GetYourGuide
-  quote: We chose TravelPerk for managing all of our team's travel bookings because it is the most dynamic, flexible and unique tool on the market for not only booking travel, but also managing costs and keeping track of our travel all in one place.
-  logo: get-your-guide.svg
-  photo: jessica-fromm@2x.png
 - name: Johanna Barvo
   role: Office Manager at Kantox
   quote: TravelPerk is just the kind of solution that I've been needing to help me find the lowest available prices on flights and accommodations and organize all of our company's travel bookings in one single place.
   logo: kantox@2x.png
   photo: johanna-barvo@2x.png
+- name: Tamar Laskar
+  role: Office Manager, EyeClick
+  quote: We chose TravelPerk for managing all of our team's travel bookings because it is the most dynamic, flexible and unique tool on the market for not only booking travel, but also managing costs and keeping track of our travel all in one place.
+  logo: logo-eyeclick.svg
+  photo: tamar-lasker@2x.png
