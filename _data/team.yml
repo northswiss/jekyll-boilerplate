@@ -69,11 +69,11 @@ employees:
     linkedin:     https://es.linkedin.com/in/silvia-guitian-quevedo-44994a6
 advisors:
   - name:         Andrew Bate
-    role:         Advisor Founder and CEO, SafelyStay
+    role:         Advisor, CEO of SafelyStay
     image:        andrew-bate.jpg
     linkedin:     https://www.linkedin.com/in/aebate
   - name:         Johannes Reck
-    role:         Advisor
+    role:         Advisor, CEO of GetYourGuide
     image:        johannes-reck.jpg
     linkedin:     https://de.linkedin.com/in/johannesreck
   - name:         Ron Levin
