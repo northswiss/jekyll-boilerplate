@@ -68,10 +68,10 @@ employees:
     image:        silvia-guitian.jpg
     linkedin:     https://es.linkedin.com/in/silvia-guitian-quevedo-44994a6
 advisors:
-  #- name:         Andrew Bate
-  #  role:         Advisor Founder and CEO, SafelyStay
-  #  image:        andrew-bate.jpg
-  #  linkedin:     https://www.linkedin.com/in/aebate
+  - name:         Andrew Bate
+    role:         Advisor Founder and CEO, SafelyStay
+    image:        andrew-bate.jpg
+    linkedin:     https://www.linkedin.com/in/aebate
   - name:         Johannes Reck
     role:         Advisor
     image:        johannes-reck.jpg
