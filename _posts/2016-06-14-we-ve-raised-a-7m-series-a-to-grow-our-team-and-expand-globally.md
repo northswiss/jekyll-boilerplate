@@ -1,12 +1,9 @@
 ---
 layout: post
 date: '2016-06-14 12:25 +0200'
-published: false
+published: true
 title: We've Raised a $7m Series A to Grow Our Team and Expand Globally
 author: avi
-seo-meta: ''
-subtitle: ''
-tags: ''
 ---
 ![TravelPerk Founders]({{site.baseurl}}/blog-media/03f11e4d-4018-430e-b47a-c3a25159670f.png)
 
@@ -21,4 +18,3 @@ TravelPerk is well positioned to become a leader in this space thanks to its con
 [Our first product](http://travelperk.com/), released several months ago, allows business travel arrangers, such as Office Managers and Personal Assistants, to search, book and manage their team’s travel from our easy-to-use, free product and with support from our team whenever they need it.
  
 The new funding round will be used to hire more top-notch team members to join our fantastic team based in Barcelona; we are looking for the best developers, product owners and designers in the world – so please check our [careers page](http://travelperk.bamboohr.co.uk/jobs/) if you are one of them.
- 
