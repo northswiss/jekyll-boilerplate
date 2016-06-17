@@ -2,7 +2,7 @@
 layout: post
 date: '2016-06-17 10:28 +0200'
 published: true
-title: 'Flying Rights: What You Should Know'
+title: Do You Know Your Flying Rights?
 author: javier
 seo-meta: >-
   Not everything goes according to plan, knowing what situations qualify as
