@@ -1,14 +1,12 @@
 ---
 layout: post
 date: '2016-06-17 10:28 +0200'
-published: false
+published: true
 title: 'Flying Rights: What You Should Know'
 author: javier
 seo-meta: >-
   Not everything goes according to plan, knowing what situations qualify as
   eligible for reimbursement can soften the blow of unexpected issues.
-subtitle: ''
-tags: ''
 ---
 ![Corporate Business travel]({{site.baseurl}}/blog-media/5f7a5b93-2b63-4f83-85c5-ad8aa481f166.png)
 
@@ -55,5 +53,3 @@ The nightmare scenario of every travelling employee is the case of **lost, damag
 Keep in mind: most claims are required to be filed seven days from receipt of the luggage (21 days if it was delayed), while legal action must be pursued two years from the date the luggage arrives. 
 
 To avoid an unpleasant fate for an employee’s belongings in the the first place, managers can encourage their employees to travel early and travel light. It’s proven that doing both makes the unexpected much less likely to occur.
-
-
