@@ -21,7 +21,7 @@ Here are a handful of tips to better prepare your employees for the very worst b
 
 ## Best Practices: Avoiding Delays and Disruptions ##
 
-**1.Book flights as early as possible**
+** 1.Book flights as early as possible **
 No matter the time of year, airline, and airport, all flights start on time. Throughout the day, problems compound and throw schedules out of whack, creating scheduling issues later on in the day. Knowing this, it’s a lot less likely for flights to be delayed or cancelled if it’s the first one of the day. This means booking your employees on those 7AM flights, while tough for them, is much better in the long run. With less of a chance for delays and cancellation to happen, there’s a higher likelihood of a smooth start to the day. 
 
 **2. Always book non-stop flights**
