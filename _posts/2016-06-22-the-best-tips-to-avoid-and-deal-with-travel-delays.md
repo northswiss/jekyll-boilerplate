@@ -1,7 +1,7 @@
 ---
 layout: post
 date: '2016-06-22 16:18 +0200'
-published: false
+published: true
 title: 'The Best Tips to Avoid (And Deal With!) Travel Delays '
 seo-meta: >-
   a handful of tips to better prepare your employees for the very worst business
@@ -10,7 +10,6 @@ tags:
   - Business Travel
   - Business travel tips
 subtitle: Business Travel Strategies
-author: ''
 ---
 ![travel delays]({{site.baseurl}}/blog-media/e138d09c-137f-4e0d-a0ee-4771c3c917ae.png)
 
