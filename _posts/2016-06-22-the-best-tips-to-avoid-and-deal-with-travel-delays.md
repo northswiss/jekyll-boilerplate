@@ -10,6 +10,7 @@ tags:
   - Business Travel
   - Business travel tips
 subtitle: Business Travel Strategies
+author: ''
 ---
 ![travel delays]({{site.baseurl}}/blog-media/e138d09c-137f-4e0d-a0ee-4771c3c917ae.png)
 
@@ -21,19 +22,24 @@ Here are a handful of tips to better prepare your employees for the very worst b
 
 ## Best Practices: Avoiding Delays and Disruptions ##
 
-** 1. Book flights as early as possible**
+**1. Book flights as early as possible**
+
 No matter the time of year, airline, and airport, all flights start on time. Throughout the day, problems compound and throw schedules out of whack, creating scheduling issues later on in the day. Knowing this, it’s a lot less likely for flights to be delayed or cancelled if it’s the first one of the day. This means booking your employees on those 7AM flights, while tough for them, is much better in the long run. With less of a chance for delays and cancellation to happen, there’s a higher likelihood of a smooth start to the day. 
 
 ** 2. Always book non-stop flights **
+
 For the most part, non-stop flights are cheaper, faster, and require less effort than assigning employees to a multi-stop adventure that forces them to sprint from one end of a terminal to another. Ultimately, non-stop flights are simpler and give less opportunity for disruptions to happen in the first place.
 
 ** 3. Ensure enough time for connections and layovers **
+
 If it’s absolutely impossible to book a non-stop flight, then ensure that employees have enough time to make the layovers and connections you set up for them. Nowadays, algorithms handle the bulk of scheduling duties for lots of businesses and end up giving employees just 30 minutes to make their connections. In some airports, that’s not even enough time to get off the plane and into a bathroom, let alone to another gate. Double-check all itineraries and make sure your employees have sufficient time. 
 
-** 4. Avoid booking travel during peak times if possible **
+**4. Avoid booking travel during peak times if possible**
+
 Obviously, setting up your employees to travel through a holiday weekend is a huge no-no. Not only would they have to slog through the crowds of holiday travellers and the chaos they create, but flight and hotel prices are higher on average. During times like this, delays are a certainty and not the exception. Make sure to avoid them! 
 
-** 5.  Research on-time performance **
+**5.  Research on-time performance**
+
 Something as simple as knowing which airlines have better records for on-time performance can go a long way in providing your travelling employees with a better travel experience. A website like [FlightStats](http://www.flightstats.com/go/Home/home.do) is a quick and easy way to reference a carrier you may have in mind for your employee’s next business trip, not only giving you on-time performance ranking but also a bunch of other data points to make a more informed decision. 
 
 ** 6. Encourage your employees to never check a bag**
