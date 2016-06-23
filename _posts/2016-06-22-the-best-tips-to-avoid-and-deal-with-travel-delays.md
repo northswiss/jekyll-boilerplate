@@ -53,7 +53,7 @@ Sometimes, an office manager may not be available because it’s too early in th
 **3. Upgrade your employees if possible**
 Consider this a “Get Out of Jail Free” card. While it may cost a lot more money to upgrade your employee, it also means they’ll make it on to a flight that was previously “overbooked,” or onto another flight with a similar schedule. Sometimes, the trade-off is worth it if where they need to be is that important.
 
-**4. Inform employees of alternative modes of transport **
+**4. Inform employees of alternative modes of transport**
 In the event of a cancelled or severely delayed flight and depending on what the final destination is, it may be possible to take a different flight to a smaller, regional airport rather than a major hub and take a different mode of transportation from there. A car rental or a train ticket can serve as an alternate mode of transportation and get employees through the last leg of a trip faster than waiting overnight for the next flight in the most extreme case. 
 
 ## Best Practices: Avoiding Problems on Arrival ## 
@@ -66,7 +66,7 @@ In particular, a hotel’s concierge number is one of the most valuable numbers 
 **2. Remind employees to have cash on hand**
 Like the old adage say, “Cash is king.” Credit and debit card troubles can easily muck up a smooth landing so having cash available is like speaking a universal language and can get your employees out of a jam when they finally touch down.
 
-**3. Travellers may be entitled to compensation **
+**3. Travellers may be entitled to compensation**
 the European regulations protect those who travel by plane. Few passangers are aware of these consumer rights and may lack the legal knowledge required to claim compensation. Companies like [Flight-Delayed](https://www.flight-delayed.co.uk/your-rights) and [AirHelp](https://www.airhelp.com/es/) focus on these services.
 
 
