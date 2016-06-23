@@ -4,7 +4,7 @@ date: '2016-06-22 16:18 +0200'
 published: true
 title: 'The Best Tips to Avoid (And Deal With!) Travel Delays '
 seo-meta: >-
-  a handful of tips to better prepare your employees for the very worst business
+  A handful of tips to better prepare your employees for the very worst business
   travel has to offer.
 tags:
   - Business Travel
