@@ -1,7 +1,7 @@
 ---
 layout: post
 date: '2016-06-29 15:46 +0200'
-published: false
+published: true
 title: How Static Travel Budgets Are Hurting Your Company
 seo-meta: >-
   Planning business travel is a dynamic affair, and you’re probably doing it
@@ -10,8 +10,6 @@ tags:
   - Business Travel
   - Cost saving
   - Travel management
-author: ''
-subtitle: ''
 ---
 
 ![dynamic budgeting]({{site.baseurl}}/blog-media/ca6c3137-5780-4c47-8d11-1f6bbad60f75.png)
@@ -70,4 +68,3 @@ Our algorithm is unique — no one else is doing anything remotely like this. Yo
 [6 Creative Solutions to Help You Network and Socialise While Traveling](http://travelperk.com/blog/6-creative-solutions-that-help-you-network-and-socialize-while-traveling/)
 
 [The Best Loyalty Programs for Business Travellers](http://travelperk.com/blog/the-best-loyalty-programmes-for-business-travelers/)
-
