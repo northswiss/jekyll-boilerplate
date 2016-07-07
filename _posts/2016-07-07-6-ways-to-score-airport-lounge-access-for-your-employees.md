@@ -7,6 +7,8 @@ seo-meta: Enjoy the perks of lounge access without breaking the bank.
 tags:
   - Business Travel
   - Travel management
+author: ''
+subtitle: ''
 ---
 ![be2da081-5c9d-4f7a-8aa4-b45a296d9832.png]({{site.baseurl}}/blog-media/be2da081-5c9d-4f7a-8aa4-b45a296d9832.png)
 
@@ -44,4 +46,12 @@ Times have changed, and airline-owned lounges aren’t the only options availabl
 
 Maybe your employees don’t need lounge access for every trip, or perhaps a full membership to an airline-owned club is out of the question. Purchasing access to one of these public lounges can be written off as an expense when it happens and is a softer hit on the bottom line. To find out if there are any public lounges in the airports your employees frequent, check out [Plaza-Premium](http://plaza-network.com/) for more information.
 
-On the more digital side of things, an app called [LoungeBuddy](https://www.loungebuddy.com/) allows users to take advantage of its database of free and paid lounge options. Employees can use it and claim the cost as an expense, or office managers can use it to prepare access before a trip. In either case, the app compares a traveller’s personalized profile (itinerary, frequent flier memberships, and credit cards, etc.) with the amenities desired (Wi-Fi, a shower, etc.) to suggest the closest lounge options in proximity to your employee’s gate. In addition, it offers photos and reviews of the space — you know, just in case your employee is a bit on the picky side. Download LoungeBuddy for iOS or Android here.
+On the more digital side of things, an app called [LoungeBuddy](https://www.loungebuddy.com/) allows users to take advantage of its database of free and paid lounge options. Employees can use it and claim the cost as an expense, or office managers can use it to prepare access before a trip. In either case, the app compares a traveller’s personalized profile (itinerary, frequent flier memberships, and credit cards, etc.) with the amenities desired (Wi-Fi, a shower, etc.) to suggest the closest lounge options in proximity to your employee’s gate. In addition, it offers photos and reviews of the space — you know, just in case your employee is a bit on the picky side. Download LoungeBuddy for iOS or Android [here](https://www.loungebuddy.com/mobile?source=footer-cta). 
+
+**Related Links**
+
+[The Best Tips to Avoid (And Deal With!) Travel Delays](http://travelperk.com/blog/the-best-tips-to-avoid-and-deal-with-travel-delays/)
+
+[6 Creative Solutions to Help You Network and Socialise While Traveling](http://travelperk.com/blog/6-creative-solutions-that-help-you-network-and-socialize-while-traveling/)
+
+[6 Apps That Prepare Employees for Any Business Trip](http://travelperk.com/blog/6-apps-that-prepare-employees-for-any-business-trip-while-cutting-costs/)
