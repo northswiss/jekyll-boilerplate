@@ -121,34 +121,3 @@ btn_testimonial_one.click(function () {
   $(this).addClass("active");
   $testimonials_li.animate({left: 0}, 300);
 });
-
-// GA TRACKING =========================
-
-// BUTTONS
-var tracking_array = [ btn_close, btn_more, btn_demo_request, btn_demo_submit, btn_sign_up_nav, btn_sign_up_hero, btn_login, btn_menu, btn_honeypot_one, btn_honeypot_two, btn_honeypot_three, btn_honeypot_four ];
-
-$.each( tracking_array, function ( i, $button ) {
-  var category, label;
-  var getCategory = function() {
-    if( $button.attr("data-ga-category") == null ) {
-      category = "Button click";
-    } else {
-      category = $button.attr("data-ga-category");
-    }
-    return category;
-  };
-  var getLabel = function() {
-    if( $button.attr("data-ga-label") == null ) {
-      label = $button.text();
-    } else {
-      label = $button.attr("data-ga-label");
-    }
-    return label;
-  };
-
-  $button.click(function () {
-    getCategory();
-    getLabel();
-    ga('send', 'event', category, 'Clicked', label );
-  });
-});
