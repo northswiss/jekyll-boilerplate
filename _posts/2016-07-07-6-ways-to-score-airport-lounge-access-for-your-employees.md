@@ -16,7 +16,7 @@ In a lounge, travelling employees can enjoy complimentary snacks and drinks, rel
 
 While you’ve always known about the magic of the airport lounge, you also think they’re far too an expensive luxury for your employees. Don’t forget: lounge access typically comes with perks like free checked bags, priority boarding and all the little things that make a long business trip easier to swallow for your employees. Altogether, the value of airport lounge access pays for itself in the long run. 
 
-There are a few ways for your employees to enjoy the benefits of airport lounges on their business — and not all of them break the bank. Take a look at our suggestions below: 
+There are a few ways for your employees to enjoy the benefits of airport lounges on their business travel — and not all of them break the bank. Take a look at our suggestions below: 
 
 **For those afraid of commitment**
 
