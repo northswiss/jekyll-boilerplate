@@ -19,6 +19,22 @@ id: sign-up
     </ul>
     <p>And the best is: TravelPerk is not only <strong>free to use </strong>and <strong>available 24/7</strong>, but our friendly and competent customer support is there for you 7 days a week.</p>
   </div>
-  {% include /component/request-demo.html %}
+
+
+  <section id="request-demo" class="request-demo bg-gray-dark">
+
+    <h3 class="wrapper">Start your <strong>free</strong> account today!</h3>
+
+    <form accept-charset="UTF-8" action="http://formspree.io/juliana@travelperk.com" method="POST" class="sign-up-form" id="sign_up_form">
+
+      {% include component/form-request-demo.html %}
+
+      <button id="request-demo-submit" type="submit"
+              data-gaCategory="Signup"
+              data-gaAction="SubmitContact"
+              data-gaLabel="SignupLandingPage">Request demo</button>
+    </form>
+  </section>
+
 </section>
 

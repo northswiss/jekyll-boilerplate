@@ -11,4 +11,19 @@ layout: default
 
 {% include component/testimonials.html%}
 
-{% include component/request-demo.html %}
+<section id="request-demo" class="request-demo bg-gray-dark">
+
+  <h3>Making business travel management a whole lot simpler.</h3>
+  <h2 class="wrapper">Ready to get started?</h2>
+
+  <form accept-charset="UTF-8" action="http://formspree.io/juliana@travelperk.com" method="POST" class="sign-up-form" id="sign_up_form_footer"
+        data-gaCategory="Signup"
+        data-gaAction="SubmitContact"
+        data-gaLabel="HomeFooter">
+
+    {% include component/form-request-demo.html %}
+
+    <button id="request-demo-submit" type="submit">Request demo</button>
+  </form>
+</section>
+

@@ -19,7 +19,22 @@ id: pricing
       <h3>Is there a minimum term I need to sign up to?</h3>
       <p>No. With TravelPerk you are free to join or leave whenever you like without any ties, though we love our product, and we think you will too.</p>
     </div>
-    {% include component/request-demo.html  %}
+
+    <section id="request-demo" class="request-demo bg-gray-dark">
+
+      <h2 class="wrapper">Ready to get started?</h2>
+
+      <form accept-charset="UTF-8" action="http://formspree.io/juliana@travelperk.com" method="POST" class="sign-up-form" id="sign_up_form_pricing">
+
+        {% include component/form-request-demo.html %}
+
+        <button id="request-demo-submit" type="submit"
+                data-gaCategory="Signup"
+                data-gaAction="SubmitContact"
+                data-gaLabel="PricingPage">Request demo</button>
+      </form>
+    </section>
+
   </div>
 
   <div class="enterprise">
