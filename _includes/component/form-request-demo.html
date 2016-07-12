@@ -1,16 +1,11 @@
-<!-- Sign up -->
+<!--
+README:
+Holds all of the form content excluding the form and button.
+We need unique IDs and different tracking on submit buttons
+so these are excluded from this include.
+-->
 
-<section id="request-demo" class="request-demo bg-gray-dark">
-    {% if page.id == "home" or page.layout == "post" %}
-    <h3>Making business travel management a whole lot simpler.</h3>
-    <h2 class="wrapper">Ready to get started?</h2>
-    {% endif %}
-    {% if page.id == "sign-up" %}
-    <h3 class="wrapper">Start your <strong>free</strong> account today!</h3>
-    {% endif %}
-
-    <form accept-charset="UTF-8" action="http://formspree.io/juliana@travelperk.com" method="POST" id="sign_up_form">
-      <div class="flex three">
+  <div class="flex three">
       <span>
         <input type="hidden" name="utf8" value="✓">
         <label for="name">Your Name</label>
@@ -46,17 +41,13 @@
           <span></span>Employees book themselves
         </label>
       </span>
-      </div>
-      <div id="extra_information" class="extra-information">
-        <hr>
-        <p>OK<strong id="prospect_name"></strong>, would you mind briefly telling us about your current office locations and why you need a tool like TravelPerk?</p>
-        <textarea name="comment" id="comment" rows="2" ></textarea>
-      </div>
-      <input type="hidden" name="_subject" value="TravelPerk Demo request" />
-      <input type="hidden" name="_cc" value="chris@travelperk.com,maria@travelperk.com" />
-      <input type="text" name="_gotcha" style="display:none" />
-      <input type="hidden" name="_next" value="http://www.travelperk.com/demo-request-confirmation/" />
-      <button id="request-demo-submit" type="submit"
-              data-gaAction="SubmitContact">Request demo</button>
-    </form>
-</section>
+  </div>
+  <div id="extra_information" class="extra-information">
+    <hr>
+    <p>OK<strong id="prospect_name"></strong>, would you mind briefly telling us about your current office locations and why you need a tool like TravelPerk?</p>
+    <textarea name="comment" id="comment" rows="2" ></textarea>
+  </div>
+  <input type="hidden" name="_subject" value="TravelPerk Demo request" />
+  <input type="hidden" name="_cc" value="chris@travelperk.com,maria@travelperk.com" />
+  <input type="text" name="_gotcha" style="display:none" />
+  <input type="hidden" name="_next" value="http://www.travelperk.com/demo-request-confirmation/" />
