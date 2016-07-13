@@ -24,14 +24,14 @@ id: pricing
 
       <h2 class="wrapper">Ready to get started?</h2>
 
-      <form accept-charset="UTF-8" action="http://formspree.io/juliana@travelperk.com" method="POST" class="sign-up-form" id="sign_up_form_pricing">
+      <form accept-charset="UTF-8" action="http://formspree.io/juliana@travelperk.com" method="POST" class="sign-up-form" id="sign_up_form_pricing"
+            data-gaCategory="Signup"
+            data-gaAction="SubmitContact"
+            data-gaLabel="PricingPage">
 
         {% include component/form-request-demo.html %}
 
-        <button id="request-demo-submit" type="submit"
-                data-gaCategory="Signup"
-                data-gaAction="SubmitContact"
-                data-gaLabel="PricingPage">Request demo</button>
+        <button id="request-demo-submit" type="submit">Request demo</button>
       </form>
     </section>
 
