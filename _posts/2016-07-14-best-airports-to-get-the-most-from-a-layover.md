@@ -10,7 +10,7 @@ author: javier
 subtitle: 'Layovers: A Business Travellers Guide'
 tags: ''
 ---
-![820x480xHong-Kong-International-Airport-820x480.jpg.pagespeed.ic.YyQ9GdeeTx.jpg]({{site.baseurl}}/blog-media/820x480xHong-Kong-International-Airport-820x480.jpg.pagespeed.ic.YyQ9GdeeTx.jpg)
+![4536ec2c-7f97-4cbb-839e-8d6e96f015e7.png]({{site.baseurl}}/blog-media/4536ec2c-7f97-4cbb-839e-8d6e96f015e7.png)
 
 
 For office managers tasked with managing business travel, scheduling airport layovers has the benefit of cheaper fares for your company at the consequence of making your employee’s trips longer. 
