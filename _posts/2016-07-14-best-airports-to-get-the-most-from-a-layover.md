@@ -7,6 +7,8 @@ seo-meta: >-
   The dreaded layover is usually seen as a waste of time — these airports make
   you think otherwise.
 author: javier
+subtitle: 'Layovers: A Business Travellers Guide'
+tags: ''
 ---
 ![820x480xHong-Kong-International-Airport-820x480.jpg.pagespeed.ic.YyQ9GdeeTx.jpg]({{site.baseurl}}/blog-media/820x480xHong-Kong-International-Airport-820x480.jpg.pagespeed.ic.YyQ9GdeeTx.jpg)
 
