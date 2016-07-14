@@ -1,14 +1,12 @@
 ---
 layout: post
 date: '2016-07-14 13:26 +0200'
-published: false
+published: true
 title: Best Airports to Get The Most From a Layover
 seo-meta: >-
   The dreaded layover is usually seen as a waste of time — these airports make
   you think otherwise.
 author: javier
-subtitle: ''
-tags: ''
 ---
 For office managers tasked with managing business travel, scheduling airport layovers has the benefit of cheaper fares for your company at the consequence of making your employee’s trips longer. 
 
@@ -65,4 +63,3 @@ The airport’s selection of free, two-hour city tour tours will be a nice respi
 [6 Ways to Score Airport Lounge Access For Your Employees](http://travelperk.com/blog/6-ways-to-score-airport-lounge-access-for-your-employees/)
 
 [The Best Loyalty Programs for Business Travellers](http://travelperk.com/blog/the-best-loyalty-programmes-for-business-travelers/)
-
