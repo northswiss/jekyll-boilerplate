@@ -8,6 +8,9 @@ seo-meta: >-
   you think otherwise.
 author: javier
 ---
+![820x480xHong-Kong-International-Airport-820x480.jpg.pagespeed.ic.YyQ9GdeeTx.jpg]({{site.baseurl}}/blog-media/820x480xHong-Kong-International-Airport-820x480.jpg.pagespeed.ic.YyQ9GdeeTx.jpg)
+
+
 For office managers tasked with managing business travel, scheduling airport layovers has the benefit of cheaper fares for your company at the consequence of making your employee’s trips longer. 
 
 But, your employees shouldn’t need to see a layover as a negative. Rather, they’re opportunities to do everything from sample top tier cuisine and visit museums to see the sights or simply relax.
