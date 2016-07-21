@@ -7,8 +7,7 @@ seo-meta: >-
   The dreaded layover is usually seen as a waste of time — these airports make
   you think otherwise.
 author: javier
-subtitle: 'Layovers: A Business Travellers Guide'
-tags: ''
+subtitle: 'Layovers: A Business Traveller´s Guide'
 ---
 ![4536ec2c-7f97-4cbb-839e-8d6e96f015e7.png]({{site.baseurl}}/blog-media/4536ec2c-7f97-4cbb-839e-8d6e96f015e7.png)
 
