@@ -77,7 +77,8 @@ As much as it seems that flying inevitably leads to a flu or cold, that doesn’
 
 For one, use some of our previous seating tips to make sure you have an aisle seat. This will make it easier when you take walks through the aisle to promote circulation. Combined with lots of of water along with eye drops and moisturizer to combat dryness, and you’ll be feeling limber and ready to go when you finally touch down.
 
-[Related Links]
+**Related Links**
+
 [Why Wellness Should Be a Core Element of Your Travel Policy](http://travelperk.com/blog/why-wellness-should-be-a-core-element-of-your-travel-policy/)
 
 [The Best Tips to Avoid (And Deal With!) Travel Delays](http://travelperk.com/blog/the-best-tips-to-avoid-and-deal-with-travel-delays/)
