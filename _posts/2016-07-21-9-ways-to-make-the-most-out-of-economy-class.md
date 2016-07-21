@@ -1,14 +1,12 @@
 ---
 layout: post
 date: '2016-07-21 14:00 +0200'
-published: false
+published: true
 title: 9 Ways to Make the Most Out of Economy Class
 seo-meta: >-
   Afforable business travel in coach is becoming more commonplace than ever
   before. Here are some ways to make it as comfortable as possible.
 subtitle: Flying Coach Comfortably
-author: ''
-tags: ''
 ---
 ![TravelPerk]({{site.baseurl}}/blog-media/ae20e566-a000-4099-841c-c0fa58bc6554.png)
 
@@ -84,4 +82,3 @@ For one, use some of our previous seating tips to make sure you have an aisle se
 [The Best Tips to Avoid (And Deal With!) Travel Delays](http://travelperk.com/blog/the-best-tips-to-avoid-and-deal-with-travel-delays/)
 
 [6 Ways to Score Airport Lounge Access for Your Employees](http://travelperk.com/blog/6-ways-to-score-airport-lounge-access-for-your-employees/)
- 
