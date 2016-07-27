@@ -8,7 +8,11 @@ seo-meta: >-
   does it right. Our tips make reporting expenses effortless and organized.
 subtitle: Your Travel Expense Guide Book
 author: avi
+tags: ''
 ---
+![Business Expense]({{site.baseurl}}/blog-media/ecfc13d0-82c7-44ff-8afa-67394ac9c162.png)
+
+
 
 When it comes to business travel, TravelPerk is proven [to help office and travel managers save money on flights and hotels while staying organized.](http://travelperk.com/blog/15-minutes-with-GetYourGuide/)
 
@@ -51,4 +55,5 @@ With such a diverse array of features working together with TravelPerk’s uniqu
 
 [6 Ways to Score Airport Lounge Access for Your Employees](http://travelperk.com/blog/9-ways-to-make-the-most-out-of-economy-class/)
 
-[9 Ways to Make the Most Out of Economy Class](http://travelperk.com/blog/9-ways-to-make-the-most-out-of-economy-class/)
+[9 Ways to Make the Most Out of Economy Class](http://travelperk.com/blog/9-ways-to-make-the-most-out-of-economy-class/)![Business Travel]
+
