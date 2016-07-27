@@ -1,17 +1,15 @@
 ---
 layout: post
 date: '2016-07-27 11:19 +0200'
-published: false
+published: true
 title: 'The Best Travel and Business Expense Reporting Tools '
 seo-meta: >-
   While no one enjoys tracking expenses, it’s vital that a business traveller
   does it right. Our tips make reporting expenses effortless and organized.
 subtitle: Your Travel Expense Guide Book
 author: avi
-tags: ''
 ---
 ![Business Expense]({{site.baseurl}}/blog-media/ecfc13d0-82c7-44ff-8afa-67394ac9c162.png)
-
 
 
 When it comes to business travel, TravelPerk is proven [to help office and travel managers save money on flights and hotels while staying organized.](http://travelperk.com/blog/15-minutes-with-GetYourGuide/)
