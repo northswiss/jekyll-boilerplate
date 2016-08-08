@@ -10,9 +10,7 @@ author: ''
 subtitle: ''
 tags: ''
 ---
-![76f1d2b1-0c64-4ca3-87ad-86376944a6c0.png]({{site.baseurl}}/blog-media/76f1d2b1-0c64-4ca3-87ad-86376944a6c0.png)
-
-
+![Business-trip-packing.png]({{site.baseurl}}/blog-media/Business-trip-packing.png)
 
 The golden rule when travelling for business? Never, ever check in your bag. Doing so puts you in the position to lose everything you’ve packed — for good. And while it’s one thing to know the golden rule, it’s another thing entirely to put it into effect.
 
