@@ -6,8 +6,12 @@ title: 'Business Trip Packing 101: Do it Like a Professional'
 seo-meta: >-
   Efficiently packing for a business trip makes every moment on the road
   simpler. Breeze past problems with our better packing tips!
+author: ''
+subtitle: ''
+tags: ''
 ---
-![453b63ef-aa62-4ffd-b865-63a2e0d5c57b.png]({{site.baseurl}}/blog-media/453b63ef-aa62-4ffd-b865-63a2e0d5c57b.png)
+![76f1d2b1-0c64-4ca3-87ad-86376944a6c0.png]({{site.baseurl}}/blog-media/76f1d2b1-0c64-4ca3-87ad-86376944a6c0.png)
+
 
 
 The golden rule when travelling for business? Never, ever check in your bag. Doing so puts you in the position to lose everything you’ve packed — for good. And while it’s one thing to know the golden rule, it’s another thing entirely to put it into effect.
