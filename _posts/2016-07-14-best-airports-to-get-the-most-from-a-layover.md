@@ -67,3 +67,8 @@ The airport’s selection of free, two-hour city tour tours will be a nice respi
 [6 Ways to Score Airport Lounge Access For Your Employees](http://travelperk.com/blog/6-ways-to-score-airport-lounge-access-for-your-employees/)
 
 [The Best Loyalty Programs for Business Travellers](http://travelperk.com/blog/the-best-loyalty-programmes-for-business-travelers/)
+
+<!-- Start of Leadin Embed -->
+  <script type="text/javascript" src="//js.leadin.com/js/v1/2471398.js" id="LeadinEmbed-2471398" crossorigin="use-credentials" async defer></script>
+<!-- End of Leadin Embed -->
+
