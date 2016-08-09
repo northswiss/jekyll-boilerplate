@@ -27,7 +27,7 @@ How can you do that?
 
 One of the primary motivations for any travel manager planning a business trip is making sure no detail is left unaccounted for. No travel manager wants to receive a call from a desperate employee about incorrect ticket dates or problems checking-in because of mistyped information, for instance. As such, a set of templates and checklists will do wonders to prevent mistakes and oversights from occurring. 
 
-One useful document is a **traveller contact sheet.** It’s a single document that include all of the employee’s home and professional contact information along with standard details like name, title, ID number, etc. Additional items like airline and hotel preferences, meal requests and passport details will all make this document much stronger. Conveniently, TravelPerk lets you input most of this information once, automatically filling it in for future travel arrangements. 
+One useful document is a **traveller contact sheet.** It’s a single document that include all of the employee’s home and professional contact information along with standard details like name, title, ID number, etc. Additional items like airline and hotel preferences, meal requests and passport details will all make this document much stronger. Conveniently, [TravelPerk](http://travelperk.com/) lets you input most of this information once, automatically filling it in for future travel arrangements. 
 
 Another useful document is a **travel planning checklist.** On it goes the details for every flight, ground transportation, hotel booking, dining and entertainment reservation, and meeting or event detail, along with plenty of room for anything else. Use this to keep on top of the little details that get easily lost in the shuffle. 
 
@@ -51,9 +51,17 @@ The same care and attention to detail your travel planning receives is the same 
 
 Debriefing after a business trip is just as important as the preparation. At this point, there are many aspects of the trip to go over that offer many benefits to a constantly evolving business. 
 
-When your traveller returns, retrieve their travel folder. Check for receipts, make any important notes, and then apply for reimbursements as soon as possible. Expensify integration with TravelPerk makes this exceptionally easy. 
-Replenish your traveller’s mobile office supplies so they’re ready to go next time around.
-With your traveller, review any outstanding voice messages, emails, and other updates 
-Ask your traveller if everything went well and what could be better. 
+- When your traveller returns, retrieve their travel folder. Check for receipts, make any important notes, and then apply for reimbursements as soon as possible. (Expensify integration with TravelPerk)[http://travelperk.com/blog/the-best-travel-and-business-expense-reporting-tools/] makes this exceptionally easy. 
+
+- Replenish your traveller’s mobile office supplies so they’re ready to go next time around.
+
+- With your traveller, review any outstanding voice messages, emails, and other updates 
+
+- Ask your traveller if everything went well and what could be better. 
 
 Remember, travel management is a continually evolving exercise, and it pays to be diligent about learning everything you can for better outcomes.
+
+
+<!-- Start of Leadin Embed -->
+  <script type="text/javascript" src="//js.leadin.com/js/v1/2471398.js" id="LeadinEmbed-2471398" crossorigin="use-credentials" async defer></script>
+<!-- End of Leadin Embed -->
