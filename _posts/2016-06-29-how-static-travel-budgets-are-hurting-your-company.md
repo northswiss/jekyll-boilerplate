@@ -11,7 +11,6 @@ tags:
   - Cost saving
   - Travel management
 subtitle: 'Dynamic Budget Algorithm: The Clever Stuff'
-author: ''
 ---
 
 ![dynamic budgeting]({{site.baseurl}}/blog-media/ca6c3137-5780-4c47-8d11-1f6bbad60f75.png)
@@ -70,3 +69,10 @@ Our algorithm is unique — no one else is doing anything remotely like this. Yo
 [6 Creative Solutions to Help You Network and Socialise While Traveling](http://travelperk.com/blog/6-creative-solutions-that-help-you-network-and-socialize-while-traveling/)
 
 [The Best Loyalty Programs for Business Travellers](http://travelperk.com/blog/the-best-loyalty-programmes-for-business-travelers/)
+
+
+<!-- Start of Leadin Embed -->
+  <script type="text/javascript" src="//js.leadin.com/js/v1/2471398.js" id="LeadinEmbed-2471398" crossorigin="use-credentials" async defer></script>
+<!-- End of Leadin Embed -->
+
+
