@@ -7,8 +7,6 @@ seo-meta: Enjoy the perks of lounge access without breaking the bank.
 tags:
   - Business Travel
   - Travel management
-author: ''
-subtitle: ''
 ---
 ![be2da081-5c9d-4f7a-8aa4-b45a296d9832.png]({{site.baseurl}}/blog-media/be2da081-5c9d-4f7a-8aa4-b45a296d9832.png)
 
@@ -55,3 +53,8 @@ On the more digital side of things, an app called [LoungeBuddy](https://www.loun
 [6 Creative Solutions to Help You Network and Socialise While Traveling](http://travelperk.com/blog/6-creative-solutions-that-help-you-network-and-socialize-while-traveling/)
 
 [6 Apps That Prepare Employees for Any Business Trip](http://travelperk.com/blog/6-apps-that-prepare-employees-for-any-business-trip-while-cutting-costs/)
+
+
+<!-- Start of Leadin Embed -->
+  <script type="text/javascript" src="//js.leadin.com/js/v1/2471398.js" id="LeadinEmbed-2471398" crossorigin="use-credentials" async defer></script>
+<!-- End of Leadin Embed -->
