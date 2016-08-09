@@ -33,7 +33,7 @@ Packing liquids is simple, as long as you take the absolute minimum you need. St
 
 Save that space instead. Take advantage of the free liquids — shampoos, moisturizers, and conditioners — offered free at most hotels.
 
-##Hotel laundry service is your best friend##
+## Hotel laundry service is your best friend ##
 
 Most people tend to overpack their luggage for a business trip because they imagine doing laundry won’t be an accessible option.
 
