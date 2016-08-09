@@ -10,6 +10,8 @@ tags:
   - Business travel tips
   - Business process
   - Travel management
+author: ''
+subtitle: ''
 ---
 ![planning business travel]({{site.baseurl}}/blog-media/planning-business-travel.png)
 
@@ -23,7 +25,7 @@ As a travel manager, the best thing you can do is to be as organized as humanly 
 
 How can you do that?  
 
-##Create travel planning templates and checklists##
+## Create travel planning templates and checklists ##
 
 One of the primary motivations for any travel manager planning a business trip is making sure no detail is left unaccounted for. No travel manager wants to receive a call from a desperate employee about incorrect ticket dates or problems checking-in because of mistyped information, for instance. As such, a set of templates and checklists will do wonders to prevent mistakes and oversights from occurring. 
 
@@ -47,11 +49,11 @@ The same care and attention to detail your travel planning receives is the same 
 	
 - If your traveller is catching an international flight, put together a paper dossier containing important information about their destination. Add details like currency, time zone, the local embassy’s contact information, tips on local laws and culture, common diseases, and whether or not their phone plan covers international travel. Information like this goes a very long way. 
 
-## Post-business trip: What to do ##
+## Post-business trip ##
 
 Debriefing after a business trip is just as important as the preparation. At this point, there are many aspects of the trip to go over that offer many benefits to a constantly evolving business. 
 
-- When your traveller returns, retrieve their travel folder. Check for receipts, make any important notes, and then apply for reimbursements as soon as possible. (Expensify integration with TravelPerk)[http://travelperk.com/blog/the-best-travel-and-business-expense-reporting-tools/] makes this exceptionally easy. 
+- When your traveller returns, retrieve their travel folder. Check for receipts, make any important notes, and then apply for reimbursements as soon as possible. [Expensify integration with TravelPerk](http://travelperk.com/blog/the-best-travel-and-business-expense-reporting-tools/) makes this exceptionally easy. 
 
 - Replenish your traveller’s mobile office supplies so they’re ready to go next time around.
 
