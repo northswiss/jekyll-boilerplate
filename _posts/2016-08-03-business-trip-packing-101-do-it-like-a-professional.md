@@ -6,9 +6,6 @@ title: 'Business Trip Packing 101: Do it Like a Professional'
 seo-meta: >-
   Efficiently packing for a business trip makes every moment on the road
   simpler. Breeze past problems with our better packing tips!
-author: ''
-subtitle: ''
-tags: ''
 ---
 ![Business-trip-packing.png]({{site.baseurl}}/blog-media/Business-trip-packing.png)
 
@@ -61,3 +58,8 @@ And when these scans are all on your devices, print them out after. You never kn
 No habit is perfect. As such, it’s important to take a good look at what you pack and how you pack it all every three months. When the time comes, audit everything you usually pack — and don’t be afraid to be difficult. Challenge each piece of clothing and every item you bring along, and give a pass to those items which are absolutely essential.
 
 Easier business travel means getting rid of the clutter. Doing so every few months rewards business travellers with a better flying experience every time.
+
+
+<!-- Start of Leadin Embed -->
+  <script type="text/javascript" src="//js.leadin.com/js/v1/2471398.js" id="LeadinEmbed-2471398" crossorigin="use-credentials" async defer></script>
+<!-- End of Leadin Embed -->
