@@ -45,7 +45,7 @@ You’d be surprised how many times business travellers are left out in the cold
 
 To avoid this unseemly fate, test each of your device’s battery life to develop an accurate sense of how long each last on a full charge. Doing this will give you a far better understanding of what kind of extra power you might need bring along to ensure you stay connected no matter what.
 
-##Backup your backups##
+## Backup your backups ##
 
 It’s hard to communicate the importance of having proper documentation while on the road. Without a critical piece of identification or credential, your business trip can be derailed before it even starts.
 
