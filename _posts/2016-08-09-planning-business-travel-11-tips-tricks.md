@@ -10,8 +10,8 @@ tags:
   - Business travel tips
   - Business process
   - Travel management
-author: ''
-subtitle: ''
+author: javier
+subtitle: 'Travel Management with Ease '
 ---
 ![planning business travel]({{site.baseurl}}/blog-media/planning-business-travel.png)
 
