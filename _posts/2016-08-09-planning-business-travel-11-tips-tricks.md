@@ -1,7 +1,7 @@
 ---
 layout: post
 date: '2016-08-09 11:28 +0200'
-published: false
+published: true
 title: 'Planning Business Travel: 11 Tips & Tricks'
 seo-meta: >-
   Planning business travel is a game of efficiency and organization. Our guide
@@ -56,9 +56,4 @@ Replenish your traveller’s mobile office supplies so they’re ready to go nex
 With your traveller, review any outstanding voice messages, emails, and other updates 
 Ask your traveller if everything went well and what could be better. 
 
-Remember, travel management is a continually evolving exercise, and it pays to be diligent about learning everything you can for better outcomes. 
-
-
-
-
-
+Remember, travel management is a continually evolving exercise, and it pays to be diligent about learning everything you can for better outcomes.
