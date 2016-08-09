@@ -82,3 +82,8 @@ For one, use some of our previous seating tips to make sure you have an aisle se
 [The Best Tips to Avoid (And Deal With!) Travel Delays](http://travelperk.com/blog/the-best-tips-to-avoid-and-deal-with-travel-delays/)
 
 [6 Ways to Score Airport Lounge Access for Your Employees](http://travelperk.com/blog/6-ways-to-score-airport-lounge-access-for-your-employees/)
+
+
+<!-- Start of Leadin Embed -->
+  <script type="text/javascript" src="//js.leadin.com/js/v1/2471398.js" id="LeadinEmbed-2471398" crossorigin="use-credentials" async defer></script>
+<!-- End of Leadin Embed -->
