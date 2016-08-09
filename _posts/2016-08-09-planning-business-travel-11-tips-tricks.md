@@ -15,6 +15,7 @@ subtitle: ''
 ---
 ![planning business travel]({{site.baseurl}}/blog-media/planning-business-travel.png)
 
+
 As a travel manager, your travelling employee’s success on the road is directly connected to how well you prepare them for everything on their plate. 
 
 With that in mind, planning their trip with the goal of keeping your business traveller as productive and stress-free as possible requires carefully considered, clever planning. 
