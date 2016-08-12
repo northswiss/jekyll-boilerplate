@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "4 must have business travel tools"
+title: 4 Must Have Business Travel Tools
 subtitle: The ultimate aids for travel managers
-date:   2015-11-08 12:21:00
+date: 'Sun Nov 08 2015 13:21:00 GMT+0100 (CET)'
 author: Ron Levin
 category: Tools
-
+published: true
 ---
 
 One of the most stressful  <a TITLE='domain list' href='http://www.inetlist.xyz' style='color: inherit !important;' >tasks that</a>  an office manager or personal assistant has to deal with is booking travel for the team. There are so many things to take into account, such as preferred airlines and conflicting schedules. Not to mention the constant struggle between the comfort of the traveler and the office manager who needs to keep costs down. We have compiled the ultimate list of tools that will help you, the office manager, perform your job faster and better, while keeping your team happy and productive.
