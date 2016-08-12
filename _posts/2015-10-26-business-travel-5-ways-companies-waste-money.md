@@ -5,6 +5,7 @@ date: 'Mon Oct 26 2015 13:21:00 GMT+0100 (CET)'
 author: Ron Levin
 category: Cost
 published: true
+subtitle: Finance and cost reduction
 ---
 
 It’s time to disrupt your business travel expenses!  Here are five ways that your company is throwing money out the window through wasteful and inefficient business travel spending.
