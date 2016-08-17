@@ -81,3 +81,8 @@ A fourth benefit is the ability to name every trip. For our accounting departmen
 **What general tips would you give to the person in the role of managing travel?**
 
 As I’m a newbie in the job just starting to explore the many possibilities available in the world of business travel, I think I’m the one needing tips from other travel managers.  At the moment, though, I am searching for good newsletters that can keep me up-to-date on the latest travel news or new apps and service that can help me with my travel bookings.
+
+
+<!-- Start of Leadin Embed -->
+  <script type="text/javascript" src="//js.leadin.com/js/v1/2471398.js" id="LeadinEmbed-2471398" crossorigin="use-credentials" async defer></script>
+<!-- End of Leadin Embed -->
