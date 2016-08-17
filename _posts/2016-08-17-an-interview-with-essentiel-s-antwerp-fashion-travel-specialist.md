@@ -8,6 +8,8 @@ seo-meta: >-
   us an inside scoop on how she manages the retail travel at the company's
   headquarters.
 subtitle: 'TravelPerk Interview Series '
+author: ''
+tags: ''
 ---
 <img class="left" alt="retail travel management" src="{{site.baseurl}}/blog-media/Fashion-retail-travel-management.png)![Fashion-retail-travel-management.png" />
 
@@ -28,15 +30,15 @@ As we booked more and more trips, we noticed how much of our travel budget was s
 For me, these new responsibilities are a huge challenge as I’ve had no education whatsoever in tourism or travel management. I had to teach (and am still teaching) myself how to go about it all, like finding well-positioned hotels within our budget or finding flights that meet my both my colleague and management’s expectations. I have always been an avid “Googler”, so searching for information and doing research is something I enjoy doing. Therefore, looking for the best travel arrangements is something I don’t mind spending time on. I have also always loved talking to people, especially in different languages, so the interaction with people working with airlines and hotels from around the world is something I really enjoy.
 
 
-**How is your typical day structured? How do you receive travel requests?**
+** How is your typical day structured? How do you receive travel requests? **
 
 When I enter the office in the morning, the first thing I do is check my e-mails because that is where I receive all travel requests. When I was told we would no longer work with a travel agency, I created a Travel File which all travellers have to fill in and send to me for each trip. On the Travel File, they are required to write down the travel date, destination, preferred hours, and the reason for their trip, all of which is very important information for our accounting department.
 
-**How do you prepare employees for a trip?**
+** How do you prepare employees for a trip? **
 
 I send my colleagues all the necessary trip confirmations. If needed, I arrange everything for a travel visa. Finally, I check them in online before their flights. For better management, I always make a file that contains all the paperwork because they still prefer having a hardcopy of all the information.
 
-** Can you tell us about a particularly difficult problem you overcame when it came to business travel at your company? **
+**Can you tell us about a particularly difficult problem you overcame when it came to business travel at your company?**
 
 When I started out as a receptionist there was no general policy for business travel, so many of my colleagues booked their own trips, there was little control over the travel budget, and there was lack of awareness when it came to changing and cancelling travel arrangements.
 
