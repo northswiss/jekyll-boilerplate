@@ -11,7 +11,8 @@ subtitle: 'TravelPerk Interview Series '
 author: ''
 tags: ''
 ---
-<img class="left" alt="retail travel management" src="{{site.baseurl}}/blog-media/Fashion-retail-travel-management.png)![Fashion-retail-travel-management.png" />
+![Fashion-retail-travel-management.png]({{site.baseurl}}/blog-media/Fashion-retail-travel-management.png)
+
 
 
 
