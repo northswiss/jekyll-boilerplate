@@ -13,7 +13,7 @@ subtitle: 'TravelPerk Interview Series '
 
 
 
-** Can you please introduce yourself, your role, and your company? **
+**Can you please introduce yourself, your role, and your company?**
 
 My name is Magali Fornoville. I am an office manager at the headquarters of the fashion brand Essentiel in Antwerp, Belgium.
 
