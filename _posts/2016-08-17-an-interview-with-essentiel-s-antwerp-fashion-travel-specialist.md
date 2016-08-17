@@ -1,15 +1,13 @@
 ---
 layout: post
 date: '2016-08-17 10:53 +0200'
-published: false
+published: true
 title: 'An interview with Essentiel''s Antwerp Fashion Travel Specialist '
 seo-meta: >-
   Magalie Fornoville, travel manager at Belgium's successful fashion brand gives
   us an inside scoop on how she manages the retail travel at the company's
   headquarters.
 subtitle: 'TravelPerk Interview Series '
-author: ''
-tags: ''
 ---
 <img class="left" alt="retail travel management" src="{{site.baseurl}}/blog-media/Fashion-retail-travel-management.png)![Fashion-retail-travel-management.png" />
 
