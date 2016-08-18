@@ -20,7 +20,7 @@ In the past, using pen and paper was the only way to keep tabs on expenses. Now,
 
 **Keep a business travel journal**
 
-If travelling for a long time — say, a week, for instance — then it’s a great idea to keep a business travel journal. In it goes every every means of travel, lodging, meal, ground transportation, and other miscellaneous purchases. By documenting the amount spent, date, time, and purpose of the expense, you create non-financial confirmation for every expense incurred on a business trip. This works wonders to challenge a bank statement or clarify expenses during a tax audit, too. 
+If traveling for a long time — say, a week, for instance — then it’s a great idea to keep a business travel journal. In it goes every every means of travel, lodging, meal, ground transportation, and other miscellaneous purchases. By documenting the amount spent, date, time, and purpose of the expense, you create non-financial confirmation for every expense incurred on a business trip. This works wonders to challenge a bank statement or clarify expenses during a tax audit, too. 
 
 While a physical notebook is a perfectly valid way to keep a travel journal, it can get lost, stolen or damaged, immediately rendering all the information it has useless. Instead, consider using the note taking and archiving software [Evernote instead](https://evernote.com/). With it, you’ll be able to keep all your notes organized, synced, and accessible across multiple devices and app platforms using the power of cloud technology, making it an extremely handy tool once the trip is over. 
 
@@ -34,7 +34,7 @@ MileIQ is an [iOS](https://en.wikipedia.org/wiki/App_Store_(iOS) and [Android](h
 
 Instead, use [Shoeboxed](https://www.shoeboxed.com/). This fun little app can track mileage, turn business cards into contacts, organize and archive email receipts, and capture physical receipts and file them for a reimbursement or deductible. 
 
-What really sets Shoeboxed apart is its Magic Envelope feature. Busy business travellers can stuff a pre-paid envelope with their receipts, business cards and other paper data and drop it in the mail. After a few days, all of that information will be digitally available for you to apply your next expense report — just like that. 
+What really sets Shoeboxed apart is its Magic Envelope feature. Busy business travelers can stuff a pre-paid envelope with their receipts, business cards and other paper data and drop it in the mail. After a few days, all of that information will be digitally available for you to apply your next expense report — just like that. 
 
 **Use the one-two combo of TravelPerk and Expensify**
  
@@ -44,7 +44,7 @@ With TravelPerk, users can quickly create expense reports by sending flight and 
 
 Alongside standard features like receipt and mileage capture, Expensify can also connect with bank and credit cards to automatically retrieve transactions that can be expensed. In addition, an eReceipt is automatically generated for any expense under $75, softening the frustration of misplacing or losing receipts. Another standout is Expensify’s ExpenseIt feature, which allows users to email receipts to be later scanned and applied to a report. 
 
-With such a diverse array of features working together with TravelPerk’s unique [Dynamic Budgeting Algorithm](http://travelperk.com/blog/how-static-travel-budgets-are-hurting-your-company/) — and the team’s dedication towards more streamlined management of business travel — Expensify is a natural fit for any office or travel manager who wants to save money and be more organized. And for travelling employees, the combination of the two almost makes booking business travel and reporting expenses — dare we say — enjoyable. 
+With such a diverse array of features working together with TravelPerk’s unique [Dynamic Budgeting Algorithm](http://travelperk.com/blog/how-static-travel-budgets-are-hurting-your-company/) — and the team’s dedication towards more streamlined management of business travel — Expensify is a natural fit for any office or travel manager who wants to save money and be more organized. And for traveling employees, the combination of the two almost makes booking business travel and reporting expenses — dare we say — enjoyable. 
 
 
 **Related Links**
