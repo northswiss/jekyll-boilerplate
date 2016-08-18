@@ -6,7 +6,7 @@ seo-meta: >-
   unexpected corporate travel costs ocurre and 5 ways to reduce them.
 author: javier
 title: 5 Ways to Cut Invisible Spend
-date: '2016-08-18 12:38 +0200'
+date: '2016-06-18 12:38 +0200'
 ---
 ## Making The Invisible, Visible:  5 Ways to Cut Invisible Spend
 
