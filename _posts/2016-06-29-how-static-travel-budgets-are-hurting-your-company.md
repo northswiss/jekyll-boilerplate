@@ -37,9 +37,9 @@ A **static budget** is a type of budget that anticipates costs and expenses befo
 
 Business travel is anything but static, so why would you want to use such a rigid tool to handle its nuances? In the world of business travel, a bargain one day could be a 30% premium the very next. A static budget doesn’t take into account how quickly prices change when booking flights, accommodation and hotels.
 
-Secondly, during peak travel periods, everything is more expensive across the board. With a static budget, employees travelling during peak periods have limited options. During low travel periods, this trend is reversed, with travelling employees finding they have more than they need. In both cases, travel managers are either spending more than they need to or leaving money on the table. 
+Secondly, during peak travel periods, everything is more expensive across the board. With a static budget, employees traveling during peak periods have limited options. During low travel periods, this trend is reversed, with traveling employees finding they have more than they need. In both cases, travel managers are either spending more than they need to or leaving money on the table. 
 
-Finally, every trip is different. Assigning a single, flat budget for employees across different departments does not take into consideration the smaller fluctuations that affect a traveller on the trip itself.
+Finally, every trip is different. Assigning a single, flat budget for employees across different departments does not take into consideration the smaller fluctuations that affect a traveler on the trip itself.
 
 ### Dynamic budgeting is the answer ###
 
@@ -49,16 +49,16 @@ The benefits of dynamic budgeting are great: a transparent budget that varies wi
 
  TravelPerk’s proprietary software implements a brilliant **dynamic data-driven budgeting algorithm** that works wonders in streamlining the travel buying process. 
 
-Our software not only displays the cheapest travel options, but also creates a real-time budget backed by a clever algorithm that keeps budgets fair to the employee doing the travelling.
+Our software not only displays the cheapest travel options, but also creates a real-time budget backed by a clever algorithm that keeps budgets fair to the employee doing the traveling.
 
-Your company’s travel policies inform the way the algorithm works (e.g. always economy class flights, 3-star hotel standard, etc.). Don’t be afraid to be as specific as you like: it’s possible to do everything from prioritize certain airlines to excluding specific airports, going as far as creating separate policies for different traveller groups. 
+Your company’s travel policies inform the way the algorithm works (e.g. always economy class flights, 3-star hotel standard, etc.). Don’t be afraid to be as specific as you like: it’s possible to do everything from prioritize certain airlines to excluding specific airports, going as far as creating separate policies for different traveler groups. 
 
-All this information is applied to an employee’s upcoming trip, using actual real-time pricing data to determine the fairest price to pay according to the traveller’s needs.  
+All this information is applied to an employee’s upcoming trip, using actual real-time pricing data to determine the fairest price to pay according to the traveler’s needs.  
 
 
 ### TravelPerk is the best travel management partner you can have ###
 
-While dynamic budgeting allows travellers to book travel above these real-time budgets, many companies ultimately find tackling travel management this way to be a fairer and more equitable method, versus using static budgets that don’t reflect the reality of volatile pricing changes due to peaks and troughs in demand for travel services.
+While dynamic budgeting allows travelers to book travel above these real-time budgets, many companies ultimately find tackling travel management this way to be a fairer and more equitable method, versus using static budgets that don’t reflect the reality of volatile pricing changes due to peaks and troughs in demand for travel services.
 
 Our algorithm is unique — no one else is doing anything remotely like this. You could even call it our secret sauce. [And office and travel managers love using it.](http://travelperk.com/blog/15-minutes-with-GetYourGuide/)
 
@@ -68,11 +68,9 @@ Our algorithm is unique — no one else is doing anything remotely like this. Yo
 
 [6 Creative Solutions to Help You Network and Socialise While Traveling](http://travelperk.com/blog/6-creative-solutions-that-help-you-network-and-socialize-while-traveling/)
 
-[The Best Loyalty Programs for Business Travellers](http://travelperk.com/blog/the-best-loyalty-programmes-for-business-travelers/)
+[The Best Loyalty Programs for Business Travelers](http://travelperk.com/blog/the-best-loyalty-programmes-for-business-travelers/)
 
 
 <!-- Start of Leadin Embed -->
   <script type="text/javascript" src="//js.leadin.com/js/v1/2471398.js" id="LeadinEmbed-2471398" crossorigin="use-credentials" async defer></script>
 <!-- End of Leadin Embed -->
-
-
