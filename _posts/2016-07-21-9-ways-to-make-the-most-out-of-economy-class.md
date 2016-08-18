@@ -27,7 +27,7 @@ Do a little leg work before, and you’ll be able to stretch out later.
 
 ### Pick seats carefully
 
-In a business where less and less choice is given to the consumer, business travellers gloss over just how powerful it is to still pick their own seat. This is truer than ever with sites like Seat [Guru](http://www.seatguru.com/) and [Seat Expert](http://seatexpert.com/). They offer business travellers detailed color-coded airplane maps and charts along with rating systems to determine the kind of amenities available or just how comfortable a particular seat is. 
+In a business where less and less choice is given to the consumer, business travelers gloss over just how powerful it is to still pick their own seat. This is truer than ever with sites like Seat [Guru](http://www.seatguru.com/) and [Seat Expert](http://seatexpert.com/). They offer business travelers detailed color-coded airplane maps and charts along with rating systems to determine the kind of amenities available or just how comfortable a particular seat is. 
 
 Unfortunately, neither of these are booking sites, so office managers or employees who self-book can combine this information with tools like [TravelPerk](http://travelperk.com/). This guarantees the most comfortable trips at the absolute best prices. 
 
@@ -53,9 +53,9 @@ Before a flight, research the premium options your airline offers. Look into tho
 
 ### Be judicious in your use of airline miles 
 
-For frequent business travellers, it’s huge mistake to waste miles on free flights. The most important thing here is working towards elite status. The kinds of perks elite flyers get, from priority boarding to class upgrades, make the prospect of flying coach less of a nightmare. 
+For frequent business travelers, it’s huge mistake to waste miles on free flights. The most important thing here is working towards elite status. The kinds of perks elite flyers get, from priority boarding to class upgrades, make the prospect of flying coach less of a nightmare. 
 
-Our article on the [best loyalty programs for business travellers](http://travelperk.com/blog/the-best-loyalty-programmes-for-business-travelers/) will be a perfect primer on how to choose the loyalty program for you. 
+Our article on the [best loyalty programs for business travelers](http://travelperk.com/blog/the-best-loyalty-programmes-for-business-travelers/) will be a perfect primer on how to choose the loyalty program for you. 
 
 ### Entertain yourself 
 
