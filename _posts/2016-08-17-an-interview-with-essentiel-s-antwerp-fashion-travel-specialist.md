@@ -10,6 +10,8 @@ seo-meta: >-
   us an inside scoop on how she manages the retail travel at the company's
   headquarters.
 author: avi
+subtitle: ''
+tags: ''
 ---
 ![Fashion-retail-travel-management.png]({{site.baseurl}}/blog-media/Fashion-retail-travel-management.png)
 
@@ -31,7 +33,7 @@ For me, these new responsibilities are a huge challenge as I’ve had no educati
 
 **How is your typical day structured? How do you receive travel requests?**
 
-When I enter the office in the morning, the first thing I do is check my e-mails because that is where I receive all travel requests. When I was told we would no longer work with a travel agency, I created a Travel File which all travellers have to fill in and send to me for each trip. On the Travel File, they are required to write down the travel date, destination, preferred hours, and the reason for their trip, all of which is very important information for our accounting department.
+When I enter the office in the morning, the first thing I do is check my e-mails because that is where I receive all travel requests. When I was told we would no longer work with a travel agency, I created a Travel File which all travelers have to fill in and send to me for each trip. On the Travel File, they are required to write down the travel date, destination, preferred hours, and the reason for their trip, all of which is very important information for our accounting department.
 
 **How do you prepare employees for a trip?**
 
@@ -43,13 +45,13 @@ When I started out as a receptionist there was no general policy for business tr
 
 Over the last few years, we were able to set some standards by establishing a maximum budget for hotel rooms and anticipating spend for travel expenses such as taxis and food. I’ve also been trying to make people more aware of the consequences of cancelling travel arrangements by repeating the cancellation policies of hotels and airlines associated with a trip to my colleagues.
 
-Centralizing all travel bookings has made all of this much easier, especially when considering each individual traveller’s own travel preferences and finding a balance between what is best for them at a reasonable price for the company. It also a great way for Essentiel to maintain some control over the budget as it's easier keep an eye on prices overall.
+Centralizing all travel bookings has made all of this much easier, especially when considering each individual traveler’s own travel preferences and finding a balance between what is best for them at a reasonable price for the company. It also a great way for Essentiel to maintain some control over the budget as it's easier keep an eye on prices overall.
 
 **What kind of travel policy does your company implement when sending employees away on business?**
 
 First of all, we ask employees to always travel economy class on flights and 2nd class in trains. Sometimes, we make exceptions for long-distance flights if the price difference isn’t too great.
 
-Secondly, we have a maximum budget for hotel rooms. Of course, we sometimes have to go over that budget to find a hotel that isn’t not too far from where our travellers have to be while still feeling comfortable enough for the duration of their trip. What helps are the corporate rate contracts we hold with several hotels in the cities where we have our own shops, like Paris, Madrid, Palma de Mallorca, Marbella and Amsterdam.
+Secondly, we have a maximum budget for hotel rooms. Of course, we sometimes have to go over that budget to find a hotel that isn’t not too far from where our travelers have to be while still feeling comfortable enough for the duration of their trip. What helps are the corporate rate contracts we hold with several hotels in the cities where we have our own shops, like Paris, Madrid, Palma de Mallorca, Marbella and Amsterdam.
 
 Finally, employees also get a fixed amount of expense spend during their trip. This covers anything from lunch and dinner to taxi rides from the airport to their destination. Employees are always urged to take public transport in cities like Paris, London, and Milan as taxi rides are far more expensive.
 
@@ -73,11 +75,11 @@ As I’ve only recently started managing business travel for Essentiel, I am sti
 
 I’ve only been using TravelPerk for a little over a month now, and one thing I’ve found most useful is how it saves me from entering credit card details each time it’s necessary along with taking into account card limits. 
 
-Another feature I also found useful is being to enter traveller details in Travel perk so it isn’t required to enter birth dates and passport details every time a new booking is made. 
+Another feature I also found useful is being to enter traveler details in Travel perk so it isn’t required to enter birth dates and passport details every time a new booking is made. 
 
 What I also like a lot about TravelPerk getting all the relevant details regarding online check-in as a well as a direct link to it under each flight.
 
-A fourth benefit is the ability to name every trip. For our accounting department, it’s very important to understand the reason for each trip. This makes it easier to categorise it correctly for financial purposes. This name also appears on the invoice, helping us avoid wasting additional time trying to figure out why the traveller went on their trip. 
+A fourth benefit is the ability to name every trip. For our accounting department, it’s very important to understand the reason for each trip. This makes it easier to categorise it correctly for financial purposes. This name also appears on the invoice, helping us avoid wasting additional time trying to figure out why the traveler went on their trip. 
 
 **What general tips would you give to the person in the role of managing travel?**
 
