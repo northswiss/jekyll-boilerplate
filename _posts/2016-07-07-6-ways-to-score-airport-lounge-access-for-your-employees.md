@@ -12,7 +12,7 @@ tags:
 
 One of the best ways to help your roving employees through the rigors of long-haul flying is with airport lounge access. These oases serve as a watering hole away from the desert of the general airport and offer a wide range of amenities. 
 
-In a lounge, travelling employees can enjoy complimentary snacks and drinks, relax in comfortable resting areas, revitalize themselves with showers and even lay down for a massage. And in the case of a delayed or cancelled flight, a lounge’s front desk can serve as gate agents, too — without an angry horde of irate passengers, of course. 
+In a lounge, traveling employees can enjoy complimentary snacks and drinks, relax in comfortable resting areas, revitalize themselves with showers and even lay down for a massage. And in the case of a delayed or cancelled flight, a lounge’s front desk can serve as gate agents, too — without an angry horde of irate passengers, of course. 
 
 While you’ve always known about the magic of the airport lounge, you also think they’re far too an expensive luxury for your employees. Don’t forget: lounge access typically comes with perks like free checked bags, priority boarding and all the little things that make a long business trip easier to swallow for your employees. Altogether, the value of airport lounge access pays for itself in the long run. 
 
@@ -30,7 +30,7 @@ In the past, companies used to dole out lounge memberships for their travel empl
 
 Every major airline alliance has some sort of membership programme — just expect to pay anywhere from €400 to €700 a year for the privilege. If your employees exclusively use a single airline or airlines in a specific alliance, this could be an exclusive perk for higher-level staff. 
 
-If you’d rather your employees benefit from company loyalty, then attaining elite status is a less costly option. After all, loyalty is the cornerstone of every business. The airline industry is no different. Most airlines offer lounge benefits for those travellers who attain elite status, with perks that extend through the network. To take advantage of these, it is wise to make sure your travel policy takes advantage of [the best loyalty programmes](http://travelperk.com/blog/the-best-loyalty-programmes-for-business-travelers/) available for your staff. With them, both your employees and your company can benefit. 
+If you’d rather your employees benefit from company loyalty, then attaining elite status is a less costly option. After all, loyalty is the cornerstone of every business. The airline industry is no different. Most airlines offer lounge benefits for those travelers who attain elite status, with perks that extend through the network. To take advantage of these, it is wise to make sure your travel policy takes advantage of [the best loyalty programmes](http://travelperk.com/blog/the-best-loyalty-programmes-for-business-travelers/) available for your staff. With them, both your employees and your company can benefit. 
 
 **For employees that frequently travel with different airlines**
 
@@ -40,11 +40,11 @@ In contrast to the last tip, purchasing a third-party membership to an independe
 
 **For employees who want more flexibility**
 
-Times have changed, and airline-owned lounges aren’t the only options available. Public lounges, where travellers can pay a fee for comfortable chairs, snacks, Wi-Fi access, small meals, non-alcoholic beverages along with massages and showers in certain locations, have made in-roads and are certainly worth checking out. 
+Times have changed, and airline-owned lounges aren’t the only options available. Public lounges, where travelers can pay a fee for comfortable chairs, snacks, Wi-Fi access, small meals, non-alcoholic beverages along with massages and showers in certain locations, have made in-roads and are certainly worth checking out. 
 
 Maybe your employees don’t need lounge access for every trip, or perhaps a full membership to an airline-owned club is out of the question. Purchasing access to one of these public lounges can be written off as an expense when it happens and is a softer hit on the bottom line. To find out if there are any public lounges in the airports your employees frequent, check out [Plaza-Premium](http://plaza-network.com/) for more information.
 
-On the more digital side of things, an app called [LoungeBuddy](https://www.loungebuddy.com/) allows users to take advantage of its database of free and paid lounge options. Employees can use it and claim the cost as an expense, or office managers can use it to prepare access before a trip. In either case, the app compares a traveller’s personalized profile (itinerary, frequent flier memberships, and credit cards, etc.) with the amenities desired (Wi-Fi, a shower, etc.) to suggest the closest lounge options in proximity to your employee’s gate. In addition, it offers photos and reviews of the space — you know, just in case your employee is a bit on the picky side. Download LoungeBuddy for iOS or Android [here](https://www.loungebuddy.com/mobile?source=footer-cta). 
+On the more digital side of things, an app called [LoungeBuddy](https://www.loungebuddy.com/) allows users to take advantage of its database of free and paid lounge options. Employees can use it and claim the cost as an expense, or office managers can use it to prepare access before a trip. In either case, the app compares a traveler’s personalized profile (itinerary, frequent flier memberships, and credit cards, etc.) with the amenities desired (Wi-Fi, a shower, etc.) to suggest the closest lounge options in proximity to your employee’s gate. In addition, it offers photos and reviews of the space — you know, just in case your employee is a bit on the picky side. Download LoungeBuddy for iOS or Android [here](https://www.loungebuddy.com/mobile?source=footer-cta). 
 
 **Related Links**
 
