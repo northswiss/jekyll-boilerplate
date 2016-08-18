@@ -13,9 +13,9 @@ subtitle: Business Travel Strategies
 ---
 ![travel delays]({{site.baseurl}}/blog-media/e138d09c-137f-4e0d-a0ee-4771c3c917ae.png)
 
-While it’s completely normal for delays and disruptions to occur on a business trip, a savvy office manager can make the difference between a more comfortable experience or a more stressful one for a travelling employee. 
+While it’s completely normal for delays and disruptions to occur on a business trip, a savvy office manager can make the difference between a more comfortable experience or a more stressful one for a traveling employee. 
 
-Effectively preparing for and helping a travelling employee through the inevitable is an art form that takes time and experience to master. Luckily, we at TravelPerk have plenty of both. 
+Effectively preparing for and helping a traveling employee through the inevitable is an art form that takes time and experience to master. Luckily, we at TravelPerk have plenty of both. 
 
 Here are a handful of tips to better prepare your employees for the very worst business travel has to offer: 
 
@@ -31,10 +31,10 @@ For the most part, non-stop flights are cheaper, faster, and require less effort
 If it’s absolutely impossible to book a non-stop flight, then ensure that employees have enough time to make the layovers and connections you set up for them. Nowadays, algorithms handle the bulk of scheduling duties for lots of businesses and end up giving employees just 30 minutes to make their connections. In some airports, that’s not even enough time to get off the plane and into a bathroom, let alone to another gate. Double-check all itineraries and make sure your employees have sufficient time. 
 
 **4.Avoid booking travel during peak times if possible**
-Obviously, setting up your employees to travel through a holiday weekend is a huge no-no. Not only would they have to slog through the crowds of holiday travellers and the chaos they create, but flight and hotel prices are higher on average. During times like this, delays are a certainty and not the exception. Make sure to avoid them! 
+Obviously, setting up your employees to travel through a holiday weekend is a huge no-no. Not only would they have to slog through the crowds of holiday travelers and the chaos they create, but flight and hotel prices are higher on average. During times like this, delays are a certainty and not the exception. Make sure to avoid them! 
 
 **5.Research on-time performance**
-Something as simple as knowing which airlines have better records for on-time performance can go a long way in providing your travelling employees with a better travel experience. A website like [FlightStats](http://www.flightstats.com/go/Home/home.do) is a quick and easy way to reference a carrier you may have in mind for your employee’s next business trip, not only giving you on-time performance ranking but also a bunch of other data points to make a more informed decision. 
+Something as simple as knowing which airlines have better records for on-time performance can go a long way in providing your traveling employees with a better travel experience. A website like [FlightStats](http://www.flightstats.com/go/Home/home.do) is a quick and easy way to reference a carrier you may have in mind for your employee’s next business trip, not only giving you on-time performance ranking but also a bunch of other data points to make a more informed decision. 
 
 **6.Encourage your employees to never check a bag**
 It’s just never a good idea. Too many airlines lose too many bags too often. Why even make it a possibility by checking a bag?
@@ -59,18 +59,18 @@ In the event of a cancelled or severely delayed flight and depending on what the
 ## Best Practices: Avoiding Problems on Arrival ## 
 
 **1. Paper, paper, paper **
-Phones run out of battery and get swallowed by toilets every single day. In short: it’s hard to completely rely on them. That’s why it’s important to create cheat sheets, filled out with information as diverse as flight and hotel information, important contact numbers, general directions, train information and even useful phrases if travelling to a country with a different language. 
+Phones run out of battery and get swallowed by toilets every single day. In short: it’s hard to completely rely on them. That’s why it’s important to create cheat sheets, filled out with information as diverse as flight and hotel information, important contact numbers, general directions, train information and even useful phrases if traveling to a country with a different language. 
 
 In particular, a hotel’s concierge number is one of the most valuable numbers to have in a brand new city as they’ll usually do everything possible to help their guests out. This is invaluable in more trying situations. 
 
 **2. Remind employees to have cash on hand**
 Like the old adage say, “Cash is king.” Credit and debit card troubles can easily muck up a smooth landing so having cash available is like speaking a universal language and can get your employees out of a jam when they finally touch down.
 
-**3. Travellers may be entitled to compensation**
+**3. Travelers may be entitled to compensation**
 the European regulations protect those who travel by plane. Few passangers are aware of these consumer rights and may lack the legal knowledge required to claim compensation. Companies like [Flight-Delayed](https://www.flight-delayed.co.uk/your-rights) and [AirHelp](https://www.airhelp.com/es/) focus on these services.
 
 
-Above all else, make sure to remind your employees they’re travelling. At the end of the day, spontaneity is what it’s all about! 
+Above all else, make sure to remind your employees they’re traveling. At the end of the day, spontaneity is what it’s all about! 
 
 
 
