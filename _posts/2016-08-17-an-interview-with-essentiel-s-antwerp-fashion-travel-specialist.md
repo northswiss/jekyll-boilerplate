@@ -49,7 +49,7 @@ Centralizing all travel bookings has made all of this much easier, especially wh
 
 First of all, we ask employees to always travel economy class on flights and 2nd class in trains. Sometimes, we make exceptions for long-distance flights if the price difference isn’t too great.
 
-Secondly, we have a maximum budget for hotel rooms. Of course, we sometimes have to go over that budget to find a hotel that isn’t not too far from where our travelers have to be while still feeling comfortable enough for the duration of their trip. What helps are the corporate rate contracts we hold with several hotels in the cities where we have our own shops, like Paris, Madrid, Palma de Mallorca, Marbella and Amsterdam.
+Secondly, we have a maximum budget for hotel rooms. Of course, we sometimes have to go over that budget to find a hotel that isn’t not too far from where our travellers have to be while still feeling comfortable enough for the duration of their trip. What helps are the corporate rate contracts we hold with several hotels in the cities where we have our own shops, like Paris, Madrid, Palma de Mallorca, Marbella and Amsterdam.
 
 Finally, employees also get a fixed amount of expense spend during their trip. This covers anything from lunch and dinner to taxi rides from the airport to their destination. Employees are always urged to take public transport in cities like Paris, London, and Milan as taxi rides are far more expensive.
 
