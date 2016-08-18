@@ -9,7 +9,7 @@ seo-meta: >-
 ---
 ![Business-trip-packing.png]({{site.baseurl}}/blog-media/Business-trip-packing.png)
 
-The golden rule when travelling for business? Never, ever check in your bag. Doing so puts you in the position to lose everything you’ve packed — for good. And while it’s one thing to know the golden rule, it’s another thing entirely to put it into effect.
+The golden rule when traveling for business? Never, ever check in your bag. Doing so puts you in the position to lose everything you’ve packed — for good. And while it’s one thing to know the golden rule, it’s another thing entirely to put it into effect.
 
 As difficult as it may seem, packing lightly enough to avoid weight limits and cleverly enough to still travel with enough for the business trip ahead is very doable — especially if you use our eight tips below as a guide.
 
@@ -29,7 +29,7 @@ Black not only matches with everything, but usually lasts longer and makes picki
 
 ## Liquids, liquids, liquids ##
 
-Packing liquids is simple, as long as you take the absolute minimum you need. Storing liquid in tiny containers rather than plastic bags makes this easier. It also reassures any security personnel that the liquid you’re travelling with falls under the legal limit allowed.
+Packing liquids is simple, as long as you take the absolute minimum you need. Storing liquid in tiny containers rather than plastic bags makes this easier. It also reassures any security personnel that the liquid you’re traveling with falls under the legal limit allowed.
 
 Save that space instead. Take advantage of the free liquids — shampoos, moisturizers, and conditioners — offered free at most hotels.
 
@@ -41,7 +41,7 @@ Instead, ensure it is by staying two nights in a row at your choice of lodging e
 
 ## Know your devices ##
 
-You’d be surprised how many times business travellers are left out in the cold with a dead smartphone or laptop battery before even getting on a flight. Thankfully, this lesson is usually learned pretty quickly — but it doesn’t mean you need to learn it the hard way.
+You’d be surprised how many times business travelers are left out in the cold with a dead smartphone or laptop battery before even getting on a flight. Thankfully, this lesson is usually learned pretty quickly — but it doesn’t mean you need to learn it the hard way.
 
 To avoid this unseemly fate, test each of your device’s battery life to develop an accurate sense of how long each last on a full charge. Doing this will give you a far better understanding of what kind of extra power you might need bring along to ensure you stay connected no matter what.
 
@@ -57,7 +57,7 @@ And when these scans are all on your devices, print them out after. You never kn
 
 No habit is perfect. As such, it’s important to take a good look at what you pack and how you pack it all every three months. When the time comes, audit everything you usually pack — and don’t be afraid to be difficult. Challenge each piece of clothing and every item you bring along, and give a pass to those items which are absolutely essential.
 
-Easier business travel means getting rid of the clutter. Doing so every few months rewards business travellers with a better flying experience every time.
+Easier business travel means getting rid of the clutter. Doing so every few months rewards business travelers with a better flying experience every time.
 
 
 <!-- Start of Leadin Embed -->
