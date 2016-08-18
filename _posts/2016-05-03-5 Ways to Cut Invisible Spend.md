@@ -1,9 +1,12 @@
 ---
 layout: post
 published: true
-"seo-meta": "Do you know about the Invisible Travel Costs in Travel Management? Learn where unexpected corporate travel costs ocurre and 5 ways to reduce them."
+seo-meta: >-
+  Do you know about the Invisible Travel Costs in Travel Management? Learn where
+  unexpected corporate travel costs ocurre and 5 ways to reduce them.
 author: javier
 title: 5 Ways to Cut Invisible Spend
+date: '2016-08-18 12:38 +0200'
 ---
 ## Making The Invisible, Visible:  5 Ways to Cut Invisible Spend
 
@@ -13,7 +16,7 @@ Being an effective travel manager means handling the complexity of dozens, hundr
 
 As a Travel Manager you know that coordinating corporate travel means not only juggling all their employees travel needs, but also each employee’s habits and preferences. Add to that the increasingly connected and complex nature of business travel and you have a sour tasting recipe that can affect the company’s bottom line negatively.
 
-Now more than ever, travel managers and the companies they work for are more prone to invisible spend. It’s a difficult, hard to grasp problem defined as any expense made outside a company’s pre-defined travel policy. Invisible spend exists due to a lack of visibility and control. This can result in a disruption of financial and accounting operations along with duty of care and supplier contract commitments. Everything from accurate numbers — crucial to the compliance of legal accounting obligations — to the safety and well-being of a travelling employee are all put at risk through the invisible spend. As a matter of fact, it’s so common that chances are you and the company you manage travel for are affected by it to some degree. 
+Now more than ever, travel managers and the companies they work for are more prone to invisible spend. It’s a difficult, hard to grasp problem defined as any expense made outside a company’s pre-defined travel policy. Invisible spend exists due to a lack of visibility and control. This can result in a disruption of financial and accounting operations along with duty of care and supplier contract commitments. Everything from accurate numbers — crucial to the compliance of legal accounting obligations — to the safety and well-being of a traveling employee are all put at risk through the invisible spend. As a matter of fact, it’s so common that chances are you and the company you manage travel for are affected by it to some degree. 
 
 So, what can you do about it? Check out five instances of invisible spend below and our tips on how to address them:
 
@@ -31,7 +34,7 @@ Employing the use of a digital travel platform has the benefit of unifying the m
 ### Booking early is a necessity, not an option
 
 
-According to a study by corporate-travel firm Carlson Wagonlit Travel, women who travel for business plan further in advance than their male counterparts, saving employers big bucks. On average, women book two days earlier. While that might not seem like a big difference, the study concluded that a company with 21,000 travelling employees could save $1 million dollars if men booked as early as women. 
+According to a study by corporate-travel firm Carlson Wagonlit Travel, women who travel for business plan further in advance than their male counterparts, saving employers big bucks. On average, women book two days earlier. While that might not seem like a big difference, the study concluded that a company with 21,000 traveling employees could save $1 million dollars if men booked as early as women. 
 
 Now, we’re not saying don’t let your male employees fly or anything like that. Rather, use this information to your advantage to help influence your employees to book in a more timely fashion to save money. Sometimes, a little bit of psychology can go a long way with finding the right way to go! 
 
@@ -56,7 +59,7 @@ A digital corporate travel booking solution can help build and maintain a strong
 
 ## Transportation can be tricky
 ### Taxis aren’t the only option available in most places
-Due to their extreme convenience, taxis are usually the go-to mode of transportation in a new city. It’s not surprising that’s the case: in a foreign city, the very first thing most travelling employees see when they exit an airport is a row of taxis waiting to take them wherever they need — no prior research needed. While this may save employees a lot of time, this is not the most cost effective way to get them around, costing your company so much more in expenses in the long run. 
+Due to their extreme convenience, taxis are usually the go-to mode of transportation in a new city. It’s not surprising that’s the case: in a foreign city, the very first thing most traveling employees see when they exit an airport is a row of taxis waiting to take them wherever they need — no prior research needed. While this may save employees a lot of time, this is not the most cost effective way to get them around, costing your company so much more in expenses in the long run. 
 
 Luckily, this instance of invisible spend has a pretty easy fix: simply inform your employees about the myriad of options most cities offer when it comes to public transportation. Doing this along will go a long way in making them more confident in taking it! 
 
