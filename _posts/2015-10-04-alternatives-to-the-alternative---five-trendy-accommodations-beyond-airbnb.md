@@ -6,6 +6,9 @@ date: 'Sun Oct 04 2015 14:21:00 GMT+0200 (CEST)'
 author: Ron
 category: Accommodation
 published: true
+seo-meta: >-
+  If you’re looking for quirky, creative or off the beaten path, here are five
+  accommodation styles that are sure to intrigue.
 ---
 
 Gone are the days where hotels and hostels were the only options in which to lay your head when on the road. Airbnb revolutionized the sharing economy and at the same time pioneered a new trend of incredibly innovative ways to globe trot in style, while not burning a hole in your wallet.
