@@ -12,14 +12,14 @@ Gone are the days where hotels and hostels were the only options in which to lay
 
 If you’re looking for <a href="http://www.quirkyaccom.com" target="_blank">quirky</a>, creative or off the beaten path, here are five accommodation styles that are sure to intrigue.
 
-## 1: Hybrids:
+## 1: Hybrids
 <img class="left" src="http://52.19.235.57/blog/wp-content/uploads/2015/10/DesignerPoshtel-300x225.jpg" alt="DesignerPoshtel" />
 This is an emerging trend of concept lodging, one that combines luxury and frivolous with budget and basics. <a href="http://www.poshpacker.co" target="_blank">Poshpacker</a>, eg; the ‘upscale-backpacker’, is an excellent platform for those with a backpacker mentality, yet a desire for a bit of posh sophistication. The site only showcases vetted institutional accommodation, meaning official legal hoteliers. “These are places with an onsite staff, which are secure, have permits and pay taxes,” Co-Founder &amp; CEO, Anna Kojzar told TravelPerk. “<strong>We curate our selection based on our P’s Philosophy </strong>of presence, privacy, people, perks and price. 
 
 <img class="left" src="http://52.19.235.57/blog/wp-content/uploads/2015/10/QuirkyAccomTreeHouse-300x225.jpg" alt="QuirkyAccomTreeHouse" />
 This ensures all of our Poshpacker Picks have a cool design aspect (presence), have at least one private room or pod (privacy), have an on-site staff and are social where you can meet others (people), offer cool amenities like free Wi-Fi or breakfast  (perks) and are affordable.” She says most accommodations are less than $100USD per person per night depending on the destination and season. Not only does Poshpackers have the world's largest offering of Poshtels (upscale hostels - see #2), it also provides an extensive selection of eclectic places to stay including caves, boats, pods and even igloos for those who dare to pack their parka.
 
-##  2: Designer Hostels:
+##  2: Designer Hostels
 
 <img class="left" src="http://52.19.235.57/blog/wp-content/uploads/2015/10/QuirkyMirrorCube-300x300.jpg" alt="QuirkyMirrorCube" />
 
