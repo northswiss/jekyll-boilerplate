@@ -54,3 +54,8 @@ Strip away the frills and go back to the basics. That’s what budget boutique h
 <img src="http://52.19.235.57/blog/wp-content/uploads/2015/10/Hybrid-300x216.jpg" alt="Hybrid" />
 
 What happens to University dorm rooms when school’s out for the summer? It’s not a question most of us ask when considering where to stay while traveling. <strong>Many dorms are turned into extremely affordable, accommodation options for the frugal traveler.</strong> Depending on how posh you want to go, room prices can vary contingent on the campus. For example a single room in Paris can be around 50 Euros with a double room going for 85 Euros. <a href="http://Universityrooms.com" target="_blank">Universityrooms.com</a> is a great platform featuring dorms around the world, including Canada, the U.S. parts of Europe, Africa and Asia.
+
+
+<!-- Start of Leadin Embed -->
+  <script type="text/javascript" src="//js.leadin.com/js/v1/2471398.js" id="LeadinEmbed-2471398" crossorigin="use-credentials" async defer></script>
+<!-- End of Leadin Embed -->
