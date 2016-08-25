@@ -13,7 +13,7 @@ subtitle: Productivity Hacks
 
 As a professional, it can seem like your smartphone’s calendar has more of a say on how you spend your time than you do, making it difficult to block out time to concentrate on work. 
 
-This is exactly why business travel is so valuable: outside of the thrill of travelling to a new location and pursuing an opportunity you’ve been setting up, business travel can potentially offer hours of uninterrupted time — a rarity this day and age.
+This is exactly why business travel is so valuable: outside of the thrill of traveling to a new location and pursuing an opportunity you’ve been setting up, business travel can potentially offer hours of uninterrupted time — a rarity this day and age.
 
 Still, while most business travellers imagine they’ll be productive on their trip, business travel can be exhausting. Simply _wanting_ to be productive when your everyday routine is disrupted won’t cut it — actively planning _how_ you’re going to be productive when the opportunity arises will. 
 
