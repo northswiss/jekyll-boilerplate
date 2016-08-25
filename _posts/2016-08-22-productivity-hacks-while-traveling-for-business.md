@@ -2,13 +2,12 @@
 layout: post
 date: '2016-08-22 16:00 +0200'
 published: true
-title: 'Productivity Hacks: While traveling for business'
+title: Tips for Staying Productive While Traveling for Business
 author: javier
 seo-meta: >-
   Travelling for business can mean some uninterrupted time all to yourself. Here
   are 10 tips to make that time as productive as possible.
-subtitle: Productivity on the Road
-tags: ''
+subtitle: Productivity Hacks
 ---
 ![]({{site.baseurl}}/blog-media/Business%20travel.png)
 
