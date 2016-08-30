@@ -132,8 +132,13 @@
     }
   }
   .author-block {
+    img {
+      max-width: 300px;
+    }
+    h4,
+    h5,
     p {
-      margin-left: 144px;
+      margin-left: 320px;
     }
   }
 
