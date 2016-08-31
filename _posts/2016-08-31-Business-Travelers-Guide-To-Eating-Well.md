@@ -21,7 +21,7 @@ Below are a few key tips to ensure you eat well on the road so that you’re rea
 
 ## Hydration Nation ##
 
-Before you even head to the airport, it’s important to keep water at the forefront of your mind because as we all know, it’s essential to stay hydrated on a day-to-day basis. ** This runs doubly so for business travelers. **
+Before you even head to the airport, it’s important to keep water at the forefront of your mind because as we all know, it’s essential to stay hydrated on a day-to-day basis. **This runs doubly so for business travelers.**
 
 To make sure you always have H20 at hand, carry a water bottle — preferably one with a filter — to always have safe, clean access to water no matter where you may be. And if possible, ask for a glass of water whenever you find yourself seated.
 
@@ -31,7 +31,7 @@ Forming these habits will go a long way to keeping you hydrated so that you can 
 
 Believe it or not, there is a way to practically guarantee that none of the processed foods at the airport will even merit a glance: 
 
-_ Make sure you have something better. _
+_Make sure you have something better._
 
 By packing simple, nutritious snacks for the trip, you’ll never be far from good choices. Makes it easy, doesn’t it?
 
@@ -40,6 +40,7 @@ Try bringing along:
 - **Dark chocolate** It reduces levels of cortisol and catecholamine, hormones that kick in during stress and fear.
 - **Whole grain granola bars** They’re full of complex carbs that help produce serotonin. More serotonin means being better able to deal with the possible stresses of travel.
 - **Fruits, tuna, bananas, or chickpeas** Each contains the sleep aiding vitamin B6 for better quality rest.
+
 
 ## Keep It Moving ##
 
@@ -59,11 +60,11 @@ When you’re finally at your hotel, don’t feel obligated to call room service
 
 After you check in and find yourself settled, your first order of business should be to one nearby. There, stock up on: 
  
--Water
--Nuts
--Protein bars
--High protein yogurt
--String cheese
+- Water
+- Nuts
+- Protein bars
+- High protein yogurt
+- String cheese
 
 By keeping a full complement of these foods and drinks right in your room, neither room service nor the mini-bar will tempt your stomach or your wallet. Not to mention you’ll be full of good energy necessary for meetings and business events. 
 
