@@ -1,7 +1,7 @@
 ---
 layout: post
 date: '2016-08-31 10:57 +0200'
-published: false
+published: true
 title: The Business Traveler’s Guide to Eating Well
 seo-meta: >-
   If you’re not careful, business travel can wreck your diet. Read on to for
