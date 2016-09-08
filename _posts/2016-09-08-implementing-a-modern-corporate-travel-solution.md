@@ -7,7 +7,7 @@ seo-meta: >-
   Thinking about modernizing your travel department? Try implementing a digital
   corporate travel solution. Our guide shows you how something like TravelPerk
   helps — and how to get started right.
-subtitle: Corporate Travel Solution
+subtitle: Corporate Travel Solutions
 ---
 ![corporate travel agency]({{site.baseurl}}/blog-media/Corporate Travel Agency.png)
 
