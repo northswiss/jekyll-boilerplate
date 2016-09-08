@@ -1,7 +1,7 @@
 ---
 layout: post
 date: '2016-08-17 10:53 +0200'
-published: true
+published: false
 title: >-
   Retail Travel: An interview with Essentiel's Antwerp Fashion Travel
   Specialist 
@@ -10,8 +10,6 @@ seo-meta: >-
   us an inside scoop on how she manages the retail travel at the company's
   headquarters.
 author: avi
-subtitle: ''
-tags: ''
 ---
 ![Fashion-retail-travel-management.png]({{site.baseurl}}/blog-media/Fashion-retail-travel-management.png)
 
