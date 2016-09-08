@@ -1,7 +1,7 @@
 ---
 layout: post
 date: '2016-08-17 10:53 +0200'
-published: false
+published: true
 title: Temp
 seo-meta: >-
   Magali Fornoville, travel manager at Belgium's successful fashion brand gives
