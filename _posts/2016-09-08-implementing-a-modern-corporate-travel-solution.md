@@ -1,7 +1,7 @@
 ---
 layout: post
 date: '2016-09-08 11:49 +0200'
-published: false
+published: true
 title: Implementing a Modern Corporate Travel Solution
 seo-meta: >-
   Thinking about modernizing your travel department? Try implementing a digital
