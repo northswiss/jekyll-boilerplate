@@ -67,6 +67,26 @@ employees:
     role:         Office Management
     image:        silvia-guitian.jpg
     linkedin:     https://es.linkedin.com/in/silvia-guitian-quevedo-44994a6
+  - name:         Alext Tonchev
+    role:         Account Management
+    image:        alex-tonchev.jpg
+    linkedin:     https://bg.linkedin.com/in/alexander-tonchev-24461599/es
+  - name:         Javier Tejero
+    role:         Product
+    image:        javier-tejero.jpg
+    linkedin:     https://es.linkedin.com/in/
+  - name:         Israel Saeta
+    role:         Product
+    image:        israel-saeta.jpg
+    linkedin:     https://es.linkedin.com/in/
+  - name:         Nimrod Teich
+    role:         Product
+    image:        nimrod-teich.jpg
+    linkedin:     https://es.linkedin.com/in/
+  - name:         Giorgio Polvara
+    role:         Product
+    image:        giorgio-polvara.jpg
+    linkedin:     https://es.linkedin.com/in/
 advisors:
   - name:         Andrew Bate
     role:         Advisor, CEO of SafelyStay
