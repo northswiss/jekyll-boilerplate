@@ -87,10 +87,6 @@ employees:
     image:        giorgio-polvara.jpg
     linkedin:     https://es.linkedin.com/in/polvara/es
 advisors:
-  - name:         Andrew Bate
-    role:         Advisor, CEO of SafelyStay
-    image:        andrew-bate.jpg
-    linkedin:     https://www.linkedin.com/in/aebate
   - name:         Johannes Reck
     role:         Advisor, CEO of GetYourGuide
     image:        johannes-reck.jpg
