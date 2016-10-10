@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/northswiss/jekyll-boilerplate",
   "devDependencies": {
+    "activesupport": "^0.1.4",
     "browser-sync": "^2.9.4",
     "gulp": "^3.9.0",
     "gulp-shell": "^0.4.3",

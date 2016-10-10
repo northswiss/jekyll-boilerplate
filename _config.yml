@@ -15,6 +15,10 @@ jquery_version: 1.11.3
 modernizr:  true
 post_dirs: false
 
+# Contact settings
+contact:
+  sales: brandon@travelperk.com
+
 # Site defaults
 defaults:
   -
