@@ -7,7 +7,9 @@ category: Cost
 published: true
 subtitle: Finance and cost reduction
 seo-meta: "Here are five ways that your company is throwing money out the window through wasteful and inefficient business\_travel spending."
+tags: ''
 ---
+![reduce travel spend]({{site.baseurl}}/blog-media/91fc1050-c271-414d-8b97-d4b395bf0908.png)
 
 It’s time to disrupt your business travel expenses! Here are five ways that your company is throwing money out the window through wasteful and inefficient business travel spending.
 
