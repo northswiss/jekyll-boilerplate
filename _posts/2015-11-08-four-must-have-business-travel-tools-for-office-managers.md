@@ -7,9 +7,8 @@ author: Ron Levin
 category: Tools
 published: true
 seo-meta: >-
-  We have compiled the ultimate list of tools neccessary to keep you and your
+  We have compiled the ultimate list of tools necessary to keep you and your
   employee happy and productive while on their next business trip.
-tags: ''
 ---
 ![business travel tools]({{site.baseurl}}/blog-media/Business%20Travel%20Tools.png)
 
