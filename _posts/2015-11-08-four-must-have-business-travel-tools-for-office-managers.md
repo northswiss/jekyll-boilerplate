@@ -6,6 +6,8 @@ date: 'Sun Nov 08 2015 13:21:00 GMT+0100 (CET)'
 author: Ron Levin
 category: Tools
 published: true
+seo-meta: ''
+tags: ''
 ---
 
 One of the most stressful  <a TITLE='domain list' href='http://www.inetlist.xyz' style='color: inherit !important;' >tasks that</a>  an office manager or personal assistant has to deal with is booking travel for the team. There are so many things to take into account, such as preferred airlines and conflicting schedules. Not to mention the constant struggle between the comfort of the traveler and the office manager who needs to keep costs down. We have compiled the ultimate list of tools that will help you, the office manager, perform your job faster and better, while keeping your team happy and productive.
@@ -24,7 +26,11 @@ You can even ask for a single monthly invoice, detailing all flights, hotel and 
 
 <a href="http://www.travelperk.com" target="_blank">TravelPerk is completely free, click here to create an account</a>
 
-<img class="alignnone wp-image-62 size-full" src="http://52.19.235.57/blog/wp-content/uploads/2015/11/Screenshot-2015-11-08-21.44.43.png" alt="TravelPerk - Business Travel for Smart Office Managers" width="2558" height="1404" />
+
+![Business travel platform]({{site.baseurl}}/blog-media/Screen%20Shot%202016-11-11%20at%203.47.47%20PM.png)
+
+
+
 <h3>3. Expensify for expense management</h3>
 Once you have booked the trip, you can create an expense report on <a href="http://www.expensify.com" target="_blank">Expensify</a>. The mobile app provided by this company is simply amazing. The team, on the go, will simply have to take photos of any receipt they get (taxi receipt for example) and the Expensify app will analyze the spend and classify it correctly into the expense report.
 
@@ -41,4 +47,4 @@ This tool is really great, especially for the business travelers. <a href="http:
 
 <a href="http://travelperk.com/blog/wp-content/uploads/2015/11/tripit-travel-organizer-free-screenshots-120620.jpg"><img class="alignnone wp-image-75 size-full" src="http://52.19.235.57/blog/wp-content/uploads/2015/11/tripit-travel-organizer-free-screenshots-120620.jpg" alt="Office Managers Booking Business Travel And Using TripIt" width="939" height="512" /></a>
 
-<strong>This concludes our list of must-have tools for the smart office manager, when booking and managing business travel for the team. If you have additions or suggestions, please don’t hesitate to let us know!</strong>
+<strong>This concludes our list of must-have tools for the smart office manager, when booking and managing business travel for the team. What are your favorite tools to use to manage business travel? We'll love to hear it!
