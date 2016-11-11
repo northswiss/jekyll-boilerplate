@@ -11,7 +11,6 @@ seo-meta: >-
   employee happy and productive while on their next business trip.
 tags: ''
 ---
-
 ![business travel tools]({{site.baseurl}}/blog-media/Business%20Travel%20Tools.png)
 
 
