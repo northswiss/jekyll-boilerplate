@@ -39,10 +39,6 @@ employees:
     role:         Office Dog
     image:        ness.jpg
     linkedin:
-  - name:         Juliana Mendez
-    role:         Sales
-    image:        juliana-mendez.jpg
-    linkedin:     https://es.linkedin.com/in/julianamendez/en
   - name:         Maria Juliana Zapata
     role:         Sales
     image:        maria-juliana.jpg
