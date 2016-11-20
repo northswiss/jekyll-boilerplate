@@ -29,17 +29,27 @@ Used to style the request demo form on various pages and in the overlay
       margin-bottom: $spacing-tight;
     }
   }
+
+  button {
+    margin: $spacing auto;
+    width: 260px;
+  }
 }
 
 @include media-min($screenMedium) {
   .request-demo {
+
+    button {
+      margin: $spacing 0 $spacing auto;
+      padding-right: 0;
+    }
 
     form {
 
       span {
         padding-right: $spacing;
 
-        &:last-child {
+        &:nth-child(3n){
           padding-right: 0;
         }
       }
@@ -100,7 +110,6 @@ Used to style the request demo form on various pages and in the overlay
   .request-demo {
 
     .checkboxes {
-      width: 66%;
 
       label {
         color: $c-blue700;

@@ -8,7 +8,7 @@ so these are excluded from this include.
   <div class="flex three">
       <span>
         <input type="hidden" name="utf8" value="✓">
-        <label for="name">Your Name</label>
+        <label for="name">Your Full Name</label>
         <input id="name" class="name" name="name" type="text" placeholder="Your Name" required="required">
       </span>
       <span>
@@ -19,8 +19,24 @@ so these are excluded from this include.
         <label for="email" name="_replyto">Company Email</label>
         <input id="email" type="email" name="email" placeholder="Company Email" required="required">
       </span>
+    <span>
+        <label for="phone" name="phone">Company Contact Number</label>
+        <input id="phone" type="email" name="telephone" placeholder="Company Phone Number" required="required">
+      </span>
+    <span>
+        <label for="travel_spend">Avg annual travel spend? (€)</label>
+        <select name="travel_spend" id="travel_spend" required>
+          <option value="0" disabled selected>Please select</option>
+          <option value="Under100K"><100k</option>
+          <option value="100-500K">100-500k</option>
+          <option value="500-1M">500-1M</option>
+          <option value="1-5M">1-5M</option>
+          <option value="5-10M">5-10M</option>
+          <option value="10M">10M+</option>
+        </select>
+      </span>
       <span>
-        <label for="travelers">How many employees travel often?</label>
+        <label for="travelers">Number of traveling employees?</label>
         <select name="travelers" id="travelers" required>
           <option value="0" disabled selected>Please select</option>
           <option value="1-10">1-10 travelers</option>
@@ -30,23 +46,24 @@ so these are excluded from this include.
           <option value="500+">500+ travelers</option>
         </select>
       </span>
-      <span class="checkboxes">
-        <p class="label">How do you currently book travel?</p>
-        <label class="checkbox" for="office_manager">
-          <input type="checkbox" id="office_manager" name="office_manager">
-          <span></span>I book for others
-        </label>
-        <label class="checkbox" for="self_service">
-          <input type="checkbox" id="self_service" name="self_service">
-          <span></span>Employees book themselves
-        </label>
-      </span>
   </div>
-  <div id="extra_information" class="extra-information">
-    <hr>
-    <p>OK<strong id="prospect_name"></strong>, would you mind briefly telling us about your current office locations and why you need a tool like TravelPerk?</p>
-    <textarea name="comment" id="comment" rows="2" ></textarea>
+  <div class="flex two">
+    <span class="checkboxes">
+      <p class="label">How do you currently book travel?</p>
+      <label class="checkbox" for="office_manager">
+        <input type="checkbox" id="office_manager" name="office_manager">
+        <span></span>I book for others
+      </label>
+      <label class="checkbox" for="self_service">
+        <input type="checkbox" id="self_service" name="self_service">
+        <span></span>Employees book themselves
+      </label>
+    </span>
+    <span style="padding-right: 0;">
+      <button id="request-demo-submit" type="submit">Request demo</button>
+    </span>
   </div>
+
   <input type="hidden" name="_subject" value="TravelPerk Demo request" />
   <input type="hidden" name="_cc" value="brandon@travelperk.com,chris@travelperk.com,maria@travelperk.com" />
   <input type="text" name="_gotcha" style="display:none" />
