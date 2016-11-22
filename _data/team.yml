@@ -82,6 +82,22 @@ employees:
     role:         Product
     image:        giorgio-polvara.jpg
     linkedin:     https://es.linkedin.com/in/polvara/es
+  - name:         Hayk Ananyan
+    role:         Product
+    image:        hayk-ananyan.jpg
+    linkedin:     https://es.linkedin.com/in/hihayk
+  - name:         Brandon Smith
+    role:         Sales
+    image:        brandon-smith.jpg
+    linkedin:     https://es.linkedin.com/in/brasmith26/es
+  - name:         Albert Alabau
+    role:         Human Resources
+    image:        albert-alabau.jpg
+    linkedin:     https://es.linkedin.com/in/aalabau
+  - name:         Remy Gourlin
+    role:         Account Management
+    image:        remy-gourlin.jpg
+    linkedin:     https://es.linkedin.com/in/remygourlin/es
 advisors:
   - name:         Johannes Reck
     role:         Advisor, CEO of GetYourGuide
