@@ -3,13 +3,6 @@ var body =                    $("body"),
   slide_wrapper =             $("#slide_wrapper"),
   $testimonials_li =          $(".testimonials li"),
 // Buttons
-  btn_honeypot_demo =         $(".work-in-progress button"),
-  btn_feature_honeypot =      $(".honeypot-btn"),
-  btn_honeypot_one =          $("#honeypot-one"),
-  btn_honeypot_two =          $("#honeypot-two"),
-  btn_honeypot_three =        $("#honeypot-three"),
-  btn_honeypot_four =         $("#honeypot-four"),
-
   btn_close =                 $("#close"),
   btn_demo_request =          $("#btn-request"),
   btn_demo_submit =           $("#request-demo-submit"),
@@ -30,20 +23,10 @@ var body =                    $("body"),
   $label =                    $("input[type=checkbox]"),
   $extraInformation =         $(".extra-information");
 
-  // GENERATED CONTENT
-  $work_in_progress =         $("#work-in-progress");
-
 btn_more.click(function() {
   $('html, body').animate({
     scrollTop: $("#customer_types").offset().top-68
   }, 1000);
-});
-
-// HONEYPOT
-btn_feature_honeypot.click(function () {
-  $work_in_progress.show();
-  $(this).replaceWith($work_in_progress);
-  btn_honeypot_demo = $(".honeypot-btn");
 });
 
 // BANNER ON SCROLL
@@ -58,7 +41,7 @@ $(window).scroll(function () {
 // CLICK LISTENERS
 body
   // SHOW REQUEST DEMO MODAL
-  .on('click', '.work-in-progress button, #btn-sign-up-nav, #btn-request', function () {
+  .on('click', '#btn-sign-up-nav, #btn-request', function () {
     body.addClass("no-scroll");
     overlay_content.removeClass("show");
     overlay.fadeIn("fast");
